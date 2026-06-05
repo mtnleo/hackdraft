@@ -1,0 +1,171 @@
+{
+  "_comment": "SINGLE SOURCE OF TRUTH. Used by: (1) the frontend for dropdowns + ES display labels, (2) the harvester subagents for valid values, (3) scripts/load.js for validation. topic/tag IDs are canonical English slugs and are the filtering keys in D1 — never translate them in the database.",
+
+  "time_buckets": [
+    { "id": "1-3h",   "label_en": "1-3 hours",   "label_es": "1-3 horas",   "min_hours": 1,  "max_hours": 3 },
+    { "id": "3-6h",   "label_en": "3-6 hours",   "label_es": "3-6 horas",   "min_hours": 3,  "max_hours": 6 },
+    { "id": "6-12h",  "label_en": "6-12 hours",  "label_es": "6-12 horas",  "min_hours": 6,  "max_hours": 12 },
+    { "id": "12-24h", "label_en": "12-24 hours", "label_es": "12-24 horas", "min_hours": 12, "max_hours": 24 },
+    { "id": "24-48h", "label_en": "24-48 hours", "label_es": "24-48 horas", "min_hours": 24, "max_hours": 48 },
+    { "id": "48h+",   "label_en": "48+ hours",   "label_es": "48+ horas",   "min_hours": 48, "max_hours": 72 }
+  ],
+
+  "difficulties": [
+    { "id": "beginner",     "label_es": "Principiante" },
+    { "id": "intermediate", "label_es": "Intermedio" },
+    { "id": "advanced",     "label_es": "Avanzado" }
+  ],
+
+  "topics": [
+    {
+      "id": "cybersecurity",
+      "label_en": "Cybersecurity",
+      "label_es": "Ciberseguridad",
+      "tags": [
+        { "id": "web-security",     "label_es": "Seguridad web" },
+        { "id": "cryptography",     "label_es": "Criptografía" },
+        { "id": "network",          "label_es": "Redes" },
+        { "id": "malware-analysis", "label_es": "Análisis de malware" },
+        { "id": "ctf",              "label_es": "CTF" },
+        { "id": "privacy",          "label_es": "Privacidad" },
+        { "id": "authentication",   "label_es": "Autenticación" },
+        { "id": "forensics",        "label_es": "Forense" }
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "label_en": "AI / ML",
+      "label_es": "IA / ML",
+      "tags": [
+        { "id": "computer-vision", "label_es": "Visión por computadora" },
+        { "id": "nlp",             "label_es": "PLN" },
+        { "id": "llm-apps",        "label_es": "Apps con LLM" },
+        { "id": "recommendation",  "label_es": "Recomendación" },
+        { "id": "generative",      "label_es": "Generativa" },
+        { "id": "agents",          "label_es": "Agentes" },
+        { "id": "audio",           "label_es": "Audio" },
+        { "id": "prediction",      "label_es": "Predicción" }
+      ]
+    },
+    {
+      "id": "web-frontend",
+      "label_en": "Web / Frontend",
+      "label_es": "Web / Frontend",
+      "tags": [
+        { "id": "dataviz",          "label_es": "Visualización de datos" },
+        { "id": "animation",        "label_es": "Animación" },
+        { "id": "pwa",              "label_es": "PWA" },
+        { "id": "browser-extension","label_es": "Extensión de navegador" },
+        { "id": "real-time",        "label_es": "Tiempo real" },
+        { "id": "accessibility",    "label_es": "Accesibilidad" },
+        { "id": "ui-tooling",       "label_es": "Herramientas de UI" },
+        { "id": "game-ui",          "label_es": "UI de juegos" }
+      ]
+    },
+    {
+      "id": "iot-hardware",
+      "label_en": "IoT / Hardware",
+      "label_es": "IoT / Hardware",
+      "tags": [
+        { "id": "sensors",          "label_es": "Sensores" },
+        { "id": "lights",           "label_es": "Luces" },
+        { "id": "home-automation",  "label_es": "Domótica" },
+        { "id": "wearables",        "label_es": "Wearables" },
+        { "id": "robotics",         "label_es": "Robótica" },
+        { "id": "arduino-rpi",      "label_es": "Arduino / Raspberry Pi" },
+        { "id": "drones",           "label_es": "Drones" },
+        { "id": "energy-monitor",   "label_es": "Monitoreo de energía" }
+      ]
+    },
+    {
+      "id": "crypto-web3",
+      "label_en": "Crypto / Web3",
+      "label_es": "Crypto / Web3",
+      "tags": [
+        { "id": "defi",            "label_es": "DeFi" },
+        { "id": "nfts",            "label_es": "NFTs" },
+        { "id": "smart-contracts", "label_es": "Smart contracts" },
+        { "id": "wallets",         "label_es": "Wallets" },
+        { "id": "dao",             "label_es": "DAO" },
+        { "id": "on-chain-data",   "label_es": "Datos on-chain" },
+        { "id": "payments",        "label_es": "Pagos" },
+        { "id": "identity",        "label_es": "Identidad" }
+      ]
+    },
+    {
+      "id": "environment",
+      "label_en": "Environment",
+      "label_es": "Medio ambiente",
+      "tags": [
+        { "id": "climate-data",  "label_es": "Datos climáticos" },
+        { "id": "waste",         "label_es": "Residuos" },
+        { "id": "energy",        "label_es": "Energía" },
+        { "id": "water",         "label_es": "Agua" },
+        { "id": "biodiversity",  "label_es": "Biodiversidad" },
+        { "id": "transport",     "label_es": "Transporte" },
+        { "id": "agriculture",   "label_es": "Agricultura" },
+        { "id": "air-quality",   "label_es": "Calidad del aire" }
+      ]
+    },
+    {
+      "id": "health-medtech",
+      "label_en": "Health / Medtech",
+      "label_es": "Salud / Medtech",
+      "tags": [
+        { "id": "mental-health",   "label_es": "Salud mental" },
+        { "id": "fitness",         "label_es": "Fitness" },
+        { "id": "diagnostics",     "label_es": "Diagnóstico" },
+        { "id": "accessibility",   "label_es": "Accesibilidad" },
+        { "id": "telemedicine",    "label_es": "Telemedicina" },
+        { "id": "nutrition",       "label_es": "Nutrición" },
+        { "id": "wearable-health", "label_es": "Salud con wearables" },
+        { "id": "med-data",        "label_es": "Datos médicos" }
+      ]
+    },
+    {
+      "id": "games-fun",
+      "label_en": "Games / Fun",
+      "label_es": "Juegos / Diversión",
+      "tags": [
+        { "id": "multiplayer",  "label_es": "Multijugador" },
+        { "id": "ar-vr",        "label_es": "AR / VR" },
+        { "id": "procedural",   "label_es": "Procedural" },
+        { "id": "retro",        "label_es": "Retro" },
+        { "id": "party-games",  "label_es": "Juegos de fiesta" },
+        { "id": "ai-npc",       "label_es": "NPCs con IA" },
+        { "id": "physics",      "label_es": "Física" },
+        { "id": "music-game",   "label_es": "Juego musical" }
+      ]
+    },
+    {
+      "id": "productivity-devtools",
+      "label_en": "Productivity / DevTools",
+      "label_es": "Productividad / DevTools",
+      "tags": [
+        { "id": "automation",     "label_es": "Automatización" },
+        { "id": "cli-tools",      "label_es": "Herramientas CLI" },
+        { "id": "knowledge-mgmt", "label_es": "Gestión del conocimiento" },
+        { "id": "collaboration",  "label_es": "Colaboración" },
+        { "id": "api-tools",      "label_es": "Herramientas de API" },
+        { "id": "testing",        "label_es": "Testing" },
+        { "id": "no-code",        "label_es": "No-code" },
+        { "id": "time-mgmt",      "label_es": "Gestión del tiempo" }
+      ]
+    },
+    {
+      "id": "social-impact",
+      "label_en": "Social Impact",
+      "label_es": "Impacto social",
+      "tags": [
+        { "id": "education",          "label_es": "Educación" },
+        { "id": "accessibility",      "label_es": "Accesibilidad" },
+        { "id": "civic-tech",         "label_es": "Tecnología cívica" },
+        { "id": "disaster-response",  "label_es": "Respuesta a desastres" },
+        { "id": "finance-inclusion",  "label_es": "Inclusión financiera" },
+        { "id": "language",           "label_es": "Idiomas" },
+        { "id": "elderly",            "label_es": "Adultos mayores" },
+        { "id": "nonprofit",          "label_es": "ONGs" }
+      ]
+    }
+  ]
+}

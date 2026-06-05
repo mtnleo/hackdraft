@@ -1,0 +1,7 @@
+name = "hackaton-idea-gen"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "hackaton_db"
+database_name = "hackaton-db"
+database_id = "ae1a8a1a-02f0-49a8-af4a-7282080c1bdd"

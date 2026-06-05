@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Regex from Plain English with Live Match Preview",
+    "name_es": "Regex desde lenguaje natural con vista previa de coincidencias",
+    "long_description": "Describe what you want to match in plain English and the tool drafts a regex, then highlights every hit on a sample string you paste below. Each suggestion shows a confidence note and a one-line explanation of what the pattern does. A tight single-screen build perfect for a short sprint, useful the moment you write it.",
+    "long_description_es": "Describe en lenguaje natural lo que querés capturar y la herramienta arma un regex, luego resalta cada coincidencia sobre un texto de ejemplo que pegás debajo. Cada sugerencia muestra una nota de confianza y una explicación de una línea de lo que hace el patrón. Una construcción de una sola pantalla ideal para un sprint corto y útil al instante.",
+    "topic": "ai-ml",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "llm-apps",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Webcam Posture Coach that Nudges You When You Slouch",
+    "name_es": "Coach de postura por webcam que te avisa cuando te encorvás",
+    "long_description": "A tiny background tool that watches your webcam, estimates your head and shoulder line, and pops a gentle nudge when you slouch for too long. It calibrates to your good posture in ten seconds and shows a live skeleton overlay so you trust what it sees. One sharp feature you can demo in minutes by leaning forward on camera.",
+    "long_description_es": "Una herramienta liviana en segundo plano que observa tu webcam, estima la línea de cabeza y hombros y lanza un aviso suave cuando te encorvás demasiado tiempo. Se calibra a tu postura correcta en diez segundos y muestra un esqueleto en vivo para que confíes en lo que detecta. Una sola función contundente que demostrás en minutos inclinándote ante la cámara.",
+    "topic": "ai-ml",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "computer-vision"
+    ]
+  },
+  {
+    "name": "Cold-Email Tone Checker that Scores Pushiness",
+    "name_es": "Verificador de tono de emails fríos que puntúa lo invasivo",
+    "long_description": "Paste a sales or outreach email and the tool scores it on pushiness, vagueness, and length, then rewrites the worst sentence into something a stranger would actually answer. It highlights the phrases that trigger each flag so you learn, not just copy. A focused single-input build that lands a clear before-and-after in any demo.",
+    "long_description_es": "Pegá un email de ventas o contacto y la herramienta lo puntúa por lo invasivo, lo vago y su largo, luego reescribe la peor frase en algo que un desconocido sí respondería. Resalta las expresiones que disparan cada alerta para que aprendas, no solo copies. Una construcción enfocada de una sola entrada que logra un claro antes y después en cualquier demo.",
+    "topic": "ai-ml",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "llm-apps",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Fridge-Photo to Three Recipes You Can Cook Tonight",
+    "name_es": "Foto de la heladera a tres recetas para cocinar esta noche",
+    "long_description": "Snap a photo of your open fridge and the tool identifies the ingredients it can see, then proposes three realistic recipes ranked by how few extra items you'd need to buy. It flags anything close to spoiling so you cook that first. A crowd-pleasing single-shot demo that turns a messy shelf into dinner in seconds.",
+    "long_description_es": "Sacá una foto de tu heladera abierta y la herramienta identifica los ingredientes que ve, luego propone tres recetas realistas ordenadas según cuántas cosas extra tendrías que comprar. Marca lo que está por vencerse para que lo cocines primero. Una demo de una sola toma que conquista al público y convierte un estante caótico en cena en segundos.",
+    "topic": "ai-ml",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "computer-vision",
+      "generative"
+    ]
+  },
+  {
+    "name": "Meeting Recording to a One-Screen Decision Log",
+    "name_es": "Grabación de reunión a una bitácora de decisiones de una pantalla",
+    "long_description": "Drop in a meeting audio file and instead of a wall of transcript you get a clean board of just the decisions made, who owns each one, and the open questions left hanging. It links every item back to the timestamp where it was said so nobody argues. A sharp half-hour-of-audio demo that produces an artifact a team would actually keep.",
+    "long_description_es": "Subí un audio de reunión y en vez de un muro de transcripción obtenés un tablero limpio con solo las decisiones tomadas, quién es responsable de cada una y las preguntas abiertas que quedaron. Enlaza cada ítem al minuto exacto donde se dijo para que nadie discuta. Una demo nítida con audio de media hora que produce un artefacto que un equipo realmente conservaría.",
+    "topic": "ai-ml",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "nlp",
+      "llm-apps"
+    ]
+  },
+  {
+    "name": "Whiteboard Photo to Editable Flowchart in One Tap",
+    "name_es": "Foto de pizarra a diagrama de flujo editable en un toque",
+    "long_description": "Photograph a hand-drawn whiteboard and the tool reconstructs the boxes, arrows, and labels into a clean, editable flowchart you can drag around. It guesses the diagram type and snaps wobbly shapes straight while preserving your actual text. A satisfying single-photo demo that erases the worst part of meetings: redrawing the board afterward.",
+    "long_description_es": "Fotografiá una pizarra dibujada a mano y la herramienta reconstruye las cajas, flechas y etiquetas en un diagrama de flujo limpio y editable que podés arrastrar. Adivina el tipo de diagrama y endereza las formas torcidas conservando tu texto real. Una demo satisfactoria de una sola foto que elimina lo peor de las reuniones: volver a dibujar el tablero después.",
+    "topic": "ai-ml",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "computer-vision",
+      "generative"
+    ]
+  },
+  {
+    "name": "Accent-Neutralizing Live Captions for Group Calls",
+    "name_es": "Subtítulos en vivo que neutralizan acentos en llamadas grupales",
+    "long_description": "Real-time captions tuned for accented speech: it adapts to each speaker's voice over the first minute and surfaces the words it's least sure about so listeners can ask instead of guess. Speakers get a private confidence meter showing when they're being understood. A live two-person demo where captions visibly sharpen as the system learns the voice.",
+    "long_description_es": "Subtítulos en tiempo real pensados para habla con acento: se adapta a la voz de cada persona en el primer minuto y resalta las palabras de las que menos seguro está para que el oyente pregunte en vez de adivinar. Quien habla recibe un medidor privado de confianza que muestra cuándo se le entiende. Una demo en vivo entre dos personas donde los subtítulos se afinan a ojos vistas.",
+    "topic": "ai-ml",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Plant-Leaf Photo Triage that Names the Disease",
+    "name_es": "Triaje por foto de hoja que nombra la enfermedad de la planta",
+    "long_description": "Point your camera at a sick leaf and the tool names the most likely disease or deficiency, shows two reference photos side by side, and gives a short do-this-next for a home grower. It states its confidence honestly and says when it can't tell. A clean single-shot demo where a judge holds up a plant and gets an answer they can act on.",
+    "long_description_es": "Apuntá la cámara a una hoja enferma y la herramienta nombra la enfermedad o deficiencia más probable, muestra dos fotos de referencia lado a lado y da un breve qué-hacer-ahora para alguien que cultiva en casa. Declara su confianza con honestidad y avisa cuando no puede decidir. Una demo nítida de una sola toma donde un jurado levanta una planta y obtiene una respuesta accionable.",
+    "topic": "ai-ml",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "computer-vision",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Job Posting to Tailored Resume Bullet Suggestions",
+    "name_es": "Aviso de empleo a sugerencias de viñetas de CV a medida",
+    "long_description": "Paste a job posting and your current resume; the tool maps which of your real experiences match the role and rewrites those bullets to mirror the posting's language without inventing anything. It flags genuine gaps so you know what to address in the cover letter. A focused two-input demo that produces a visibly stronger, honest resume in one pass.",
+    "long_description_es": "Pegá un aviso de empleo y tu CV actual; la herramienta mapea cuáles de tus experiencias reales encajan con el puesto y reescribe esas viñetas para reflejar el lenguaje del aviso sin inventar nada. Marca los vacíos genuinos para que sepas qué abordar en la carta de presentación. Una demo enfocada de dos entradas que produce un CV honesto y notablemente más fuerte en una sola pasada.",
+    "topic": "ai-ml",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "llm-apps",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Hum-to-Search that Finds the Song Stuck in Your Head",
+    "name_es": "Buscador por tarareo que encuentra la canción que tenés en la cabeza",
+    "long_description": "Hum or whistle a melody for ten seconds and the tool extracts the pitch contour, matches it against a library, and returns its best guesses ranked with a similarity score. It shows the contour it heard versus the match so the result feels earned, not magic. A delightful live demo where someone hums off-key and still gets the right track.",
+    "long_description_es": "Tarareá o silbá una melodía por diez segundos y la herramienta extrae el contorno de tono, lo compara contra una biblioteca y devuelve sus mejores apuestas ordenadas con un puntaje de similitud. Muestra el contorno que escuchó frente al de la coincidencia para que el resultado se sienta merecido y no magia. Una demo en vivo encantadora donde alguien tararea desafinado y aun así obtiene la canción correcta.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "recommendation"
+    ]
+  },
+  {
+    "name": "Sign-Language Finger-Spelling Tutor with Webcam Drills",
+    "name_es": "Tutor de deletreo en lengua de señas con ejercicios por webcam",
+    "long_description": "A webcam tutor for sign-language finger-spelling: it reads your hand shape in real time, scores it against the target letter, and runs drills that speed up as you improve. Missed letters resurface more often so practice adapts to your weak spots. The demo has you spell a word on camera and watch the accuracy meter react instantly.",
+    "long_description_es": "Un tutor por webcam para el deletreo en lengua de señas: lee la forma de tu mano en tiempo real, la puntúa contra la letra objetivo y corre ejercicios que se aceleran a medida que mejorás. Las letras falladas reaparecen más seguido para que la práctica se adapte a tus puntos débiles. La demo te hace deletrear una palabra ante la cámara y ver el medidor de precisión reaccionar al instante.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "computer-vision",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Receipt-Photo Expense Splitter that Reads Who Ate What",
+    "name_es": "Divisor de gastos por foto de ticket que lee quién comió qué",
+    "long_description": "Snap a restaurant receipt and the tool extracts each line item, then lets the table tap their dishes so it splits the bill with tax and tip handled fairly per person. It handles shared appetizers by letting people co-claim an item. A fast, relatable demo where a messy receipt becomes an exact who-owes-what in under a minute.",
+    "long_description_es": "Sacá una foto del ticket del restaurante y la herramienta extrae cada ítem, luego deja que la mesa toque sus platos para dividir la cuenta con impuestos y propina repartidos justo por persona. Maneja las entradas compartidas dejando que varios reclamen un mismo ítem. Una demo rápida y cercana donde un ticket desprolijo se vuelve un quién-debe-cuánto exacto en menos de un minuto.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "computer-vision",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Codebase Onboarding Agent that Traces a Feature End to End",
+    "name_es": "Agente de onboarding que rastrea una función de punta a punta",
+    "long_description": "Point the agent at a repo and ask how a feature works; it walks the code, follows imports and calls, and returns a narrated map from entry point to database with the key files linked. It marks the spots it's unsure about instead of bluffing. A strong demo where a stranger's repo becomes legible in one question, scoped right for a focused day.",
+    "long_description_es": "Apuntá el agente a un repositorio y preguntá cómo funciona una función; recorre el código, sigue imports y llamadas y devuelve un mapa narrado desde el punto de entrada hasta la base de datos con los archivos clave enlazados. Marca los puntos donde no está seguro en vez de improvisar. Una demo fuerte donde el repo de un desconocido se vuelve legible con una sola pregunta.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "agents",
+      "llm-apps"
+    ]
+  },
+  {
+    "name": "Spoken-Story Coach that Flags Filler Words Live",
+    "name_es": "Coach de relato hablado que marca muletillas en vivo",
+    "long_description": "Practice a talk out loud and the tool listens, counting filler words, flagging long rambles, and charting your pace so you see where you lose the room. After each take it picks the single habit to fix next so feedback stays actionable. A lively demo where someone delivers a pitch and gets a one-glance scorecard the moment they stop.",
+    "long_description_es": "Practicá una charla en voz alta y la herramienta escucha, cuenta muletillas, marca divagues largos y grafica tu ritmo para que veas dónde perdés a la audiencia. Tras cada toma elige el único hábito a corregir después para que la devolución sea accionable. Una demo dinámica donde alguien da un pitch y obtiene una tarjeta de un vistazo en cuanto termina.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Style-Match Outfit Recommender from Your Own Closet",
+    "name_es": "Recomendador de outfits que combina desde tu propio placard",
+    "long_description": "Photograph your clothes once and the tool catalogs them by color, type, and formality, then suggests outfits for a given occasion using only what you own. It learns from the looks you save or reject so suggestions get more you over time. A relatable demo where a pile of clothing photos turns into three ready outfits for tonight.",
+    "long_description_es": "Fotografiá tu ropa una vez y la herramienta la cataloga por color, tipo y formalidad, luego sugiere outfits para una ocasión usando solo lo que tenés. Aprende de los looks que guardás o rechazás para que las sugerencias se vuelvan más tuyas con el tiempo. Una demo cercana donde un montón de fotos de ropa se transforma en tres outfits listos para esta noche.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "computer-vision",
+      "recommendation"
+    ]
+  },
+  {
+    "name": "Lecture Video to Spaced-Repetition Flashcards Automatically",
+    "name_es": "Video de clase a tarjetas de repaso espaciado en automático",
+    "long_description": "Feed in a recorded lecture and the tool transcribes it, finds the testable claims, and generates question-and-answer flashcards timestamped to where each was explained. It schedules reviews so you revisit weak cards before you forget. A demo that turns an hour of video into a study deck a student would open the next morning.",
+    "long_description_es": "Cargá una clase grabada y la herramienta la transcribe, encuentra las afirmaciones evaluables y genera tarjetas de pregunta y respuesta con marca de tiempo del momento en que se explicó cada una. Programa repasos para que vuelvas a las tarjetas débiles antes de olvidarlas. Una demo que convierte una hora de video en un mazo de estudio que un estudiante abriría a la mañana siguiente.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "nlp",
+      "audio",
+      "llm-apps"
+    ]
+  },
+  {
+    "name": "Crowd-Density Estimator for Safer Event Entrances",
+    "name_es": "Estimador de densidad de multitud para entradas de eventos seguras",
+    "long_description": "Point a camera at a queue or entrance and the tool estimates crowd density per zone, draws a heat overlay, and warns when a spot is trending toward a crush. It counts flow over time so organizers can open a second gate before it's urgent. A vivid demo on real crowd footage where danger zones light up before anything goes wrong.",
+    "long_description_es": "Apuntá una cámara a una fila o entrada y la herramienta estima la densidad de multitud por zona, dibuja una capa de calor y avisa cuando un punto tiende a una aglomeración peligrosa. Cuenta el flujo en el tiempo para que los organizadores abran una segunda puerta antes de que sea urgente. Una demo vívida sobre filmaciones reales donde las zonas de riesgo se encienden antes de que algo salga mal.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "computer-vision",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Voice Journal that Charts Your Mood Across Weeks",
+    "name_es": "Diario de voz que grafica tu ánimo a lo largo de las semanas",
+    "long_description": "Speak a daily entry and the tool transcribes it, reads tone and word choice, and plots your mood trend without you ever rating a number. It surfaces recurring themes gently and lets you reread any spike in context. A quietly powerful demo where a week of voice notes becomes a mood line you didn't know you needed to see.",
+    "long_description_es": "Hablá una entrada diaria y la herramienta la transcribe, lee el tono y la elección de palabras, y grafica tu tendencia de ánimo sin que califiques un número jamás. Resalta con delicadeza los temas recurrentes y te deja releer cualquier pico en su contexto. Una demo discretamente poderosa donde una semana de notas de voz se vuelve una línea de ánimo que no sabías que necesitabas ver.",
+    "topic": "ai-ml",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "nlp",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Research-Paper Reading Agent that Builds a Lit Review",
+    "name_es": "Agente lector de papers que arma una revisión de literatura",
+    "long_description": "Give the agent a topic and a few seed papers; it pulls related work, reads abstracts and methods, and assembles a structured literature review grouping papers by approach with the disagreements between them noted. Every claim links to its source so a reviewer can check. A meaty demo where a blank topic becomes a navigable map of a field.",
+    "long_description_es": "Dale al agente un tema y unos papers semilla; trae trabajos relacionados, lee resúmenes y métodos y ensambla una revisión de literatura estructurada que agrupa papers por enfoque y anota los desacuerdos entre ellos. Cada afirmación enlaza a su fuente para que un revisor pueda verificar. Una demo sustanciosa donde un tema en blanco se vuelve un mapa navegable de un campo.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "agents",
+      "nlp",
+      "llm-apps"
+    ]
+  },
+  {
+    "name": "Shelf-Photo Inventory Counter for Small Shops",
+    "name_es": "Contador de inventario por foto de estante para comercios chicos",
+    "long_description": "A shopkeeper photographs a shelf and the tool counts each product, spots gaps where stock ran out, and flags items running low against a simple threshold. Over days it predicts which products will sell out next so reordering beats the rush. A practical demo where one photo of a messy shelf becomes a clean restock list.",
+    "long_description_es": "Un comerciante fotografía un estante y la herramienta cuenta cada producto, detecta huecos donde se agotó el stock y marca los ítems que escasean contra un umbral simple. Con los días predice qué productos se agotarán próximo para que el repedido le gane al apuro. Una demo práctica donde una foto de un estante caótico se vuelve una lista de reposición limpia.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "computer-vision",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Personalized Podcast that Reads Your Day's Updates Aloud",
+    "name_es": "Podcast personalizado que te narra las novedades de tu día",
+    "long_description": "Pick the feeds and topics you care about and the tool gathers the day's items, writes a tight conversational script, and renders it as a short audio briefing in a natural voice you choose. It skips repeats and adjusts length to your commute. A satisfying demo where scattered updates become a five-minute show made just for you.",
+    "long_description_es": "Elegí las fuentes y temas que te importan y la herramienta junta lo del día, escribe un guion conversacional ajustado y lo renderiza como un briefing de audio corto en una voz natural que elegís. Salta repetidos y ajusta el largo a tu viaje. Una demo satisfactoria donde novedades dispersas se vuelven un programa de cinco minutos hecho solo para vos.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "generative",
+      "recommendation"
+    ]
+  },
+  {
+    "name": "Spreadsheet-to-Chart Agent You Talk to in Plain Language",
+    "name_es": "Agente de planilla a gráfico al que le hablás en lenguaje natural",
+    "long_description": "Upload a messy spreadsheet and ask questions like a colleague would; the agent cleans the data, picks a sensible chart, and explains what it shows, then lets you refine by saying what's wrong. It shows the steps it took so the analysis is auditable, not a black box. A strong demo where raw rows become a clear answer through conversation.",
+    "long_description_es": "Subí una planilla desprolija y preguntá como le preguntarías a un colega; el agente limpia los datos, elige un gráfico sensato y explica qué muestra, luego te deja refinar diciendo qué está mal. Muestra los pasos que dio para que el análisis sea auditable y no una caja negra. Una demo fuerte donde filas crudas se vuelven una respuesta clara mediante conversación.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "agents",
+      "llm-apps",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Real-Time Translator Earpiece App for Two-Way Talks",
+    "name_es": "App de auricular traductor en tiempo real para charlas bidireccionales",
+    "long_description": "Two people speaking different languages each hear the other in their own tongue with minimal lag; the app handles turn-taking, shows a running transcript, and lets a tap replay the last line when noise wins. It marks low-confidence stretches so you can confirm a critical word. A memorable demo where two strangers hold a real conversation across a language gap.",
+    "long_description_es": "Dos personas que hablan idiomas distintos escuchan cada una a la otra en su propia lengua con mínimo retraso; la app maneja los turnos, muestra una transcripción corrida y permite con un toque repetir la última frase cuando gana el ruido. Marca los tramos de baja confianza para confirmar una palabra clave. Una demo memorable donde dos desconocidos sostienen una conversación real cruzando la barrera del idioma.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "audio",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Form-Filling Agent that Reads Your Docs and Asks Only Gaps",
+    "name_es": "Agente que completa formularios leyendo tus documentos y solo pregunta lo que falta",
+    "long_description": "Hand the agent a long application form and a folder of your documents; it fills every field it can verify from your files and asks you only for what's genuinely missing, in plain questions. It shows the source for each filled value so you can trust and correct. A relieving demo where a dreaded form is two-thirds done before you type a word.",
+    "long_description_es": "Dale al agente un formulario largo y una carpeta de tus documentos; completa cada campo que puede verificar desde tus archivos y solo te pregunta lo que falta de verdad, en preguntas simples. Muestra la fuente de cada valor cargado para que confíes y corrijas. Una demo aliviadora donde un formulario temido queda dos tercios hecho antes de que escribas una palabra.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "agents",
+      "nlp",
+      "llm-apps"
+    ]
+  },
+  {
+    "name": "Drawing-to-Game-Sprite Generator that Keeps Your Style",
+    "name_es": "Generador de sprites de juego desde tu dibujo que conserva tu estilo",
+    "long_description": "Sketch one character and the tool generates a matching sprite set: walk frames, idle, and a few poses, all consistent with your drawing's style and palette. You can nudge any frame and regenerate just that one. A delightful demo for game jams where a single doodle becomes an animatable character in minutes instead of an afternoon.",
+    "long_description_es": "Dibujá un personaje y la herramienta genera un set de sprites a juego: cuadros de caminata, reposo y algunas poses, todos consistentes con el estilo y la paleta de tu dibujo. Podés retocar cualquier cuadro y regenerar solo ese. Una demo encantadora para game jams donde un único garabato se vuelve un personaje animable en minutos en lugar de una tarde.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "generative",
+      "computer-vision"
+    ]
+  },
+  {
+    "name": "Symptom-Aware Triage Companion that Knows When to Escalate",
+    "name_es": "Compañero de triaje sintomático que sabe cuándo escalar",
+    "long_description": "A careful conversational triage tool that asks structured follow-up questions, summarizes likely non-emergency causes in plain language, and clearly flags red-flag symptoms that mean see-a-doctor-now. It never diagnoses; it routes and explains. A weekend-scale build with safety guardrails front and center, demoable by walking a judge through one realistic case.",
+    "long_description_es": "Una herramienta de triaje conversacional cuidadosa que hace preguntas de seguimiento estructuradas, resume en lenguaje simple las causas probables no urgentes y marca con claridad los síntomas de alarma que significan ver-a-un-médico-ya. Nunca diagnostica; orienta y explica. Una construcción de fin de semana con barreras de seguridad al frente, demostrable recorriendo con un jurado un caso realista.",
+    "topic": "ai-ml",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "llm-apps",
+      "nlp",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Multi-Agent Trip Planner that Negotiates a Group's Constraints",
+    "name_es": "Planificador de viajes multiagente que negocia las restricciones del grupo",
+    "long_description": "Each traveler states their budget, dates, and must-haves; a set of agents proposes itineraries, debates the tradeoffs, and converges on a plan that honors the hard constraints while flagging the compromises. It shows the negotiation so the group sees why it landed there. A rich weekend demo where five conflicting wishlists become one trip everyone can accept.",
+    "long_description_es": "Cada viajero declara su presupuesto, fechas e imprescindibles; un conjunto de agentes propone itinerarios, debate los tradeoffs y converge en un plan que respeta las restricciones duras mientras marca las concesiones. Muestra la negociación para que el grupo vea por qué llegó ahí. Una demo rica de fin de semana donde cinco listas de deseos en conflicto se vuelven un viaje que todos pueden aceptar.",
+    "topic": "ai-ml",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "agents",
+      "recommendation",
+      "llm-apps"
+    ]
+  },
+  {
+    "name": "Wildlife Camera-Trap Sorter that IDs and Counts Species",
+    "name_es": "Clasificador de cámaras trampa que identifica y cuenta especies",
+    "long_description": "Researchers dump thousands of camera-trap images and the tool sorts them by species, discards the empty triggers, and builds a timeline of when each animal appeared. It surfaces rare sightings for a human to confirm and exports a tidy dataset. A weekend-scale build with real conservation value, demoable on a folder where noise becomes a species log.",
+    "long_description_es": "Investigadores vuelcan miles de imágenes de cámaras trampa y la herramienta las ordena por especie, descarta los disparos vacíos y arma una línea de tiempo de cuándo apareció cada animal. Resalta los avistajes raros para que un humano confirme y exporta un dataset prolijo. Una construcción de fin de semana con valor real de conservación, demostrable sobre una carpeta donde el ruido se vuelve un registro de especies.",
+    "topic": "ai-ml",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "computer-vision",
+      "prediction"
+    ]
+  },
+  {
+    "name": "Living NPC Townsfolk with Memory of Your Past Choices",
+    "name_es": "Aldeanos NPC vivos que recuerdan tus decisiones pasadas",
+    "long_description": "A small game world where villagers hold real conversations, remember what you did to them earlier, and let that color how they treat you next time. They gossip among themselves so a rumor spreads if you wrong someone. An ambitious weekend demo where a judge plays two scenes and watches the town visibly react to who they became.",
+    "long_description_es": "Un pequeño mundo de juego donde los aldeanos sostienen conversaciones reales, recuerdan lo que les hiciste antes y dejan que eso tiña cómo te tratan después. Chusmean entre ellos, así que un rumor se esparce si maltratás a alguien. Una demo ambiciosa de fin de semana donde un jurado juega dos escenas y ve al pueblo reaccionar a quién se volvió.",
+    "topic": "ai-ml",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "agents",
+      "generative",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Bird-Song Identifier that Maps What's Singing Around You",
+    "name_es": "Identificador de cantos de aves que mapea qué canta a tu alrededor",
+    "long_description": "Record ambient outdoor audio and the tool separates overlapping bird calls, names the species it hears, and builds a running list of who's around as you walk. It shows the spectrogram with each detection highlighted so birders trust it. A charming demo where stepping outside with a phone turns the dawn chorus into a labeled field log.",
+    "long_description_es": "Grabá audio ambiente al aire libre y la herramienta separa los cantos de aves superpuestos, nombra las especies que escucha y arma una lista corrida de quién anda cerca mientras caminás. Muestra el espectrograma con cada detección resaltada para que los observadores confíen. Una demo encantadora donde salir con el teléfono convierte el coro del amanecer en un registro de campo etiquetado.",
+    "topic": "ai-ml",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "audio",
+      "prediction"
+    ]
+  }
+]

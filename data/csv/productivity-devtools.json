@@ -1,0 +1,476 @@
+[
+  {
+    "name": "Cron Expression Explainer with a Live Next-Runs Timeline",
+    "name_es": "Explicador de expresiones cron con línea de próximas ejecuciones",
+    "long_description": "Paste any cron expression and watch it decode into plain language plus a live timeline of the next ten fire times in your timezone. Tweak a field and the timeline reshuffles instantly so you can feel what '*/15' really means. A tight, visual single-screen build that saves everyone from second-guessing their scheduler syntax.",
+    "long_description_es": "Pegá cualquier expresión cron y vela decodificarse en lenguaje claro junto a una línea de tiempo en vivo con las próximas diez ejecuciones en tu zona horaria. Cambiá un campo y la línea se reordena al instante para que sientas qué significa realmente '*/15'. Una construcción visual de una sola pantalla que evita las dudas sobre la sintaxis del programador.",
+    "topic": "productivity-devtools",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "cli-tools",
+      "time-mgmt"
+    ]
+  },
+  {
+    "name": "Git Branch Cleaner that Ranks Stale Branches by Risk",
+    "name_es": "Limpiador de ramas Git que ordena ramas viejas por riesgo",
+    "long_description": "A CLI that scans a repo's branches and ranks them for safe deletion by combining last-commit age, whether they're merged, and how far behind main they sit. It marks each one keep, archive, or delete with a one-line reason, then deletes in bulk on confirm. Perfect for the end-of-sprint cleanup nobody wants to do by hand.",
+    "long_description_es": "Una CLI que escanea las ramas de un repo y las ordena para borrado seguro combinando la antigüedad del último commit, si están fusionadas y cuánto se atrasaron respecto de main. Marca cada una como conservar, archivar o borrar con un motivo de una línea, y borra en lote al confirmar. Ideal para la limpieza de fin de sprint que nadie quiere hacer a mano.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "automation"
+    ]
+  },
+  {
+    "name": "Curl-to-Code Converter that Speaks Five Languages",
+    "name_es": "Conversor de curl a código que habla cinco lenguajes",
+    "long_description": "Paste a raw curl command and instantly get the equivalent request in Python, JavaScript, Go, Ruby, and PHP, with headers, auth, and body faithfully mapped. Toggle between fetch, requests, or net/http styles per language. A sharp single-feature tool that turns the copy-paste-from-docs ritual into one click.",
+    "long_description_es": "Pegá un comando curl crudo y obtené al instante la petición equivalente en Python, JavaScript, Go, Ruby y PHP, con cabeceras, autenticación y cuerpo mapeados con fidelidad. Alterná entre estilos fetch, requests o net/http según el lenguaje. Una herramienta nítida de un solo objetivo que convierte el copiar-pegar de la documentación en un clic.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Meeting-Cost Ticker that Bills the Room in Real Time",
+    "name_es": "Contador de costo de reunión que factura a la sala en tiempo real",
+    "long_description": "Drop in the attendees and their rough hourly rates, hit start, and a live ticker climbs by the second to show what the meeting is costing right now. When it crosses a budget line it flashes and nudges you to wrap up. A playful but pointed productivity tool that makes wasted time impossible to ignore.",
+    "long_description_es": "Cargá a los asistentes y sus tarifas por hora aproximadas, dale a iniciar y un contador en vivo sube por segundo para mostrar cuánto cuesta la reunión ahora mismo. Cuando cruza un límite de presupuesto parpadea y te invita a cerrar. Una herramienta de productividad lúdica pero contundente que hace imposible ignorar el tiempo perdido.",
+    "topic": "productivity-devtools",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "time-mgmt",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Regex Builder that Learns the Pattern from Examples",
+    "name_es": "Constructor de regex que aprende el patrón desde ejemplos",
+    "long_description": "Give a few strings that should match and a few that shouldn't, and the tool synthesizes a regex that satisfies all of them, showing its work as it narrows down. Edit any example and the pattern re-derives live. It flips the painful direction of regex authoring: you describe the goal, not the syntax.",
+    "long_description_es": "Dale unas cadenas que deberían coincidir y otras que no, y la herramienta sintetiza un regex que las satisface todas, mostrando su razonamiento mientras lo acota. Editá cualquier ejemplo y el patrón se vuelve a derivar en vivo. Invierte la dirección dolorosa de escribir regex: describís el objetivo, no la sintaxis.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "cli-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Standup Generator that Drafts Your Update from Git and PRs",
+    "name_es": "Generador de standup que redacta tu update desde Git y PRs",
+    "long_description": "It reads yesterday's commits, merged PRs, and closed issues across your repos, then drafts a clean yesterday/today/blockers standup in seconds. Reorder or trim with a keystroke before posting to Slack. A focused tool that kills the daily five minutes of staring blankly before standup.",
+    "long_description_es": "Lee los commits de ayer, los PRs fusionados y los issues cerrados en tus repos, y luego redacta en segundos un standup limpio de ayer/hoy/bloqueos. Reordená o recortá con una tecla antes de publicarlo en Slack. Una herramienta enfocada que elimina los cinco minutos diarios de mirar la pantalla en blanco antes del standup.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "collaboration",
+      "time-mgmt"
+    ]
+  },
+  {
+    "name": "Mock API Server that Boots from a Pasted JSON Response",
+    "name_es": "Servidor de API mock que arranca desde un JSON pegado",
+    "long_description": "Paste an example JSON response and the tool spins up a live mock endpoint that serves it, infers query-param filtering, and fakes pagination automatically. Add latency or error rates with a slider to test how your frontend behaves. A demoable build that gets a frontend unblocked while the real backend is still cooking.",
+    "long_description_es": "Pegá una respuesta JSON de ejemplo y la herramienta levanta un endpoint mock en vivo que la sirve, infiere el filtrado por query-params y simula paginación automáticamente. Agregá latencia o tasa de errores con un control deslizante para probar cómo se comporta tu frontend. Una construcción demostrable que desbloquea al frontend mientras el backend real aún se cocina.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Clipboard Manager that Auto-Tags Snippets by Type",
+    "name_es": "Gestor de portapapeles que autoetiqueta fragmentos por tipo",
+    "long_description": "A clipboard history that recognizes what you copied — a URL, a hex color, a code block, a tracking number — and files it under the right tag automatically. Search by type, pin favorites, and paste the third-to-last thing without breaking flow. A small daily-driver tool with a smart twist on a tired category.",
+    "long_description_es": "Un historial de portapapeles que reconoce qué copiaste — una URL, un color hex, un bloque de código, un número de seguimiento — y lo archiva bajo la etiqueta correcta automáticamente. Buscá por tipo, fijá favoritos y pegá lo antepenúltimo sin romper tu flujo. Una pequeña herramienta de uso diario con un giro inteligente sobre una categoría agotada.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "knowledge-mgmt"
+    ]
+  },
+  {
+    "name": "Dotfiles Diff Viewer that Explains What Each Change Does",
+    "name_es": "Visor de diffs de dotfiles que explica qué hace cada cambio",
+    "long_description": "Point it at two versions of your shell or editor config and it shows a side-by-side diff annotated with plain-language notes on what each changed line actually does. Spot the alias you forgot you added or the risky option you toggled. A useful tool for anyone who migrates machines and fears their own config.",
+    "long_description_es": "Apuntalo a dos versiones de tu config de shell o editor y muestra un diff lado a lado anotado con notas en lenguaje claro sobre qué hace realmente cada línea cambiada. Detectá el alias que olvidaste agregar o la opción riesgosa que activaste. Una herramienta útil para quien migra de máquina y le teme a su propia configuración.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "knowledge-mgmt"
+    ]
+  },
+  {
+    "name": "Visual Pipeline Builder that Exports a Real GitHub Action",
+    "name_es": "Constructor visual de pipelines que exporta un GitHub Action real",
+    "long_description": "Drag steps onto a canvas — checkout, build, test, deploy — wire them together, set conditions, and the tool emits a valid, runnable GitHub Actions YAML. It validates as you go and flags steps that need secrets. A no-code front door to CI that produces real, editable config instead of a black box.",
+    "long_description_es": "Arrastrá pasos a un lienzo — checkout, build, test, deploy — conectalos, definí condiciones y la herramienta genera un YAML de GitHub Actions válido y ejecutable. Valida sobre la marcha y marca los pasos que necesitan secretos. Una puerta de entrada no-code a CI que produce config real y editable en lugar de una caja negra.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "no-code",
+      "automation",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Focus Timer that Mutes Notifications Based on Calendar",
+    "name_es": "Temporizador de foco que silencia notificaciones según tu agenda",
+    "long_description": "A focus timer that reads your calendar and automatically protects free blocks: it enters do-not-disturb, silences chat, and reopens the moment a meeting starts. A live bar shows how much deep-work time you actually protected this week. A practical time-management tool that acts instead of just nagging.",
+    "long_description_es": "Un temporizador de foco que lee tu agenda y protege automáticamente los bloques libres: entra en no molestar, silencia el chat y se reabre justo cuando empieza una reunión. Una barra en vivo muestra cuánto tiempo de trabajo profundo protegiste esta semana. Una herramienta práctica de gestión del tiempo que actúa en lugar de solo insistir.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "time-mgmt",
+      "automation"
+    ]
+  },
+  {
+    "name": "JSON-to-Type Generator for Five Typed Languages at Once",
+    "name_es": "Generador de tipos desde JSON para cinco lenguajes a la vez",
+    "long_description": "Paste a JSON blob and get clean type definitions for TypeScript, Go, Rust, Kotlin, and Python side by side, with sensible names inferred for nested objects and optional fields detected from nulls. Tweak a key and all five regenerate live. A tight tool that erases the tedium of hand-typing models from sample payloads.",
+    "long_description_es": "Pegá un JSON y obtené definiciones de tipos limpias para TypeScript, Go, Rust, Kotlin y Python lado a lado, con nombres sensatos inferidos para objetos anidados y campos opcionales detectados a partir de nulls. Cambiá una clave y los cinco se regeneran en vivo. Una herramienta nítida que borra el tedio de escribir modelos a mano desde payloads de ejemplo.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Commit Message Linter that Suggests the Conventional Type",
+    "name_es": "Linter de mensajes de commit que sugiere el tipo convencional",
+    "long_description": "A pre-commit hook that reads your staged diff and proposes a Conventional Commits message — guessing feat, fix, or refactor from what actually changed and drafting the summary line. Accept, edit, or override. A small automation that quietly keeps a whole team's history clean and changelog-ready.",
+    "long_description_es": "Un hook de pre-commit que lee tu diff en stage y propone un mensaje de Conventional Commits — adivinando feat, fix o refactor según lo que realmente cambió y redactando la línea de resumen. Aceptá, editá o anulá. Una pequeña automatización que mantiene en silencio el historial de todo un equipo limpio y listo para el changelog.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Shared Scratchpad that Turns Pasted Errors into Tickets",
+    "name_es": "Bloc compartido que convierte errores pegados en tickets",
+    "long_description": "A team scratchpad where anyone pastes a stack trace and it auto-extracts the error type, file, and line, then offers a one-click button to file a deduplicated ticket. It links repeats together so the same crash never becomes five issues. A collaboration tool that captures the bug while it's fresh.",
+    "long_description_es": "Un bloc de equipo donde cualquiera pega un stack trace y se autoextrae el tipo de error, archivo y línea, y luego ofrece un botón de un clic para crear un ticket sin duplicados. Vincula las repeticiones para que el mismo crash nunca se convierta en cinco issues. Una herramienta de colaboración que captura el bug mientras está fresco.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "collaboration",
+      "knowledge-mgmt",
+      "automation"
+    ]
+  },
+  {
+    "name": "Env-File Auditor that Flags Leaks Before You Commit",
+    "name_es": "Auditor de archivos env que detecta fugas antes del commit",
+    "long_description": "A CLI that scans your .env and staged files for real secrets — API keys, tokens, private URLs — using entropy and known patterns, and warns before anything risky lands in git. It suggests a sanitized .env.example automatically. A sharp safety tool that fits a short sprint and saves real embarrassment.",
+    "long_description_es": "Una CLI que escanea tu .env y los archivos en stage en busca de secretos reales — claves de API, tokens, URLs privadas — usando entropía y patrones conocidos, y avisa antes de que algo riesgoso llegue a git. Sugiere un .env.example saneado automáticamente. Una herramienta de seguridad nítida que entra en un sprint corto y evita papelones reales.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "automation"
+    ]
+  },
+  {
+    "name": "Keyboard-Shortcut Coach that Watches How You Actually Work",
+    "name_es": "Coach de atajos de teclado que observa cómo trabajás de verdad",
+    "long_description": "It watches the menu actions and mouse moves you repeat, then surfaces the exact keyboard shortcut that would have saved each one, ranked by how often you do it. A weekly card shows your top time-wasters and the keys to fix them. A productivity tool that teaches the shortcuts you'd never look up.",
+    "long_description_es": "Observa las acciones de menú y los movimientos de mouse que repetís, y luego revela el atajo de teclado exacto que habría ahorrado cada uno, ordenados por frecuencia. Una tarjeta semanal muestra tus mayores fugas de tiempo y las teclas para resolverlas. Una herramienta de productividad que enseña los atajos que nunca buscarías.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "time-mgmt",
+      "automation"
+    ]
+  },
+  {
+    "name": "API Response Differ that Catches Breaking Changes",
+    "name_es": "Comparador de respuestas de API que detecta cambios rompedores",
+    "long_description": "Hit an endpoint on two environments, or before and after a deploy, and the tool diffs the JSON structurally — flagging removed fields, changed types, and new required keys as breaking, additive, or cosmetic. It produces a shareable report. A practical testing tool that catches the contract break before your clients do.",
+    "long_description_es": "Pegale a un endpoint en dos entornos, o antes y después de un deploy, y la herramienta compara el JSON estructuralmente — marcando campos eliminados, tipos cambiados y nuevas claves requeridas como rompedores, aditivos o cosméticos. Genera un reporte para compartir. Una herramienta de testing práctica que atrapa la ruptura de contrato antes que tus clientes.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Readme Generator that Interviews Your Repo, Not You",
+    "name_es": "Generador de readme que entrevista a tu repo, no a vos",
+    "long_description": "Point it at a project and it inspects the package manifest, scripts, env vars, and folder layout to draft a real README — install steps, usage, and config table — without asking you a single question. Edit inline before it writes the file. A focused tool that makes the worst chore of shipping painless.",
+    "long_description_es": "Apuntalo a un proyecto e inspecciona el manifiesto del paquete, los scripts, las variables de entorno y la estructura de carpetas para redactar un README real — pasos de instalación, uso y tabla de config — sin hacerte una sola pregunta. Editá en línea antes de que escriba el archivo. Una herramienta enfocada que vuelve indolora la peor tarea de publicar.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "knowledge-mgmt",
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Color-Contrast Picker that Locks Choices to Accessible Pairs",
+    "name_es": "Selector de contraste de color que fija pares accesibles",
+    "long_description": "A palette picker that only lets you choose foreground and background combos that pass WCAG contrast, nudging each swatch to the nearest compliant shade as you drag. It exports CSS variables and a preview card. A tight design-dev tool that bakes accessibility in instead of bolting it on later.",
+    "long_description_es": "Un selector de paletas que solo te deja elegir combinaciones de texto y fondo que pasan el contraste WCAG, empujando cada muestra al tono compatible más cercano mientras arrastrás. Exporta variables CSS y una tarjeta de vista previa. Una herramienta de diseño-desarrollo nítida que integra la accesibilidad en vez de agregarla después.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "no-code",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Time-Zone Meeting Finder that Shades Everyone's Sleep Hours",
+    "name_es": "Buscador de horarios entre zonas que sombrea las horas de sueño",
+    "long_description": "Add teammates by city and a grid shades each person's night, lunch, and core hours, then highlights the windows where everyone is comfortably awake. Drag a proposed slot and watch who it inconveniences light up. A clean scheduling tool that ends the painful timezone math for distributed teams.",
+    "long_description_es": "Agregá compañeros por ciudad y una grilla sombrea la noche, el almuerzo y las horas centrales de cada persona, y luego resalta las ventanas en que todos están cómodamente despiertos. Arrastrá un horario propuesto y mirá iluminarse a quién incomoda. Una herramienta de agenda limpia que termina con la dolorosa matemática de zonas horarias para equipos distribuidos.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "time-mgmt",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Log Tail Viewer that Collapses Repeating Lines into Counts",
+    "name_es": "Visor de logs que colapsa líneas repetidas en conteos",
+    "long_description": "A live log viewer that folds bursts of near-identical lines into a single row with a running count and a sparkline, so a flood of the same warning stops drowning the signal. Click to expand, filter by level, and pin the rare error you care about. A focused tool that makes noisy logs readable.",
+    "long_description_es": "Un visor de logs en vivo que pliega ráfagas de líneas casi idénticas en una sola fila con un conteo en curso y un sparkline, para que una inundación de la misma advertencia deje de ahogar la señal. Hacé clic para expandir, filtrá por nivel y fijá el error raro que te importa. Una herramienta enfocada que vuelve legibles los logs ruidosos.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Browser-Tab Bankruptcy Tool that Groups Tabs by Task",
+    "name_es": "Herramienta de quiebra de pestañas que las agrupa por tarea",
+    "long_description": "When your tabs spiral out of control, this clusters them by topic from titles and domains, names each group, and lets you save a cluster as a session to reopen later — then closes the rest in one move. A satisfying single-feature tool for the chaos every researcher and developer lives in.",
+    "long_description_es": "Cuando tus pestañas se descontrolan, esto las agrupa por tema a partir de títulos y dominios, nombra cada grupo y te deja guardar un grupo como sesión para reabrirlo después — y cierra el resto de un solo movimiento. Una herramienta de un solo objetivo y muy satisfactoria para el caos en que vive todo investigador y desarrollador.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "knowledge-mgmt",
+      "time-mgmt"
+    ]
+  },
+  {
+    "name": "SQL Query Explainer that Draws the Joins as a Diagram",
+    "name_es": "Explicador de consultas SQL que dibuja los joins como diagrama",
+    "long_description": "Paste a gnarly SQL query and the tool draws the tables, joins, and filters as a clear diagram, then narrates what each clause contributes to the result. Hover a join to see which keys connect. A learning-and-debugging tool that makes an inherited 200-line query suddenly make sense.",
+    "long_description_es": "Pegá una consulta SQL enredada y la herramienta dibuja las tablas, joins y filtros como un diagrama claro, y luego narra qué aporta cada cláusula al resultado. Pasá el cursor sobre un join para ver qué claves conectan. Una herramienta de aprendizaje y depuración que hace que una consulta heredada de 200 líneas de pronto tenga sentido.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "cli-tools",
+      "knowledge-mgmt"
+    ]
+  },
+  {
+    "name": "Webhook Inspector that Replays Captured Payloads on Demand",
+    "name_es": "Inspector de webhooks que reenvía payloads capturados a demanda",
+    "long_description": "Give a third-party service a temporary URL and the tool captures every incoming webhook with full headers and body, pretty-printed and searchable. Replay any captured payload to your local server with one click to debug without re-triggering the source. A practical API tool that tames the worst part of integration work.",
+    "long_description_es": "Dale a un servicio externo una URL temporal y la herramienta captura cada webhook entrante con cabeceras y cuerpo completos, formateados y buscables. Reenviá cualquier payload capturado a tu servidor local con un clic para depurar sin volver a disparar la fuente. Una herramienta de API práctica que domina la peor parte del trabajo de integración.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "name": "Task Estimator that Calibrates Against Your Past Guesses",
+    "name_es": "Estimador de tareas que se calibra con tus pronósticos pasados",
+    "long_description": "Log a task estimate and its actual time, and the tool learns your personal bias — say you always underestimate UI work by 40% — then adjusts your future guesses automatically. A chart shows your accuracy trending over time. A quietly powerful time-management tool that fixes estimation by confronting the data.",
+    "long_description_es": "Registrá la estimación de una tarea y su tiempo real, y la herramienta aprende tu sesgo personal — por ejemplo, que siempre subestimás el trabajo de UI un 40% — y luego ajusta tus futuros pronósticos automáticamente. Un gráfico muestra tu precisión mejorando con el tiempo. Una herramienta de gestión del tiempo discreta y potente que arregla la estimación confrontando los datos.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "time-mgmt",
+      "automation"
+    ]
+  },
+  {
+    "name": "Diff-Aware Test Picker that Runs Only What Your Change Touches",
+    "name_es": "Selector de tests por diff que corre solo lo que tu cambio toca",
+    "long_description": "It maps which tests exercise which source files, then on each change runs only the tests that could possibly break — turning a ten-minute suite into a ten-second check. A fallback runs everything before merge. A serious devtool that makes the inner loop fast without sacrificing the safety net.",
+    "long_description_es": "Mapea qué tests ejercitan qué archivos fuente, y luego en cada cambio corre solo los tests que podrían romperse — convirtiendo una suite de diez minutos en una verificación de diez segundos. Un respaldo corre todo antes del merge. Un devtool serio que acelera el ciclo interno sin sacrificar la red de seguridad.",
+    "topic": "productivity-devtools",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "testing",
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Markdown Table Editor that Keeps Columns Aligned as You Type",
+    "name_es": "Editor de tablas markdown que mantiene columnas alineadas al tipear",
+    "long_description": "Editing markdown tables by hand is misery; this gives you a spreadsheet-style grid that re-renders perfectly aligned markdown live as you type, with tab-to-next-cell and paste-from-Excel support. Copy the clean source out when done. A small, sharp tool that removes a daily papercut for anyone who writes docs.",
+    "long_description_es": "Editar tablas markdown a mano es una tortura; esto te da una grilla estilo planilla que regenera markdown perfectamente alineado en vivo mientras tipeás, con tab-a-siguiente-celda y pegado desde Excel. Copiá el código limpio al terminar. Una herramienta pequeña y nítida que elimina una molestia diaria para todo el que escribe documentación.",
+    "topic": "productivity-devtools",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "knowledge-mgmt",
+      "no-code"
+    ]
+  },
+  {
+    "name": "PR Review Router that Assigns Reviewers by Code Ownership",
+    "name_es": "Enrutador de revisiones que asigna revisores por dominio del código",
+    "long_description": "When a PR opens, it looks at which files changed and who has the deepest git history in them, then suggests the best-matched reviewers and warns when only one person knows that area. A heatmap reveals bus-factor risks across the repo. A collaboration tool that gets reviews to the right eyes faster.",
+    "long_description_es": "Cuando se abre un PR, mira qué archivos cambiaron y quién tiene el historial de git más profundo en ellos, y luego sugiere los revisores mejor calzados y avisa cuando solo una persona conoce esa área. Un mapa de calor revela riesgos de bus-factor en todo el repo. Una herramienta de colaboración que lleva las revisiones a los ojos correctos más rápido.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "collaboration",
+      "automation",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Snippet Runner that Executes Code Blocks Inside Your Notes",
+    "name_es": "Ejecutor de fragmentos que corre bloques de código en tus notas",
+    "long_description": "A notebook where any fenced code block in your markdown notes becomes runnable in place, showing output beneath it and remembering variables across blocks. Great for runbooks where the commands should actually work. A knowledge-management tool that keeps your docs honest by making them executable.",
+    "long_description_es": "Un cuaderno donde cualquier bloque de código en tus notas markdown se vuelve ejecutable en el lugar, mostrando la salida debajo y recordando variables entre bloques. Ideal para runbooks donde los comandos deberían funcionar de verdad. Una herramienta de gestión del conocimiento que mantiene honesta tu documentación al volverla ejecutable.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "knowledge-mgmt",
+      "cli-tools",
+      "automation"
+    ]
+  },
+  {
+    "name": "Flaky-Test Detective that Quarantines Unreliable Tests",
+    "name_es": "Detective de tests inestables que pone en cuarentena los poco fiables",
+    "long_description": "It reruns your test suite across seeds and orders to surface tests that pass and fail nondeterministically, ranks them by flakiness, and auto-quarantines the worst so CI stops lying to you. A report links each flaky test to the likely shared-state culprit. A serious testing tool that restores trust in your green checks.",
+    "long_description_es": "Reejecuta tu suite con distintas semillas y órdenes para revelar tests que pasan y fallan de forma no determinista, los ordena por inestabilidad y pone en cuarentena los peores para que CI deje de mentirte. Un reporte vincula cada test inestable con el probable culpable de estado compartido. Una herramienta de testing seria que restaura la confianza en tus chequeos verdes.",
+    "topic": "productivity-devtools",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "name": "Inbox Triage Sorter that Drafts Replies by Intent",
+    "name_es": "Clasificador de bandeja que redacta respuestas según la intención",
+    "long_description": "It reads unread mail, buckets each message by what it wants from you — decision, FYI, scheduling, or ask — and drafts a fitting reply you can send or tweak. A morning digest shows only what truly needs you. A practical productivity tool that turns inbox dread into a five-minute pass.",
+    "long_description_es": "Lee el correo no leído, clasifica cada mensaje según lo que quiere de vos — decisión, informativo, agenda o pedido — y redacta una respuesta acorde que podés enviar o ajustar. Un resumen matutino muestra solo lo que realmente te necesita. Una herramienta de productividad práctica que convierte el temor a la bandeja en una pasada de cinco minutos.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "time-mgmt"
+    ]
+  }
+]

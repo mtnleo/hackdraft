@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/* ----------------------------------------------------------------------------
+   Hackstarter design tokens (Tailwind v4 CSS-first @theme)
+   Ported from DESIGN.md + the Stitch Tailwind config.
+---------------------------------------------------------------------------- */
+@theme {
+  /* Neutrals */
+  --color-canvas-paper: #fbf7ef; /* warm off-white page background */
+  --color-card-white: #ffffff; /* card / surface fill */
+  --color-ink: #1a1a1a; /* text, all borders, all hard shadows */
+  --color-slate-muted: #5c5a54; /* secondary text, metadata */
+
+  /* Brand accents */
+  --color-cobalt: #2c4be0; /* primary: structure, links, "starter", active controls */
+  --color-orange: #ff6a2b; /* energy: shuffle, slider thumb, highlights */
+
+  /* Surfaces */
+  --color-track: #e8e7f3; /* tinted pill-slider track */
+  --color-footer: #eeecf9; /* footer band */
+  --color-banner: #f1effc; /* fallback banner fill */
+
+  /* Difficulty scale (flat blocks only) */
+  --color-diff-beginner: #2ead6b;
+  --color-diff-intermediate: #f5b700;
+  --color-diff-advanced: #e5484d;
+
+  /* Fonts (wired via next/font in layout.tsx) */
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  /* Layout */
+  --spacing-container: 1200px;
+
+  /* Motion */
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* ----------------------------------------------------------------------------
+   Hard offset shadows (neo-brutalist-lite — blur-free)
+---------------------------------------------------------------------------- */
+@utility shadow-hard-sm {
+  box-shadow: 3px 3px 0px var(--color-ink);
+}
+@utility shadow-hard-md {
+  box-shadow: 5px 5px 0px var(--color-ink);
+}
+@utility shadow-hard-lg {
+  box-shadow: 6px 6px 0px var(--color-ink);
+}
+
+/* ----------------------------------------------------------------------------
+   Base
+---------------------------------------------------------------------------- */
+body {
+  background: var(--color-canvas-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+/* Sticker lift on hover (cards, dropdown) */
+.hover-lift {
+  transition:
+    transform 0.2s var(--ease-spring),
+    box-shadow 0.2s var(--ease-spring);
+}
+.hover-lift:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0px var(--color-ink);
+}
+
+/* Tactile press on buttons */
+.active-press:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0px var(--color-ink) !important;
+}
+
+.transition-spring {
+  transition: all 0.3s var(--ease-spring);
+}
+
+/* ----------------------------------------------------------------------------
+   Shuffle re-deal animation — cards cascade up into place
+---------------------------------------------------------------------------- */
+@keyframes deal-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px) rotate(-1deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+}
+.card-deal {
+  animation: deal-in 0.45s var(--ease-spring) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-deal {
+    animation: none;
+  }
+  .hover-lift,
+  .transition-spring {
+    transition: none;
+  }
+}
