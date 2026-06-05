@@ -20,7 +20,7 @@ export default function IdeaCard({ idea, lang, delay }: Props) {
   const s = STRINGS[lang];
   return (
     <article
-      className="card-deal hover-lift flex flex-col gap-5 rounded-xl border-2 border-ink bg-card-white p-6 shadow-hard-md md:p-7"
+      className="card-deal card-lift flex flex-col gap-5 rounded-xl border-2 border-ink bg-card-white p-6 shadow-hard-md md:p-7"
       style={{ animationDelay: `${delay}ms` }}
     >
       <div className="flex items-start justify-between gap-2">

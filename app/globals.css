@@ -59,7 +59,7 @@ body {
   font-family: var(--font-body);
 }
 
-/* Sticker lift on hover (cards, dropdown) */
+/* Subtle sticker nudge on hover (dropdown, small controls) */
 .hover-lift {
   transition:
     transform 0.2s var(--ease-spring),
@@ -68,6 +68,18 @@ body {
 .hover-lift:hover {
   transform: translate(-2px, -2px);
   box-shadow: 7px 7px 0px var(--color-ink);
+}
+
+/* Cards: "pick it up off the table" — lift higher, scale up, deeper shadow */
+.card-lift {
+  transition:
+    transform 0.22s var(--ease-spring),
+    box-shadow 0.22s var(--ease-spring);
+  will-change: transform;
+}
+.card-lift:hover {
+  transform: translateY(-6px) scale(1.025);
+  box-shadow: 9px 9px 0px var(--color-ink);
 }
 
 /* Tactile press on buttons */
@@ -94,7 +106,9 @@ body {
   }
 }
 .card-deal {
-  animation: deal-in 0.45s var(--ease-spring) both;
+  /* `backwards` keeps the staggered reveal but releases the transform when done,
+     so the hover lift works afterwards. */
+  animation: deal-in 0.45s var(--ease-spring) backwards;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -102,7 +116,11 @@ body {
     animation: none;
   }
   .hover-lift,
+  .card-lift,
   .transition-spring {
     transition: none;
+  }
+  .card-lift:hover {
+    transform: none;
   }
 }
