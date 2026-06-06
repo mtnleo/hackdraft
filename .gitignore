@@ -17,6 +17,11 @@
 /.next/
 /out/
 
+# cloudflare / opennext
+/.open-next/
+/.wrangler/
+.dev.vars
+
 # production
 /build
 
@@ -40,3 +45,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# internal docs & design/asset scratch (not part of the shipped app)
+AGENTS.md
+DESIGN.md
+context.md
+/stitch/
+data/harvester-spec.md
+public/og.html
+public/favicon-gen.html
+public/favicon-raw.png

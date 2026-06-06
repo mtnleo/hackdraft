@@ -11,7 +11,7 @@ export default function Navbar({ lang, onLangChange }: Props) {
       <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-6 py-4 md:px-8">
         <div className="font-display text-2xl leading-none font-extrabold tracking-tight md:text-3xl">
           <span className="text-ink">Hack</span>
-          <span className="text-cobalt">starter</span>
+          <span className="text-cobalt">draft</span>
         </div>
 
         <div

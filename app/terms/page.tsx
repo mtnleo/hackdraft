@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const UPDATED = "June 5, 2026";
-const EMAIL = "hello@hackdraft.dev";
+const EMAIL = "mtnleonardi@gmail.com";
 
 export default function TermsPage() {
   return (

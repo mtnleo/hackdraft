@@ -1,5 +1,11 @@
 name = "hackaton-idea-gen"
+main = ".open-next/worker.js"
 compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
 
 [[d1_databases]]
 binding = "hackaton_db"
