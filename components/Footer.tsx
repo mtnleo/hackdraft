@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { STRINGS } from "@/lib/i18n";
 
@@ -41,6 +42,20 @@ export default function Footer({ lang }: { lang: Lang }) {
         >
           {s.contactEmail}
         </a>
+        <Dot />
+        <Link
+          href="/privacy"
+          className="underline decoration-1 underline-offset-4 transition-colors hover:text-ink"
+        >
+          {s.privacy}
+        </Link>
+        <Dot />
+        <Link
+          href="/terms"
+          className="underline decoration-1 underline-offset-4 transition-colors hover:text-ink"
+        >
+          {s.terms}
+        </Link>
         <Dot />
         <span>{s.footerDisclaimer}</span>
       </div>

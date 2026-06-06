@@ -12,6 +12,8 @@ interface Strings {
   footerMadeWith: string;
   footerDisclaimer: string;
   contactEmail: string;
+  privacy: string;
+  terms: string;
 }
 
 export const STRINGS: Record<Lang, Strings> = {
@@ -31,6 +33,8 @@ export const STRINGS: Record<Lang, Strings> = {
     footerMadeWith: "Made with love by Martin",
     footerDisclaimer: "Ideas compiled from public sources. Contact for takedowns.",
     contactEmail: "hello@hackstarter.dev",
+    privacy: "Privacy",
+    terms: "Terms",
   },
   es: {
     tagline: "3 ideas para tu hackathon. Elegí tu tiempo, elegí tu onda, a programar.",
@@ -49,6 +53,8 @@ export const STRINGS: Record<Lang, Strings> = {
     footerDisclaimer:
       "Ideas recopiladas de fuentes públicas. Contacto para retiros.",
     contactEmail: "hello@hackstarter.dev",
+    privacy: "Privacidad",
+    terms: "Términos",
   },
 };
 
