@@ -12,10 +12,25 @@ A fast, lightweight web application designed to help developers find curated hac
 - **wrangler.toml**: configured with D1 binding `hackaton_db`
 - **Scripts**: `scripts/load.js` (validates + generates seed.sql), `scripts/combine.js`
 
-### Not Done
-- **Next.js app**: NOT initialized yet — this is the next step
-- **UI**: not built yet — being designed
-- **Deploy**: targeting Cloudflare Pages; plan is local dev first (`wrangler pages dev`), then deploy
+### Done (frontend, this session)
+- **Next.js app**: initialized in-place — Next 16 (App Router) + React 19 + Tailwind v4 (CSS-first `@theme` in `app/globals.css`, NO tailwind.config.js) + TS. Fonts via `next/font`: Bricolage Grotesque (display), Inter (body), JetBrains Mono (mono).
+- **UI built & working** (`npm run dev`): empty state on load → press "Show me 3"/"Mostrame 3" → 3 cards deal up from the bottom (then button = "Shuffle 3"); live-filtering after first deal. Components in `components/`: HackdraftApp (client orchestrator), Navbar, TopicDropdown (custom listbox, not native select), TimePill (segmented sliding-thumb, fixed `lg`/`md` width), ShuffleButton, IdeaCard (resting tilt → straighten + lift on hover), FallbackBanner, EmptyState, Footer, CookieConsent, icons.
+- **Data layer (JSON-first)**: `lib/data.ts` imports `data/all-ideas.json` (server-only); `lib/ideas.ts` (topic×bucket filter, `48h+` merged into `24h+`, nearest-bucket fallback, random 3); `lib/topics.ts`, `lib/i18n.ts`, `lib/types.ts`. Query via `app/api/ideas/route.ts` (`GET ?topic=&time=`). **D1 swap touches only `lib/data.ts` + that route.**
+- **Design**: warm peach bg `#FBF1E8`; nav+footer white; pill track `#FAF9F6`; blue `#2C4BE0` + orange `#FF6A2B`; neo-brutalist-lite (hard offset shadows). OG-style hero: "3 hackathon ideas." (orange 3) + "Pick your time · pick your vibe · ship.". Full design spec in `DESIGN.md`.
+- **Analytics + legal**: Google Analytics, **consent-gated** (loads only after Accept; banner sits above the footer). `/privacy` + `/terms` pages (EN+ES), linked in footer. GA needs `NEXT_PUBLIC_GA_ID` in `.env.local` to activate (see `.env.example`).
+- **Responsive**: controls wrap below ~918px; mobile stacks. Footer pinned.
+- Git: repo initialized, all work committed on `main`.
+
+### Not Done (next session)
+- **Cloudflare deploy**: add `@opennextjs/cloudflare` adapter + wrangler config. ⚠️ Verify OpenNext supports Next 16 first — may need to pin Next 15.
+- **Wire D1**: swap `lib/data.ts` + `app/api/ideas/route.ts` to query the `hackaton_db` D1 binding.
+- **Set `NEXT_PUBLIC_GA_ID`** (real GA4 id) in `.env.local`.
+- **OG meta tags**: `public/og.html` exists (user-made social card, untracked) but not wired as `og:image` meta yet.
+
+### Notes / gotchas
+- `head` is aliased on this machine — don't pipe to `head` in bash.
+- Preview: `.claude/launch.json` at the **workspace root** (`Projects/`) runs `cd Hack-a-ton && npm run dev` on :3000.
+- The `preview_screenshot` captures a taller window than the emulated viewport — trust `preview_eval` (e.g. `footerBottom === innerHeight`) over screenshots for footer-pin/overflow checks.
 
 ## 3. Core Features & UX/UI
 

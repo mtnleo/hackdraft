@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackDraft OG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #fbf1e8;
+    }
+
+    /* ─── ROOT ──────────────────────────────────────────── */
+    .root {
+      width: 1200px;
+      height: 630px;
+      background: #fbf1e8;
+      position: relative;
+      overflow: hidden;
+      padding: 52px 76px 0;
+    }
+
+    /* ─── WORDMARK ──────────────────────────────────────── */
+    .wordmark {
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      font-weight: 800;
+      font-size: 54px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+    .wh { color: #1a1a1a; }
+    .ws { color: #2c4be0; }
+
+    /* ─── TAGLINE ────────────────────────────────────────── */
+    .tl { margin-top: 22px; }
+
+    .tl-1 {
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      font-weight: 800;
+      font-size: 96px;
+      line-height: 0.93;
+      letter-spacing: -0.045em;
+      color: #1a1a1a;
+      display: block;
+    }
+    .tl-1 .num { color: #ff6a2b; }
+
+    .tl-2 {
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: #5c5a54;
+      display: block;
+      margin-top: 10px;
+    }
+    .tl-2 .dot { color: #ff6a2b; margin: 0 7px; font-weight: 400; }
+    .tl-2 .em  { color: #1a1a1a; font-weight: 800; }
+
+    /* ─── FILTER BAR ─────────────────────────────────────── */
+    .filter-bar {
+      margin-top: 26px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      height: 50px;
+      border: 2px solid #1a1a1a;
+      border-radius: 999px;
+      background: #fbf1e8;
+      box-shadow: 4px 4px 0 #1a1a1a;
+      padding: 4px 4px;
+      gap: 0;
+    }
+
+    .stop {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: #5c5a54;
+      padding: 5px 14px;
+      border-radius: 999px;
+      white-space: nowrap;
+      line-height: 1;
+      user-select: none;
+    }
+    .stop.on {
+      background: #ff6a2b;
+      color: #1a1a1a;
+      font-weight: 700;
+      border: 2px solid #1a1a1a;
+      box-shadow: 2px 2px 0 #1a1a1a;
+    }
+
+    .topic {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      height: 50px;
+      border: 2px solid #1a1a1a;
+      border-radius: 12px;
+      background: #ffffff;
+      box-shadow: 3px 3px 0 #1a1a1a;
+      padding: 0 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 500;
+      color: #1a1a1a;
+      white-space: nowrap;
+    }
+
+    .shuffle {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      height: 50px;
+      border: 2px solid #1a1a1a;
+      border-radius: 12px;
+      background: #ff6a2b;
+      box-shadow: 4px 4px 0 #1a1a1a;
+      padding: 0 22px;
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      white-space: nowrap;
+    }
+
+    /* ─── CARDS ──────────────────────────────────────────── */
+    .card {
+      position: absolute;
+      width: 268px;
+      background: #ffffff;
+      border: 2px solid #1a1a1a;
+      border-radius: 16px;
+      padding: 20px 22px 22px;
+      bottom: -82px;
+    }
+
+    /* 3 cards, ~32px overlap, centred in 1200px:
+       total spread = 3×268 − 2×32 = 740px → start at (1200−740)/2 = 230px */
+    .card-a {
+      left: 230px;
+      transform: rotate(-7.5deg);
+      box-shadow: 5px 5px 0 #1a1a1a;
+      z-index: 1;
+    }
+    .card-b {
+      left: 466px;   /* 230 + 268 − 32 */
+      transform: translateY(-32px);
+      box-shadow: 5px 5px 0 #1a1a1a;
+      z-index: 3;
+    }
+    .card-c {
+      left: 702px;   /* 466 + 268 − 32 */
+      transform: rotate(7deg);
+      box-shadow: 5px 5px 0 #1a1a1a;
+      z-index: 2;
+    }
+
+    /* ─── CARD INTERNALS ─────────────────────────────────── */
+    .card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 13px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border: 2px solid #1a1a1a;
+      border-radius: 4px;
+      padding: 4px 9px;
+      line-height: 1;
+    }
+    .bg { background: #2ead6b; color: #1a1a1a; }
+    .bi { background: #f5b700; color: #1a1a1a; }
+    .bv { background: #e5484d; color: #ffffff; }
+
+    .time-lbl {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      font-weight: 500;
+      color: #5c5a54;
+    }
+
+    .ctitle {
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 1.25;
+      color: #1a1a1a;
+      margin-bottom: 9px;
+    }
+
+    .cdesc {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 12.5px;
+      line-height: 1.55;
+      color: #5c5a54;
+    }
+
+    .ctags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 13px;
+    }
+    .ctag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #fbf1e8;
+      border: 1.5px solid #1a1a1a;
+      border-radius: 999px;
+      padding: 3px 9px;
+      color: #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+  <div class="root">
+
+    <!-- Wordmark -->
+    <div class="wordmark">
+      <span class="wh">Hack</span><span class="ws">draft</span>
+    </div>
+
+    <!-- Tagline -->
+    <div class="tl">
+      <span class="tl-1"><span class="num">3</span> hackathon ideas.</span>
+      <span class="tl-2">
+        Pick your time<span class="dot">·</span>pick your vibe<span class="dot">·</span><span class="em">ship.</span>
+      </span>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+
+      <div class="pill">
+        <span class="stop">1-3h</span>
+        <span class="stop">3-6h</span>
+        <span class="stop on">6-12h</span>
+        <span class="stop">12-24h</span>
+        <span class="stop">24h+</span>
+      </div>
+
+      <div class="topic">
+        IoT / Hardware
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round" width="15" height="15">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </div>
+
+      <div class="shuffle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round" width="17" height="17">
+          <path d="M16 3h5v5"/>
+          <path d="M4 20 21 3"/>
+          <path d="M21 16v5h-5"/>
+          <path d="m15 15 6 6"/>
+          <path d="M4 4l5 5"/>
+        </svg>
+        Shuffle 3
+      </div>
+
+    </div>
+
+    <!-- Card A: Beginner -->
+    <div class="card card-a">
+      <div class="card-head">
+        <span class="badge bg">Beginner</span>
+        <span class="time-lbl">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round" width="12" height="12">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+          </svg>
+          1-3h
+        </span>
+      </div>
+      <div class="ctitle">Regex from Plain English with Live Match Preview</div>
+      <div class="cdesc">Describe what you want to match in plain English and the tool drafts a regex, then highlights every hit on a sample string you paste below.</div>
+      <div class="ctags">
+        <span class="ctag">llm-apps</span>
+        <span class="ctag">nlp</span>
+      </div>
+    </div>
+
+    <!-- Card B: Intermediate (center, front) -->
+    <div class="card card-b">
+      <div class="card-head">
+        <span class="badge bi">Intermediate</span>
+        <span class="time-lbl">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round" width="12" height="12">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+          </svg>
+          6-12h
+        </span>
+      </div>
+      <div class="ctitle">Desk Presence Light that Mirrors Your Calendar</div>
+      <div class="cdesc">A small RGB light turns red during meetings, amber 5 minutes before, and green when you're free — reading straight from your calendar feed.</div>
+      <div class="ctags">
+        <span class="ctag">iot</span>
+        <span class="ctag">hardware</span>
+      </div>
+    </div>
+
+    <!-- Card C: Advanced -->
+    <div class="card card-c">
+      <div class="card-head">
+        <span class="badge bv">Advanced</span>
+        <span class="time-lbl">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round" width="12" height="12">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+          </svg>
+          12-24h
+        </span>
+      </div>
+      <div class="ctitle">Phishing URL Triage Dashboard with Heuristic Scoring</div>
+      <div class="cdesc">Paste a batch of suspicious URLs and get a ranked triage view scoring each on domain age, look-alike characters, and cert red flags.</div>
+      <div class="ctags">
+        <span class="ctag">web-security</span>
+        <span class="ctag">forensics</span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

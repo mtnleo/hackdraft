@@ -1,5 +1,5 @@
-import HackstarterApp from "@/components/HackstarterApp";
+import HackdraftApp from "@/components/HackdraftApp";
 
 export default function Home() {
-  return <HackstarterApp />;
+  return <HackdraftApp />;
 }

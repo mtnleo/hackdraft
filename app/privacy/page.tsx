@@ -3,12 +3,12 @@ import LegalShell from "@/components/LegalShell";
 import { H1, H2, P, LangTag } from "@/components/legalUI";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Hackstarter",
-  description: "How Hackstarter handles data and analytics.",
+  title: "Privacy Policy — HackDraft",
+  description: "How HackDraft handles data and analytics.",
 };
 
 const UPDATED = "June 5, 2026";
-const EMAIL = "hello@hackstarter.dev";
+const EMAIL = "hello@hackdraft.dev";
 
 export default function PrivacyPage() {
   return (
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
 
           <H2>No accounts, no personal data</H2>
           <P>
-            Hackstarter has no sign-up and no login. We do not ask for or store
+            HackDraft has no sign-up and no login. We do not ask for or store
             your name, email, or any personal information — the app simply shows
             curated hackathon ideas.
           </P>
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
 
           <H2>Sin cuentas, sin datos personales</H2>
           <P>
-            Hackstarter no tiene registro ni inicio de sesión. No pedimos ni
+            HackDraft no tiene registro ni inicio de sesión. No pedimos ni
             guardamos tu nombre, correo ni ninguna información personal — la app
             solo muestra ideas de hackathon seleccionadas.
           </P>

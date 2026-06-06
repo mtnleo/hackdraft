@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hackstarter — 3 hackathon ideas in one click",
+  title: "HackDraft — 3 hackathon ideas in one click",
   description:
     "Pick your available time and a topic, get 3 curated hackathon project ideas. Built for developers.",
 };

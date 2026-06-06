@@ -17,7 +17,7 @@ import { STRINGS, fallbackMessage } from "@/lib/i18n";
 // row looks hand-placed on a table. Cards straighten to 0 on hover.
 const CARD_TILTS = [-1.5, 1, -0.8];
 
-export default function HackstarterApp() {
+export default function HackdraftApp() {
   const [lang, setLang] = useState<Lang>("en");
   const [topic, setTopic] = useState(ALL_TOPICS);
   const [time, setTime] = useState(DEFAULT_BUCKET);

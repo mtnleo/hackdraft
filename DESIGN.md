@@ -1,7 +1,7 @@
-# Design System: Hackstarter
+# Design System: HackDraft
 
-> Source of truth for generating the Hackstarter UI in Google Stitch.
-> Hackstarter is a single-screen web tool that gives developers **3 curated
+> Source of truth for generating the HackDraft UI in Google Stitch.
+> HackDraft is a single-screen web tool that gives developers **3 curated
 > hackathon project ideas** filtered by available time and topic. It is a
 > focused utility, **not** a marketing landing page — every rule below serves
 > fast scanning and instant gratification, not scroll-storytelling.

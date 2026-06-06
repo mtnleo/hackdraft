@@ -3,12 +3,12 @@ import LegalShell from "@/components/LegalShell";
 import { H1, H2, P, LangTag } from "@/components/legalUI";
 
 export const metadata: Metadata = {
-  title: "Terms & Disclaimer — Hackstarter",
-  description: "Terms of use and disclaimer for Hackstarter.",
+  title: "Terms & Disclaimer — HackDraft",
+  description: "Terms of use and disclaimer for HackDraft.",
 };
 
 const UPDATED = "June 5, 2026";
-const EMAIL = "hello@hackstarter.dev";
+const EMAIL = "hello@hackdraft.dev";
 
 export default function TermsPage() {
   return (
@@ -20,9 +20,9 @@ export default function TermsPage() {
           <H1>Terms &amp; Disclaimer</H1>
           <P>Last updated: {UPDATED}</P>
 
-          <H2>What Hackstarter is</H2>
+          <H2>What HackDraft is</H2>
           <P>
-            Hackstarter shows curated hackathon project ideas for inspiration.
+            HackDraft shows curated hackathon project ideas for inspiration.
             By using the site you agree to these terms.
           </P>
 
@@ -45,7 +45,7 @@ export default function TermsPage() {
 
           <H2>Limitation of liability</H2>
           <P>
-            To the maximum extent permitted by law, Hackstarter and its author
+            To the maximum extent permitted by law, HackDraft and its author
             are not liable for any damages or losses arising from use of the
             site or the ideas it presents.
           </P>
@@ -58,7 +58,7 @@ export default function TermsPage() {
 
           <H2>No affiliation</H2>
           <P>
-            Hackstarter is not affiliated with any company, startup, or
+            HackDraft is not affiliated with any company, startup, or
             hackathon organizer that may be referenced.
           </P>
         </section>
@@ -71,9 +71,9 @@ export default function TermsPage() {
           <H1>Términos y aviso legal</H1>
           <P>Última actualización: {UPDATED}</P>
 
-          <H2>Qué es Hackstarter</H2>
+          <H2>Qué es HackDraft</H2>
           <P>
-            Hackstarter muestra ideas de proyectos de hackathon seleccionadas
+            HackDraft muestra ideas de proyectos de hackathon seleccionadas
             como inspiración. Al usar el sitio aceptás estos términos.
           </P>
 
@@ -95,7 +95,7 @@ export default function TermsPage() {
 
           <H2>Limitación de responsabilidad</H2>
           <P>
-            En la máxima medida permitida por la ley, Hackstarter y su autor no
+            En la máxima medida permitida por la ley, HackDraft y su autor no
             son responsables por daños o pérdidas derivados del uso del sitio o
             de las ideas que presenta.
           </P>
@@ -108,7 +108,7 @@ export default function TermsPage() {
 
           <H2>Sin afiliación</H2>
           <P>
-            Hackstarter no está afiliado a ninguna empresa, startup ni
+            HackDraft no está afiliado a ninguna empresa, startup ni
             organizador de hackathons que pudiera mencionarse.
           </P>
         </section>

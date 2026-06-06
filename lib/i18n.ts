@@ -38,7 +38,7 @@ export const STRINGS: Record<Lang, Strings> = {
     },
     footerMadeWith: "Made with love by Martin",
     footerDisclaimer: "Ideas compiled from public sources. Contact for takedowns.",
-    contactEmail: "hello@hackstarter.dev",
+    contactEmail: "hello@hackdraft.dev",
     privacy: "Privacy",
     terms: "Terms",
   },
@@ -63,7 +63,7 @@ export const STRINGS: Record<Lang, Strings> = {
     footerMadeWith: "Hecho con amor por Martin",
     footerDisclaimer:
       "Ideas recopiladas de fuentes públicas. Contacto para retiros.",
-    contactEmail: "hello@hackstarter.dev",
+    contactEmail: "hello@hackdraft.dev",
     privacy: "Privacidad",
     terms: "Términos",
   },
