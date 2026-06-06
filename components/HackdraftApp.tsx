@@ -28,6 +28,9 @@ export default function HackdraftApp() {
   // so the re-deal effect below fires only on filter changes — not when `dealt`
   // first flips true (which would double-deal the very first hand).
   const dealtRef = useRef(false);
+  // Timestamp of the last deal triggered by the Shuffle button, used to throttle
+  // rapid re-presses (see handleDeal). Filter-change re-deals are not throttled.
+  const lastDealRef = useRef(0);
 
   // Detect browser language after hydration (avoids SSR/client mismatch).
   useEffect(() => {
@@ -45,6 +48,15 @@ export default function HackdraftApp() {
     dealtRef.current = true;
     setDealKey((k) => k + 1);
   }, []);
+
+  // Shuffle-button handler: throttled so rapid re-presses within 2s are ignored
+  // (no request fired). The button isn't visibly disabled — presses just no-op.
+  const handleDeal = useCallback(() => {
+    const now = Date.now();
+    if (now - lastDealRef.current < 2000) return;
+    lastDealRef.current = now;
+    fetchIdeas(topic, time);
+  }, [fetchIdeas, topic, time]);
 
   // Once cards are showing, changing a filter live-refetches and re-deals.
   // Before the first deal, filters just set parameters (stay on the empty state).
@@ -105,7 +117,7 @@ export default function HackdraftApp() {
             </div>
             <ShuffleButton
               label={dealt ? s.shuffle : s.showMe}
-              onClick={() => fetchIdeas(topic, time)}
+              onClick={handleDeal}
             />
           </div>
 
