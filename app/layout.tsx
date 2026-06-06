@@ -27,15 +27,40 @@ const jetbrainsMono = JetBrains_Mono({
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://hackdraft.com";
 const TITLE = "HackDraft — 3 hackathon ideas in one click";
 const DESCRIPTION =
-  "Pick your available time and a topic, get 3 curated hackathon project ideas. Built for developers.";
+  "Get 3 curated hackathon project ideas matched to your available time and interests. Filter by topic — AI, IoT, Web3, Cybersecurity, and more — and shuffle until something clicks. Free inspiration tool for developers.";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "HackDraft",
+  url: SITE_URL,
+  description: DESCRIPTION,
+  applicationCategory: "DeveloperApplication",
+  operatingSystem: "Web",
+  inLanguage: ["en", "es"],
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  author: { "@type": "Person", name: "Martin Leonardi" },
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: TITLE,
   description: DESCRIPTION,
+  keywords: [
+    "hackathon ideas",
+    "hackathon project ideas",
+    "hackathon inspiration",
+    "side project ideas",
+    "developer tools",
+    "hackathon generator",
+    "coding challenge ideas",
+    "hackathon topics",
+  ],
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     siteName: "HackDraft",
+    locale: "en_US",
     title: TITLE,
     description: DESCRIPTION,
     url: "/",
@@ -66,6 +91,12 @@ export default function RootLayout({
       lang="en"
       className={`${bricolage.variable} ${inter.variable} ${jetbrainsMono.variable} antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-[100dvh] flex flex-col">
         {children}
         <CookieConsent />

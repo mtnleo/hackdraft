@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HackDraft
 
-## Getting Started
+![HackDraft OG](public/og.png)
 
-First, run the development server:
+Get **3 curated hackathon project ideas** in one click. Filter by how much time you have and what you feel like building — shuffle until something clicks, then go ship it.
+
+## What it does
+
+- **3 ideas on demand** — a curated pool of hackathon projects, randomised on every shuffle
+- **Time filter** — 5 slots from 1-3h to 24h+ so ideas match your actual availability
+- **Topic filter** — 10 categories (AI/ML, IoT, Cybersecurity, Games, Web3, and more)
+- **Live filtering** — slider and dropdown update the card set instantly, no page reload
+- **Bilingual** — full EN / ES toggle, including all card content
+- **Single screen** — everything above the fold on desktop, stacked on mobile
+
+## Stack
+
+| Layer | Tech |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript 5 |
+| Styles | Tailwind CSS v4 (CSS-first config) |
+| Fonts | Bricolage Grotesque · Inter · JetBrains Mono |
+| Deployment | Cloudflare Workers (via `wrangler`) |
+
+## Running locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploying
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run deploy
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Targets Cloudflare Workers. Set `NEXT_PUBLIC_SITE_URL` to your domain so OG image URLs resolve correctly.
