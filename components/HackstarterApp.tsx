@@ -57,55 +57,59 @@ export default function HackstarterApp() {
     <>
       <Navbar lang={lang} onLangChange={setLang} />
 
-      <main className="mx-auto flex w-full max-w-[1200px] flex-1 flex-col px-6 pb-6 md:px-8">
-        {/* Hero */}
-        <header className="pt-5 pb-4 text-center md:pt-7">
-          <h1 className="font-display text-4xl font-extrabold tracking-tight text-ink md:text-5xl">
-            Hackstarter
-          </h1>
-          <p className="mx-auto mt-2 max-w-xl font-body text-sm text-slate-muted md:text-base">
-            {s.tagline}
-          </p>
-        </header>
+      <main className="flex w-full flex-1 flex-col">
+        {/* The whole block (hero + controls + results) is centered vertically
+            as one group, so the controls and cards stay together. */}
+        <div className="mx-auto my-auto w-full max-w-[1200px] px-6 py-8 md:px-8">
+          {/* Hero */}
+          <header className="mb-6 text-center">
+            <h1 className="font-display text-4xl font-extrabold tracking-tight text-ink md:text-5xl">
+              Hackstarter
+            </h1>
+            <p className="mx-auto mt-2 max-w-xl font-body text-sm text-slate-muted md:text-base">
+              {s.tagline}
+            </p>
+          </header>
 
-        {/* Controls */}
-        <div className="flex flex-col items-stretch gap-4 md:flex-row md:items-center md:justify-center">
-          <TopicDropdown
-            value={topic}
-            lang={lang}
-            ariaLabel={s.topicAria}
-            onChange={setTopic}
-          />
-          <div className="flex justify-center">
-            <TimePill value={time} ariaLabel={s.timeAria} onChange={setTime} />
-          </div>
-          <ShuffleButton
-            label={dealt ? s.shuffle : s.showMe}
-            onClick={() => fetchIdeas(topic, time)}
-          />
-        </div>
-
-        {/* Results — fills and vertically centers the remaining space */}
-        <div className="flex flex-1 flex-col justify-center pt-6">
-          {dealt && banner && <FallbackBanner message={banner} />}
-          {dealt && result ? (
-            <div
-              key={dealKey}
-              className="grid grid-cols-1 items-start gap-6 md:grid-cols-3"
-            >
-              {result.ideas.map((idea, i) => (
-                <IdeaCard
-                  key={`${dealKey}-${idea.id}`}
-                  idea={idea}
-                  lang={lang}
-                  delay={i * 90}
-                  tilt={CARD_TILTS[i % CARD_TILTS.length]}
-                />
-              ))}
+          {/* Controls */}
+          <div className="flex flex-col items-stretch gap-4 md:flex-row md:items-center md:justify-center">
+            <TopicDropdown
+              value={topic}
+              lang={lang}
+              ariaLabel={s.topicAria}
+              onChange={setTopic}
+            />
+            <div className="flex justify-center">
+              <TimePill value={time} ariaLabel={s.timeAria} onChange={setTime} />
             </div>
-          ) : (
-            <EmptyState prompt={s.emptyPrompt} />
-          )}
+            <ShuffleButton
+              label={dealt ? s.shuffle : s.showMe}
+              onClick={() => fetchIdeas(topic, time)}
+            />
+          </div>
+
+          {/* Results — sits right under the controls */}
+          <div className="mt-8">
+            {dealt && banner && <FallbackBanner message={banner} />}
+            {dealt && result ? (
+              <div
+                key={dealKey}
+                className="grid grid-cols-1 items-start gap-6 md:grid-cols-3"
+              >
+                {result.ideas.map((idea, i) => (
+                  <IdeaCard
+                    key={`${dealKey}-${idea.id}`}
+                    idea={idea}
+                    lang={lang}
+                    delay={i * 90}
+                    tilt={CARD_TILTS[i % CARD_TILTS.length]}
+                  />
+                ))}
+              </div>
+            ) : (
+              <EmptyState prompt={s.emptyPrompt} />
+            )}
+          </div>
         </div>
       </main>
 

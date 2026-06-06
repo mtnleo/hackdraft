@@ -17,7 +17,7 @@ export default function TimePill({ value, ariaLabel, onChange }: Props) {
     <div
       role="group"
       aria-label={ariaLabel}
-      className="relative flex h-13 w-full items-stretch rounded-full border-2 border-ink bg-track p-1 shadow-hard-sm md:w-auto"
+      className="relative flex h-13 w-full items-stretch rounded-full border-2 border-ink bg-track p-1 shadow-hard-sm md:w-[480px]"
     >
       {/* Sliding orange thumb */}
       <div
