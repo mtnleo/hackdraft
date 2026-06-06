@@ -70,15 +70,17 @@ body {
   box-shadow: 7px 7px 0px var(--color-ink);
 }
 
-/* Cards: "pick it up off the table" — lift higher, scale up, deeper shadow */
+/* Cards: rest at a slight tilt (per-card --tilt), then straighten + "pick it
+   up off the table" on hover — lift higher, scale up, deeper shadow. */
 .card-lift {
+  transform: rotate(var(--tilt, 0deg));
   transition:
-    transform 0.22s var(--ease-spring),
-    box-shadow 0.22s var(--ease-spring);
+    transform 0.25s var(--ease-spring),
+    box-shadow 0.25s var(--ease-spring);
   will-change: transform;
 }
 .card-lift:hover {
-  transform: translateY(-6px) scale(1.025);
+  transform: translateY(-6px) scale(1.025) rotate(0deg);
   box-shadow: 9px 9px 0px var(--color-ink);
 }
 
@@ -98,11 +100,11 @@ body {
 @keyframes deal-in {
   from {
     opacity: 0;
-    transform: translateY(18px) rotate(-1deg);
+    transform: translateY(18px) rotate(0deg);
   }
   to {
     opacity: 1;
-    transform: translateY(0) rotate(0deg);
+    transform: translateY(0) rotate(var(--tilt, 0deg));
   }
 }
 .card-deal {
@@ -121,6 +123,6 @@ body {
     transition: none;
   }
   .card-lift:hover {
-    transform: none;
+    transform: rotate(var(--tilt, 0deg));
   }
 }

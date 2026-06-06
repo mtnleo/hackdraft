@@ -12,6 +12,10 @@ import type { IdeaQueryResult, Lang } from "@/lib/types";
 import { ALL_TOPICS, DEFAULT_BUCKET } from "@/lib/topics";
 import { STRINGS, fallbackMessage } from "@/lib/i18n";
 
+// Resting tilt per card position (degrees) — alternating, really slight, so the
+// row looks hand-placed on a table. Cards straighten to 0 on hover.
+const CARD_TILTS = [-1.5, 1, -0.8];
+
 export default function HackstarterApp({
   initial,
 }: {
@@ -84,6 +88,7 @@ export default function HackstarterApp({
               idea={idea}
               lang={lang}
               delay={i * 70}
+              tilt={CARD_TILTS[i % CARD_TILTS.length]}
             />
           ))}
         </div>

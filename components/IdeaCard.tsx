@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { Difficulty, Idea, Lang } from "@/lib/types";
 import { ideaTitle, ideaDescription, STRINGS } from "@/lib/i18n";
 import { tagLabel, uiBucketForDataBucket } from "@/lib/topics";
@@ -14,14 +15,18 @@ interface Props {
   lang: Lang;
   /** Stagger delay (ms) for the deal-in animation. */
   delay: number;
+  /** Resting tilt in degrees (straightens to 0 on hover). */
+  tilt: number;
 }
 
-export default function IdeaCard({ idea, lang, delay }: Props) {
+export default function IdeaCard({ idea, lang, delay, tilt }: Props) {
   const s = STRINGS[lang];
   return (
     <article
       className="card-deal card-lift flex flex-col gap-5 rounded-xl border-2 border-ink bg-card-white p-6 shadow-hard-md md:p-7"
-      style={{ animationDelay: `${delay}ms` }}
+      style={
+        { animationDelay: `${delay}ms`, "--tilt": `${tilt}deg` } as CSSProperties
+      }
     >
       <div className="flex items-start justify-between gap-2">
         <span
