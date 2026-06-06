@@ -87,14 +87,14 @@ export default function HackstarterApp() {
           </header>
 
           {/* Controls */}
-          <div className="flex flex-col items-stretch gap-4 md:flex-row md:items-center md:justify-center">
+          <div className="flex flex-col items-stretch gap-4 md:flex-row md:flex-wrap md:items-center md:justify-center">
             <TopicDropdown
               value={topic}
               lang={lang}
               ariaLabel={s.topicAria}
               onChange={setTopic}
             />
-            <div className="flex justify-center">
+            <div className="flex shrink-0 justify-center">
               <TimePill value={time} ariaLabel={s.timeAria} onChange={setTime} />
             </div>
             <ShuffleButton
