@@ -36,7 +36,7 @@ export const STRINGS: Record<Lang, Strings> = {
       intermediate: "Intermediate",
       advanced: "Advanced",
     },
-    footerMadeWith: "Made with love by Martin",
+    footerMadeWith: "Made with love by",
     footerDisclaimer: "Ideas compiled from public sources. Contact for takedowns.",
     contactEmail: "mtnleonardi@gmail.com",
     privacy: "Privacy",
@@ -60,7 +60,7 @@ export const STRINGS: Record<Lang, Strings> = {
       intermediate: "Intermedio",
       advanced: "Avanzado",
     },
-    footerMadeWith: "Hecho con amor por Martin",
+    footerMadeWith: "Hecho con amor por",
     footerDisclaimer:
       "Ideas recopiladas de fuentes públicas. Contacto para retiros.",
     contactEmail: "mtnleonardi@gmail.com",

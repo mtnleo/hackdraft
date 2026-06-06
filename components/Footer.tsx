@@ -5,6 +5,7 @@ import { STRINGS } from "@/lib/i18n";
 const LINKS = {
   github: "https://github.com/mtnleo",
   linkedin: "https://www.linkedin.com/in/martin-leonardi-/",
+  martin: "https://martinleonardi.dev",
 };
 
 function Dot() {
@@ -16,7 +17,17 @@ export default function Footer({ lang }: { lang: Lang }) {
   return (
     <footer className="w-full shrink-0 border-t-2 border-ink bg-footer">
       <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-center gap-2 px-6 py-5 text-center font-body text-xs text-slate-muted md:flex-row md:gap-4 md:px-8 md:text-sm">
-        <span>{s.footerMadeWith}</span>
+        <span>
+          {s.footerMadeWith}{" "}
+          <a
+            href={LINKS.martin}
+            target="_blank"
+            rel="noreferrer"
+            className="underline decoration-1 underline-offset-4 transition-colors hover:text-ink"
+          >
+            Martin
+          </a>
+        </span>
         <Dot />
         <a
           href={LINKS.github}

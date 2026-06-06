@@ -60,6 +60,23 @@ export function uiBucketForDataBucket(dataBucket: string): string {
   return TIME_BUCKETS.find((b) => b.dataBuckets.includes(dataBucket))?.id ?? dataBucket;
 }
 
+/**
+ * Resolve a `time` query param to a canonical TIME_BUCKETS id.
+ *
+ * The "24h+" bucket id contains a "+", which some runtimes (notably the
+ * Cloudflare Workers / OpenNext URL normalization on the deployed edge)
+ * form-decode to a space — so the param can arrive as "24h " or "24h" instead
+ * of "24h+" even though the client percent-encodes it. Restore it here so the
+ * bucket resolves on the edge, not only in local Node dev.
+ */
+export function normalizeBucketParam(raw: string): string {
+  const v = raw.trim();
+  if (TIME_BUCKETS.some((b) => b.id === v)) return v;
+  const restored = `${v}+`;
+  if (TIME_BUCKETS.some((b) => b.id === restored)) return restored;
+  return v;
+}
+
 export function topicLabel(id: string, lang: Lang): string {
   const opt = TOPIC_OPTIONS.find((t) => t.id === id);
   if (!opt) return id;
