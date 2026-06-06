@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Navbar from "./Navbar";
 import TopicDropdown from "./TopicDropdown";
 import TimePill from "./TimePill";
@@ -24,6 +24,10 @@ export default function HackdraftApp() {
   const [result, setResult] = useState<IdeaQueryResult | null>(null);
   const [dealt, setDealt] = useState(false);
   const [dealKey, setDealKey] = useState(0);
+  // Tracks "have we dealt at least once" without being a reactive dependency,
+  // so the re-deal effect below fires only on filter changes — not when `dealt`
+  // first flips true (which would double-deal the very first hand).
+  const dealtRef = useRef(false);
 
   // Detect browser language after hydration (avoids SSR/client mismatch).
   useEffect(() => {
@@ -38,15 +42,17 @@ export default function HackdraftApp() {
     const data: IdeaQueryResult = await res.json();
     setResult(data);
     setDealt(true);
+    dealtRef.current = true;
     setDealKey((k) => k + 1);
   }, []);
 
   // Once cards are showing, changing a filter live-refetches and re-deals.
   // Before the first deal, filters just set parameters (stay on the empty state).
+  // Guarded by the ref (not `dealt` state) so the first deal isn't doubled.
   useEffect(() => {
-    if (!dealt) return;
+    if (!dealtRef.current) return;
     fetchIdeas(topic, time);
-  }, [topic, time, dealt, fetchIdeas]);
+  }, [topic, time, fetchIdeas]);
 
   const s = STRINGS[lang];
   const banner = result?.fallbackBucket
