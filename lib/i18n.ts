@@ -3,6 +3,7 @@ import { topicLabel } from "./topics";
 
 interface Strings {
   tagline: string;
+  hero: { num: string; headline: string; beats: string[] };
   shuffle: string;
   showMe: string;
   emptyPrompt: string;
@@ -19,6 +20,11 @@ interface Strings {
 export const STRINGS: Record<Lang, Strings> = {
   en: {
     tagline: "3 hackathon ideas. Pick your time, pick your vibe, ship.",
+    hero: {
+      num: "3",
+      headline: "hackathon ideas.",
+      beats: ["Pick your time", "pick your vibe", "ship."],
+    },
     shuffle: "Shuffle 3",
     showMe: "Show me 3",
     emptyPrompt:
@@ -38,6 +44,11 @@ export const STRINGS: Record<Lang, Strings> = {
   },
   es: {
     tagline: "3 ideas para tu hackathon. Elegí tu tiempo, elegí tu onda, a programar.",
+    hero: {
+      num: "3",
+      headline: "ideas para tu hackathon.",
+      beats: ["Elegí tu tiempo", "elegí tu onda", "a programar."],
+    },
     shuffle: "Mezclar 3",
     showMe: "Mostrame 3",
     emptyPrompt:

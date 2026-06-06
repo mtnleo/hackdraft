@@ -27,12 +27,24 @@ export default function CookieConsent() {
   // Start "decided" so nothing flashes during SSR/first paint; resolve on mount.
   const [decided, setDecided] = useState(true);
   const [lang, setLang] = useState<"en" | "es">("en");
+  // Sit the toast above the footer (whose height varies by viewport).
+  const [bottomOffset, setBottomOffset] = useState(16);
 
   useEffect(() => {
     setLang(navigator.language?.toLowerCase().startsWith("es") ? "es" : "en");
     const stored = localStorage.getItem("cookie-consent") as Consent | null;
     setConsent(stored);
     setDecided(stored !== null);
+  }, []);
+
+  useEffect(() => {
+    const measure = () => {
+      const footer = document.querySelector("footer");
+      setBottomOffset((footer?.offsetHeight ?? 0) + 16);
+    };
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
   }, []);
 
   const choose = (c: Consent) => {
@@ -64,7 +76,10 @@ export default function CookieConsent() {
       )}
 
       {!decided && (
-        <div className="fixed inset-x-3 bottom-3 z-50 mx-auto flex max-w-2xl flex-col gap-3 rounded-xl border-2 border-ink bg-card-white p-4 shadow-hard-md md:flex-row md:items-center md:justify-between">
+        <div
+          style={{ bottom: bottomOffset }}
+          className="fixed inset-x-3 z-50 mx-auto flex max-w-2xl flex-col gap-3 rounded-xl border-2 border-ink bg-card-white p-4 shadow-hard-md md:flex-row md:items-center md:justify-between"
+        >
           <p className="font-body text-sm text-ink">
             {t.msg}{" "}
             <a

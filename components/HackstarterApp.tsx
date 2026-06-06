@@ -61,13 +61,28 @@ export default function HackstarterApp() {
         {/* The whole block (hero + controls + results) is centered vertically
             as one group, so the controls and cards stay together. */}
         <div className="mx-auto my-auto w-full max-w-[1200px] px-6 py-8 md:px-8">
-          {/* Hero */}
-          <header className="mb-6 text-center">
-            <h1 className="font-display text-4xl font-extrabold tracking-tight text-ink md:text-5xl">
-              Hackstarter
+          {/* Hero — OG-style headline */}
+          <header className="mb-8 text-center">
+            <h1 className="font-display text-[clamp(2.5rem,7vw,5rem)] leading-[0.95] font-extrabold tracking-tight text-ink">
+              <span className="text-orange">{s.hero.num}</span> {s.hero.headline}
             </h1>
-            <p className="mx-auto mt-2 max-w-xl font-body text-sm text-slate-muted md:text-base">
-              {s.tagline}
+            <p className="mt-3 font-display text-[clamp(1.05rem,3vw,1.9rem)] font-bold tracking-tight text-slate-muted">
+              {s.hero.beats.map((beat, i) => (
+                <span key={beat}>
+                  {i > 0 && (
+                    <span className="mx-2 font-normal text-orange">·</span>
+                  )}
+                  <span
+                    className={
+                      i === s.hero.beats.length - 1
+                        ? "font-extrabold text-ink"
+                        : undefined
+                    }
+                  >
+                    {beat}
+                  </span>
+                </span>
+              ))}
             </p>
           </header>
 
