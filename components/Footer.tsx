@@ -2,8 +2,8 @@ import type { Lang } from "@/lib/types";
 import { STRINGS } from "@/lib/i18n";
 
 const LINKS = {
-  github: "https://github.com/martinleonardi",
-  linkedin: "https://www.linkedin.com/in/martinleonardi",
+  github: "https://github.com/mtnleo",
+  linkedin: "https://www.linkedin.com/in/martin-leonardi-/",
 };
 
 function Dot() {

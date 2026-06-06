@@ -88,8 +88,8 @@ export default function HackstarterApp() {
             />
           </div>
 
-          {/* Results — sits right under the controls */}
-          <div className="mt-8">
+          {/* Results — sits under the controls */}
+          <div className="mt-12 md:mt-14">
             {dealt && banner && <FallbackBanner message={banner} />}
             {dealt && result ? (
               <div
