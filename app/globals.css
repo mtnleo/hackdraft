@@ -100,17 +100,17 @@ body {
 @keyframes deal-in {
   from {
     opacity: 0;
-    transform: translateY(18px) rotate(0deg);
+    transform: translateY(56px) scale(0.97) rotate(0deg);
   }
   to {
     opacity: 1;
-    transform: translateY(0) rotate(var(--tilt, 0deg));
+    transform: translateY(0) scale(1) rotate(var(--tilt, 0deg));
   }
 }
 .card-deal {
   /* `backwards` keeps the staggered reveal but releases the transform when done,
      so the hover lift works afterwards. */
-  animation: deal-in 0.45s var(--ease-spring) backwards;
+  animation: deal-in 0.5s var(--ease-spring) backwards;
 }
 
 @media (prefers-reduced-motion: reduce) {

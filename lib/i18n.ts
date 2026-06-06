@@ -4,6 +4,8 @@ import { topicLabel } from "./topics";
 interface Strings {
   tagline: string;
   shuffle: string;
+  showMe: string;
+  emptyPrompt: string;
   topicAria: string;
   timeAria: string;
   difficulty: Record<Difficulty, string>;
@@ -16,6 +18,9 @@ export const STRINGS: Record<Lang, Strings> = {
   en: {
     tagline: "3 hackathon ideas. Pick your time, pick your vibe, ship.",
     shuffle: "Shuffle 3",
+    showMe: "Show me 3",
+    emptyPrompt:
+      "Set your time and topic above, then hit Show me 3 to deal your first hand of ideas.",
     topicAria: "Filter by topic",
     timeAria: "Filter by available time",
     difficulty: {
@@ -30,6 +35,9 @@ export const STRINGS: Record<Lang, Strings> = {
   es: {
     tagline: "3 ideas para tu hackathon. Elegí tu tiempo, elegí tu onda, a programar.",
     shuffle: "Mezclar 3",
+    showMe: "Mostrame 3",
+    emptyPrompt:
+      "Elegí tu tiempo y tema arriba, y tocá Mostrame 3 para repartir tu primera mano de ideas.",
     topicAria: "Filtrar por tema",
     timeAria: "Filtrar por tiempo disponible",
     difficulty: {

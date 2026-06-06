@@ -2,22 +2,16 @@ import type { Lang } from "@/lib/types";
 
 interface Props {
   lang: Lang;
-  tagline: string;
   onLangChange: (lang: Lang) => void;
 }
 
-export default function Navbar({ lang, tagline, onLangChange }: Props) {
+export default function Navbar({ lang, onLangChange }: Props) {
   return (
     <nav className="w-full shrink-0 border-b-2 border-ink bg-card-white">
       <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-6 py-4 md:px-8">
-        <div className="flex flex-col">
-          <div className="font-display text-3xl leading-none font-extrabold tracking-tight">
-            <span className="text-ink">Hack</span>
-            <span className="text-cobalt">starter</span>
-          </div>
-          <p className="mt-1 hidden font-body text-xs text-slate-muted sm:block">
-            {tagline}
-          </p>
+        <div className="font-display text-2xl leading-none font-extrabold tracking-tight md:text-3xl">
+          <span className="text-ink">Hack</span>
+          <span className="text-cobalt">starter</span>
         </div>
 
         <div
