@@ -6,7 +6,7 @@
 ---------------------------------------------------------------------------- */
 @theme {
   /* Neutrals */
-  --color-canvas-paper: #fbf7ef; /* warm off-white page background */
+  --color-canvas-paper: #fbf1e8; /* warm peach-wash page background */
   --color-card-white: #ffffff; /* card / surface fill */
   --color-ink: #1a1a1a; /* text, all borders, all hard shadows */
   --color-slate-muted: #5c5a54; /* secondary text, metadata */
@@ -16,9 +16,9 @@
   --color-orange: #ff6a2b; /* energy: shuffle, slider thumb, highlights */
 
   /* Surfaces */
-  --color-track: #e8e7f3; /* tinted pill-slider track */
-  --color-footer: #eeecf9; /* footer band */
-  --color-banner: #f1effc; /* fallback banner fill */
+  --color-track: #f1e2d1; /* warm sand pill-slider track */
+  --color-footer: #f4e7d8; /* warm footer band */
+  --color-banner: #f8eee0; /* warm fallback banner fill */
 
   /* Difficulty scale (flat blocks only) */
   --color-diff-beginner: #2ead6b;
