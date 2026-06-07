@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Blind Maze Where One Player Sees and the Other Walks",
+    "name_es": "Laberinto a ciegas donde uno ve y el otro camina",
+    "long_description": "An asymmetric co-op puzzle: one player sees the full maze on their screen but can't move, while the other walks blind through a dark first-person view and must follow spoken directions. Traps reset the run, so trust and clear talking are everything. Join over a shared link with no install for a tense, funny two-player demo.",
+    "long_description_es": "Un rompecabezas cooperativo asimétrico: un jugador ve el laberinto completo en su pantalla pero no puede moverse, mientras el otro avanza a ciegas en una vista en primera persona oscura y debe seguir indicaciones habladas. Las trampas reinician la partida, así que la confianza y hablar claro lo son todo. Únanse por un enlace compartido sin instalar nada.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "multiplayer",
+      "party-games"
+    ]
+  },
+  {
+    "name": "Tarot Roguelite Where Each Card You Draw Rewrites the Run",
+    "name_es": "Roguelite de tarot donde cada carta reescribe la partida",
+    "long_description": "A roguelite dungeon where your only resource is a tarot deck: drawing The Tower collapses a wall, The Sun heals but blinds enemies, Death swaps your health with a foe's. Every floor is procedurally laid out so the same draw plays differently each time. The hook is reading risky cards under pressure, with a satisfying loop for an overnight build.",
+    "long_description_es": "Un roguelite de mazmorra donde tu único recurso es una baraja de tarot: sacar La Torre derrumba un muro, El Sol cura pero ciega enemigos, La Muerte intercambia tu vida con la de un rival. Cada piso se genera de forma procedural, así que la misma carta se juega distinto cada vez. El gancho es leer cartas arriesgadas bajo presión, con un bucle satisfactorio para una noche.",
+    "topic": "games-fun",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "procedural",
+      "retro"
+    ]
+  },
+  {
+    "name": "Co-op Cooking Game Where the Recipe Is in Another Language",
+    "name_es": "Juego de cocina cooperativo con la receta en otro idioma",
+    "long_description": "A frantic kitchen game for two: one player holds the recipe written in a language they can't read, the other knows the language but can't see the stove. They must translate and shout steps before dishes burn. Orders escalate and the chaos compounds, making the forced cross-talk the whole joke in a quick party-night build.",
+    "long_description_es": "Un juego de cocina frenético para dos: un jugador tiene la receta escrita en un idioma que no entiende, el otro conoce el idioma pero no ve la cocina. Deben traducir y gritar los pasos antes de que los platos se quemen. Los pedidos escalan y el caos se acumula, haciendo de la conversación cruzada forzada el chiste central en una creación rápida para una noche de fiesta.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "multiplayer",
+      "party-games"
+    ]
+  },
+  {
+    "name": "Whisper-Controlled Stealth Game You Play with Your Voice",
+    "name_es": "Juego de sigilo controlado por susurros con tu voz",
+    "long_description": "A stealth game where loudness is movement: whisper to tiptoe, speak to walk, and a shout sends your character sprinting but wakes every guard. The mic meter is the controller, so playing it in a quiet room is its own comedy. A single sharp mechanic that demos beautifully in a short sprint.",
+    "long_description_es": "Un juego de sigilo donde el volumen es movimiento: susurra para ir de puntillas, habla para caminar y un grito hace correr a tu personaje pero despierta a todos los guardias. El medidor del micrófono es el control, así que jugarlo en una sala silenciosa es comedia en sí mismo. Un mecanismo único y filoso que se demuestra de maravilla en un sprint corto.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "music-game",
+      "physics"
+    ]
+  },
+  {
+    "name": "AI Detective Game Where Suspects Lie and You Cross-Examine",
+    "name_es": "Juego de detective con IA donde los sospechosos mienten",
+    "long_description": "A murder-mystery where every suspect is an AI character with a hidden alibi, a secret, and a tell. You interrogate them freely by typing questions, and catching contradictions between their stories unlocks the accusation. Each playthrough seeds a new culprit and motive, so the deductions never repeat across a longer build.",
+    "long_description_es": "Un misterio de asesinato donde cada sospechoso es un personaje con IA con una coartada oculta, un secreto y un gesto delator. Los interrogas libremente escribiendo preguntas, y atrapar contradicciones entre sus relatos desbloquea la acusación. Cada partida siembra un nuevo culpable y motivo, así que las deducciones nunca se repiten en una creación más larga.",
+    "topic": "games-fun",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "ai-npc",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Rhythm Boxing Where Punches Must Land on the Beat",
+    "name_es": "Boxeo rítmico donde los golpes caen en el ritmo",
+    "long_description": "A webcam boxing game scored on timing: jabs and hooks only count when thrown on the beat of the track, and stringing combos in sync charges a flashy finisher. It reads your arm motion through the camera, turning any song into a workout fight. A tight, sweaty single-screen demo that gets a room cheering.",
+    "long_description_es": "Un juego de boxeo por webcam puntuado por el tiempo: los jabs y ganchos solo cuentan cuando se lanzan al ritmo de la pista, y encadenar combos sincronizados carga un remate vistoso. Lee el movimiento de tus brazos por la cámara, convirtiendo cualquier canción en una pelea de ejercicio. Una demo de una pantalla, intensa y sudorosa, que hace gritar a la sala.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "music-game",
+      "physics"
+    ]
+  },
+  {
+    "name": "Procedural City Builder Where Citizens Riot If You Ignore Them",
+    "name_es": "Constructor de ciudad procedural donde la gente se rebela",
+    "long_description": "A tiny city builder where each procedurally placed citizen has needs and a temper: neglect water or joy and they organize, protest, and eventually flip a district into chaos. You balance growth against keeping crowds happy, watching unrest spread block by block. A meaty systems toy with real emergent drama for a weekend build.",
+    "long_description_es": "Un pequeño constructor de ciudades donde cada ciudadano colocado de forma procedural tiene necesidades y carácter: descuida el agua o la alegría y se organizan, protestan y al final vuelcan un distrito al caos. Equilibras el crecimiento con mantener contenta a la multitud, viendo el descontento expandirse cuadra por cuadra. Un juguete de sistemas con drama emergente real para un fin de semana.",
+    "topic": "games-fun",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "procedural",
+      "ai-npc"
+    ]
+  },
+  {
+    "name": "Air-Drum Battle Where Two Phones Become Your Drumsticks",
+    "name_es": "Batalla de batería al aire con dos teléfonos de baquetas",
+    "long_description": "A rhythm game played by swinging two phones like drumsticks: their motion sensors detect each hit and direction, mapping the air in front of you to a kit. Notes scroll down and you smack invisible drums in time. Calibration takes a minute and then it's pure flailing fun, perfect for a short, physical demo.",
+    "long_description_es": "Un juego de ritmo que se juega agitando dos teléfonos como baquetas: sus sensores de movimiento detectan cada golpe y dirección, mapeando el aire frente a ti como una batería. Las notas bajan y golpeas tambores invisibles a tiempo. La calibración toma un minuto y luego es pura diversión a manotazos, ideal para una demo corta y física.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "music-game",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Retro Text Adventure That Renders Each Room as Pixel Art",
+    "name_es": "Aventura de texto retro que dibuja cada sala en pixel art",
+    "long_description": "A throwback parser adventure with a twist: as you type commands, it generates a chunky pixel-art scene of the room you're in, so reading and seeing happen together. Items you pick up vanish from the picture; doors you open appear. A cozy, nostalgic single-player build that pairs old-school typing with instant visuals.",
+    "long_description_es": "Una aventura de parser a la vieja usanza con un giro: mientras escribes comandos, genera una escena de pixel art tosca de la sala en la que estás, así que leer y ver ocurren juntos. Los objetos que tomas desaparecen de la imagen; las puertas que abres aparecen. Una creación individual acogedora y nostálgica que une la escritura clásica con visuales instantáneos.",
+    "topic": "games-fun",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "retro",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Tug-of-War Quiz Where Right Answers Drag a Rope on Screen",
+    "name_es": "Quiz de cinchada donde acertar arrastra una soga en pantalla",
+    "long_description": "A two-team party quiz visualized as a rope: every correct answer yanks the marker toward your side, every wrong one gives ground. Teams buzz in from their phones and the on-screen rope lurches dramatically with each round. A loud, simple crowd game whose whole charm is the visible momentum swing in a quick build.",
+    "long_description_es": "Un quiz de fiesta entre dos equipos visualizado como una soga: cada respuesta correcta tira del marcador hacia tu lado, cada error cede terreno. Los equipos responden desde sus teléfonos y la soga en pantalla da tirones dramáticos en cada ronda. Un juego de multitud ruidoso y simple cuyo encanto es el cambio de impulso visible en una creación rápida.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "party-games",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Gravity-Flip Runner Where the Floor and Ceiling Keep Swapping",
+    "name_es": "Corredor de gravedad invertida donde piso y techo se cambian",
+    "long_description": "A one-button endless runner built on physics: tap to flip gravity and your character falls up, dodging spikes that come from both directions. Procedurally generated stretches ramp the speed and force split-second flips. A clean, addictive arcade hook that's beginner-friendly to build in a half-day yet endlessly replayable.",
+    "long_description_es": "Un corredor infinito de un botón basado en física: toca para invertir la gravedad y tu personaje cae hacia arriba, esquivando púas que vienen de ambos lados. Tramos generados de forma procedural aumentan la velocidad y obligan a inversiones en una fracción de segundo. Un gancho arcade limpio y adictivo, fácil de construir en media jornada pero infinitamente rejugable.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "physics",
+      "procedural"
+    ]
+  },
+  {
+    "name": "AR Tabletop Battler That Turns Your Desk Into a Battlefield",
+    "name_es": "Batallador AR que convierte tu escritorio en un campo de batalla",
+    "long_description": "Point your phone at any desk and a miniature army appears anchored to the surface, with cover and high ground mapped from real objects like mugs and books. You move troops by tapping and they take cover behind whatever is actually on your table. A striking AR demo where the room itself becomes the level.",
+    "long_description_es": "Apunta tu teléfono a cualquier escritorio y aparece un ejército en miniatura anclado a la superficie, con cobertura y terreno alto mapeados desde objetos reales como tazas y libros. Mueves tropas tocando y se cubren detrás de lo que de verdad está en tu mesa. Una demo AR impactante donde la habitación misma se vuelve el nivel.",
+    "topic": "games-fun",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "ar-vr",
+      "physics"
+    ]
+  },
+  {
+    "name": "Party Game Where Everyone Secretly Mimics a Hidden Emotion",
+    "name_es": "Juego de fiesta donde todos imitan en secreto una emoción",
+    "long_description": "Each phone gets a secret emotion to act out while the group films a short shared scene together; afterward everyone guesses who had which feeling. It scores hilarity by how badly people overact and how wrong the guesses are. A camera-driven social game that thrives on a crowded room in a quick build.",
+    "long_description_es": "Cada teléfono recibe una emoción secreta para actuar mientras el grupo filma juntos una escena corta compartida; después todos adivinan quién tenía cuál sentimiento. Puntúa la comicidad según lo mal que la gente sobreactúa y lo equivocados que están los aciertos. Un juego social guiado por cámara que florece en una sala llena, en una creación rápida.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "party-games",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Procedural Planet Survival Where Each World Has New Physics",
+    "name_es": "Supervivencia en planeta procedural con física distinta",
+    "long_description": "A survival sandbox where every generated planet rolls its own physics: low gravity makes jumps float, dense atmospheres slow your fall, magnetic worlds yank metal tools away. You adapt your strategy to laws you discover by dying. The deep hook is mastering rules that change each world, ideal for a longer, ambitious build.",
+    "long_description_es": "Un sandbox de supervivencia donde cada planeta generado sortea su propia física: la baja gravedad hace flotar los saltos, las atmósferas densas frenan tu caída, los mundos magnéticos arrancan las herramientas de metal. Adaptas tu estrategia a leyes que descubres muriendo. El gancho profundo es dominar reglas que cambian en cada mundo, ideal para una creación larga y ambiciosa.",
+    "topic": "games-fun",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "procedural",
+      "physics"
+    ]
+  },
+  {
+    "name": "VR Cooking School Where an AI Chef Critiques Your Knife Work",
+    "name_es": "Escuela de cocina VR donde un chef IA critica tu corte",
+    "long_description": "A VR kitchen where you chop, flip, and plate with hand tracking while an AI chef character watches and reacts in real time, praising clean cuts and scolding sloppy ones. Recipes branch based on how well you perform earlier steps. A polished, replayable experience with personality that justifies a full multi-day build.",
+    "long_description_es": "Una cocina VR donde cortas, volteas y emplatas con seguimiento de manos mientras un chef con IA observa y reacciona en tiempo real, elogiando cortes limpios y regañando los descuidados. Las recetas se ramifican según lo bien que hiciste los pasos anteriores. Una experiencia pulida y rejugable con personalidad que justifica una creación de varios días.",
+    "topic": "games-fun",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "ar-vr",
+      "ai-npc"
+    ]
+  },
+  {
+    "name": "Color-Matching Brawler Where Hits Only Work on Same-Hue Foes",
+    "name_es": "Peleador de colores donde solo dañas enemigos del mismo tono",
+    "long_description": "A fast arena brawler with a puzzle layer: you can only damage enemies whose color matches yours, and you swap your hue on a cooldown. Crowds force quick re-coloring as waves mix shades. The single mechanic creates a constant juggling tension that's sharp to demo and quick to prototype in a few hours.",
+    "long_description_es": "Un peleador de arena veloz con capa de rompecabezas: solo puedes dañar enemigos cuyo color coincida con el tuyo, y cambias tu tono con un tiempo de recarga. Las multitudes obligan a recolorear rápido cuando las oleadas mezclan matices. El mecanismo único crea una tensión de malabares constante, filosa para demostrar y rápida de prototipar en pocas horas.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "physics",
+      "retro"
+    ]
+  },
+  {
+    "name": "Co-op Spaceship Where Each Player Mans One Broken Station",
+    "name_es": "Nave cooperativa donde cada jugador opera una estación rota",
+    "long_description": "A frantic bridge simulator for a small crew: one steers, one fires, one patches hull breaches, and consoles randomly short out so roles must be covered on the fly. Asteroid runs are procedurally generated to keep crises fresh. The hook is the shouted coordination of a crew barely holding it together, great for an overnight build.",
+    "long_description_es": "Un simulador de puente frenético para una tripulación pequeña: uno pilota, uno dispara, uno repara brechas del casco, y las consolas se cortan al azar, así que los roles deben cubrirse sobre la marcha. Los tramos de asteroides se generan de forma procedural para mantener frescas las crisis. El gancho es la coordinación a gritos de una tripulación que apenas aguanta, ideal para una noche.",
+    "topic": "games-fun",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "multiplayer",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Shadow Puppet Theater Where Your Hands Cast the Characters",
+    "name_es": "Teatro de sombras donde tus manos crean los personajes",
+    "long_description": "A webcam game that turns your hand shadows into puppet characters on a lit stage: make a bird, a dog, a snake, and the game recognizes the shape and animates it into a tiny story it narrates around your gestures. A charming, gesture-driven creative toy that demos instantly and feels magical in a short sprint.",
+    "long_description_es": "Un juego por webcam que convierte las sombras de tus manos en personajes de títeres sobre un escenario iluminado: haz un pájaro, un perro, una serpiente, y el juego reconoce la forma y la anima en una pequeña historia que narra en torno a tus gestos. Un juguete creativo encantador guiado por gestos que se demuestra al instante y se siente mágico en un sprint corto.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "ai-npc",
+      "party-games"
+    ]
+  },
+  {
+    "name": "Deck-Builder Where Cards Are Generated From Words You Type",
+    "name_es": "Constructor de mazos con cartas creadas de palabras que escribes",
+    "long_description": "A card battler where you forge cards by typing any noun: type 'volcano' and get a high-damage fire card, type 'umbrella' and get a defensive shield. An AI assigns stats and art, so each player's deck is wildly personal. The hook is the joke-and-strategy of naming your way to a winning hand in a longer build.",
+    "long_description_es": "Un juego de cartas donde forjas cartas escribiendo cualquier sustantivo: escribe 'volcán' y obtén una carta de fuego de alto daño, escribe 'paraguas' y obtén un escudo defensivo. Una IA asigna estadísticas y arte, así que el mazo de cada jugador es muy personal. El gancho es el chiste y la estrategia de nombrar tu camino a una mano ganadora en una creación larga.",
+    "topic": "games-fun",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "ai-npc",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Beat-Synced Platformer Where Platforms Appear on the Drop",
+    "name_es": "Plataformas al ritmo donde aparecen en el bajón musical",
+    "long_description": "A platformer fused to music: platforms, hazards, and gaps pulse in and out exactly on the song's beat, so you must jump in rhythm or fall through where a platform just vanished. Drop in any track and the level rebuilds to its tempo. A tight audiovisual hook that's satisfying to nail in a half-day prototype.",
+    "long_description_es": "Un plataformas fusionado con la música: las plataformas, los peligros y los huecos aparecen y desaparecen justo al ritmo de la canción, así que debes saltar a tempo o caer por donde una plataforma acaba de esfumarse. Suelta cualquier pista y el nivel se reconstruye a su tempo. Un gancho audiovisual ajustado, satisfactorio de clavar en un prototipo de media jornada.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "music-game",
+      "physics"
+    ]
+  },
+  {
+    "name": "Telephone Dungeon Where Each Friend Adds One Room Live",
+    "name_es": "Mazmorra teléfono donde cada amigo agrega una sala en vivo",
+    "long_description": "A collaborative dungeon-drawing party game: players take turns adding one room, monster, or trap to a shared map without seeing the whole thing, then everyone watches a hero auto-walk through the absurd result. The comedy is the mismatched contributions colliding. A quick, social build that turns group chaos into a playable crawl.",
+    "long_description_es": "Un juego de fiesta de dibujo colaborativo de mazmorras: los jugadores se turnan para agregar una sala, un monstruo o una trampa a un mapa compartido sin ver el conjunto, y luego todos miran a un héroe recorrer en automático el resultado absurdo. La comedia es la colisión de aportes desparejos. Una creación rápida y social que vuelve el caos grupal en un recorrido jugable.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "party-games",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Retro Racer Where the Track Is Drawn by the Previous Lap",
+    "name_es": "Carrera retro donde la pista la dibuja la vuelta anterior",
+    "long_description": "A top-down arcade racer with a twist: there's no fixed track, your driving line on lap one becomes the wall everyone races inside on lap two. Sloppy first laps make brutal, twisty courses for later ones. A clever single-mechanic build with chunky retro visuals that's fun solo and even better in a hotseat duel.",
+    "long_description_es": "Una carrera arcade cenital con un giro: no hay pista fija, tu trazada en la primera vuelta se vuelve el muro dentro del cual todos corren en la segunda. Las primeras vueltas descuidadas hacen circuitos brutales y retorcidos para las siguientes. Una creación ingeniosa de un solo mecanismo con visuales retro toscos, divertida en solitario y aún mejor en un duelo por turnos.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "retro",
+      "physics"
+    ]
+  },
+  {
+    "name": "Negotiation Game Where AI Merchants Remember Your Reputation",
+    "name_es": "Juego de regateo donde mercaderes IA recuerdan tu fama",
+    "long_description": "A trading game built on AI merchants who haggle in natural language and gossip: cheat one and word spreads, raising prices across the market. You bluff, build trust, and exploit rivalries to corner deals. The hook is a living economy that reacts to your reputation, rich enough for a multi-day build with real replay value.",
+    "long_description_es": "Un juego de comercio basado en mercaderes con IA que regatean en lenguaje natural y chismean: engaña a uno y corre la voz, subiendo precios por todo el mercado. Faroleas, generas confianza y explotas rivalidades para cerrar tratos. El gancho es una economía viva que reacciona a tu reputación, lo bastante rica para una creación de varios días con verdadero valor de rejugada.",
+    "topic": "games-fun",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "ai-npc",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Pong Reinvented Where the Paddle Is Your Phone's Tilt",
+    "name_es": "Pong reinventado donde la paleta es la inclinación del móvil",
+    "long_description": "A two-player Pong revival where each phone is a paddle controlled by tilting it, and both connect to one shared big screen over a link. The ball speeds up with every volley and the tilting gets frantic. A nostalgic, beginner-friendly build that nails instant fun with zero setup beyond scanning a code.",
+    "long_description_es": "Un renacer de Pong para dos donde cada teléfono es una paleta controlada inclinándolo, y ambos se conectan a una pantalla grande compartida por un enlace. La pelota se acelera con cada volea y la inclinación se vuelve frenética. Una creación nostálgica y apta para principiantes que logra diversión instantánea sin más preparación que escanear un código.",
+    "topic": "games-fun",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "retro",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Idle Volcano You Calm by Solving Tiny Physics Puzzles",
+    "name_es": "Volcán inactivo que calmas resolviendo mini puzzles de física",
+    "long_description": "An idle game with a physics core: a volcano slowly builds pressure, and you vent it by solving quick marble-and-lever puzzles that redirect lava into safe channels. Leave it alone and it erupts, so you check back to defuse it. A satisfying low-pressure loop with a clever puzzle hook, buildable in a single short session.",
+    "long_description_es": "Un juego idle con núcleo de física: un volcán acumula presión lentamente, y la liberas resolviendo puzzles rápidos de canicas y palancas que redirigen la lava a canales seguros. Déjalo solo y entra en erupción, así que vuelves a revisarlo para desactivarlo. Un bucle satisfactorio de baja presión con un gancho de puzzle ingenioso, construible en una sola sesión corta.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "physics",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Improv Stage Where an AI Audience Heckles Your Performance",
+    "name_es": "Escenario de improvisación con público IA que te abuchea",
+    "long_description": "A solo comedy game: you type or speak improv responses to absurd scene prompts, and an AI audience reacts live with laughs, groans, or heckles that shape your score. Land a good bit and the room roars; bomb and they walk out. The hook is performing for a crowd that genuinely judges you, fun in a focused build.",
+    "long_description_es": "Un juego de comedia en solitario: escribes o dices respuestas de improvisación a indicaciones de escenas absurdas, y un público con IA reacciona en vivo con risas, quejas o abucheos que moldean tu puntaje. Clava un buen chiste y la sala ruge; fracasa y se van. El gancho es actuar para un público que de verdad te juzga, divertido en una creación enfocada.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "ai-npc",
+      "party-games"
+    ]
+  },
+  {
+    "name": "Constellation Puzzle Where You Connect Stars to Match a Myth",
+    "name_es": "Puzzle de constelaciones donde unes estrellas según un mito",
+    "long_description": "A calm puzzle game on a procedurally scattered night sky: you connect stars to recreate a creature, and as you trace it the game tells a short myth tied to the shape. Each board generates a new sky and legend. A serene, beginner-friendly build with a gentle hook and a quietly beautiful demo moment.",
+    "long_description_es": "Un juego de puzzle tranquilo sobre un cielo nocturno disperso de forma procedural: conectas estrellas para recrear una criatura, y mientras la trazas el juego cuenta un mito breve ligado a la forma. Cada tablero genera un cielo y una leyenda nuevos. Una creación serena y apta para principiantes con un gancho suave y un momento de demo silenciosamente bello.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "procedural",
+      "ai-npc"
+    ]
+  },
+  {
+    "name": "Hide-and-Seek Where Hiders Are Props Scattered in the Room",
+    "name_es": "Escondidas donde quienes se ocultan son objetos de la sala",
+    "long_description": "A prop-hunt party game over a shared link: hiders morph into everyday objects on a 3D map and freeze among the real furniture, while a seeker hunts the one mug that's secretly a player. Tiny tells like a wiggle give hiders away. A tense, giggly multiplayer build whose whole joy is the held-breath bluff.",
+    "long_description_es": "Un juego de fiesta de caza de objetos por un enlace compartido: quienes se ocultan se transforman en objetos cotidianos en un mapa 3D y se congelan entre el mobiliario real, mientras un buscador caza la única taza que en secreto es un jugador. Pequeños gestos como un meneo los delatan. Una creación multijugador tensa y risueña cuya alegría es el farol con la respiración contenida.",
+    "topic": "games-fun",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "multiplayer",
+      "party-games"
+    ]
+  },
+  {
+    "name": "VR Archery Range That Spawns Targets From a Story It Tells",
+    "name_es": "Tiro con arco VR que genera blancos según la historia que narra",
+    "long_description": "A VR archery experience where an AI narrator weaves a tale and spawns targets to match it: dragons swoop, lanterns drift, bandits charge, all conjured by the unfolding story so no two sessions aim the same. Hand-tracked draw-and-loose makes it physical. A polished, immersive build with strong demo wow over multiple days.",
+    "long_description_es": "Una experiencia de tiro con arco VR donde un narrador con IA teje un relato y genera blancos que lo acompañan: dragones que se lanzan, faroles que flotan, bandidos que cargan, todo conjurado por la historia que se despliega, así que ninguna sesión apunta igual. El tensar y soltar con seguimiento de manos lo vuelve físico. Una creación pulida e inmersiva con gran impacto en demo a lo largo de varios días.",
+    "topic": "games-fun",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "ar-vr",
+      "ai-npc"
+    ]
+  },
+  {
+    "name": "Word Ladder Race Where Each Step Must Rhyme With the Last",
+    "name_es": "Carrera de escalera de palabras donde cada paso debe rimar",
+    "long_description": "A fast word game for a group: a starting word appears and players race to type a chain where every new word rhymes with the previous one, scoring on speed and cleverness. Repeats and non-rhymes break your streak. A snappy, low-tech party build that gets a room shouting answers, ideal for a tiny sprint.",
+    "long_description_es": "Un juego de palabras veloz para un grupo: aparece una palabra inicial y los jugadores compiten por escribir una cadena donde cada palabra nueva rima con la anterior, puntuando por velocidad e ingenio. Las repeticiones y las no-rimas cortan tu racha. Una creación de fiesta ágil y de baja tecnología que hace gritar respuestas a la sala, ideal para un sprint mínimo.",
+    "topic": "games-fun",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "party-games",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Bridge Builder Where Your Structure Carries Live Foot Traffic",
+    "name_es": "Constructor de puentes que soporta tráfico peatonal en vivo",
+    "long_description": "A physics building puzzle: you assemble a bridge from beams and cables on a budget, then a parade of tiny pedestrians and carts walks across while joints flex and groan under real load. Watching it sag, hold, or spectacularly collapse is the payoff. A satisfying, demoable engineering toy buildable in a focused day.",
+    "long_description_es": "Un puzzle de construcción con física: ensamblas un puente con vigas y cables dentro de un presupuesto, y luego un desfile de peatones y carros diminutos lo cruza mientras las juntas se flexionan y crujen bajo carga real. Verlo ceder, aguantar o colapsar espectacularmente es la recompensa. Un juguete de ingeniería satisfactorio y demostrable, construible en una jornada enfocada.",
+    "topic": "games-fun",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "physics",
+      "procedural"
+    ]
+  },
+  {
+    "name": "Karaoke Duet Where Two Singers Must Harmonize to Score",
+    "name_es": "Karaoke a dúo donde dos cantantes deben armonizar para puntuar",
+    "long_description": "A two-mic karaoke game that rewards harmony, not just pitch: both singers get different vocal lines and the score only climbs when their notes lock into a real chord together. Solo wandering tanks the bar. The hook is being forced to actually listen to each other, a joyful, loud build for a short jam.",
+    "long_description_es": "Un juego de karaoke a dos micrófonos que premia la armonía, no solo la afinación: ambos cantantes reciben líneas vocales distintas y el puntaje solo sube cuando sus notas encajan en un acorde real juntos. Andar solo por libre hunde la barra. El gancho es verse obligado a escucharse de verdad, una creación alegre y ruidosa para una jam corta.",
+    "topic": "games-fun",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "music-game",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Minimalist Falling-Block Game Where Lines Clear to a Beat",
+    "name_es": "Juego minimalista de bloques donde las líneas se borran al ritmo",
+    "long_description": "A retro falling-block puzzle fused with rhythm: cleared lines only resolve on the downbeat, so timing your placements to the music multiplies your score and triggers cascading visual pulses. Drop in any track to set the tempo. A clean, single-screen build that marries an old classic with a fresh rhythmic twist in a few hours.",
+    "long_description_es": "Un puzzle retro de bloques que caen fusionado con ritmo: las líneas completadas solo se resuelven en el tiempo fuerte, así que sincronizar tus piezas con la música multiplica tu puntaje y dispara pulsos visuales en cascada. Suelta cualquier pista para fijar el tempo. Una creación limpia de una pantalla que casa un clásico viejo con un giro rítmico fresco en pocas horas.",
+    "topic": "games-fun",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "retro",
+      "music-game"
+    ]
+  },
+  {
+    "name": "Survival Island Where an AI Castaway Argues About Your Plans",
+    "name_es": "Isla de supervivencia donde un náufrago IA discute tus planes",
+    "long_description": "A survival game with a companion twist: you're stranded with an AI castaway who has opinions, fears, and a survival theory of their own, and they'll help, sulk, or sabotage based on how you treat them. Resources and weather are procedurally seeded each run. The hook is managing a moody partner, deep enough for a long build.",
+    "long_description_es": "Un juego de supervivencia con giro de compañero: estás varado con un náufrago de IA que tiene opiniones, miedos y su propia teoría de supervivencia, y te ayudará, se enfurruñará o saboteará según cómo lo trates. Los recursos y el clima se siembran de forma procedural en cada partida. El gancho es manejar a un socio temperamental, profundo para una creación larga.",
+    "topic": "games-fun",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "ai-npc",
+      "procedural"
+    ]
+  }
+]

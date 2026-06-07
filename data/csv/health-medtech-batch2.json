@@ -1,0 +1,550 @@
+[
+  {
+    "name": "Speech-Pacing Coach for People Who Stutter",
+    "name_es": "Entrenador de ritmo del habla para personas que tartamudean",
+    "long_description": "A practice tool that listens while you read aloud and gently paces your speech with a visual metronome that slows down when it detects blocks or rushed syllables. It tracks fluent stretches over sessions so you can see progress, not just disfluencies. The demo has a judge read a passage and watch the pacing guide adapt in real time to their rhythm.",
+    "long_description_es": "Una herramienta de práctica que escucha mientras lees en voz alta y marca el ritmo de tu habla con un metrónomo visual que se desacelera cuando detecta bloqueos o sílabas apresuradas. Registra los tramos fluidos a lo largo de las sesiones para que veas el progreso, no solo las disfluencias. La demo hace que un juez lea un pasaje y vea la guía de ritmo adaptarse en tiempo real.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "diagnostics"
+    ]
+  },
+  {
+    "name": "Inhaler Technique Checker from a Phone Video",
+    "name_es": "Verificador de técnica de inhalador desde un video del teléfono",
+    "long_description": "Asthma patients often use inhalers wrong, wasting the dose. Record a short clip of yourself using one and the tool checks the steps — shake, exhale, seal, slow breath, hold — flagging which you skipped or rushed. It returns a simple scorecard with the one fix that matters most. A focused, demoable build that turns a common error into a coachable moment.",
+    "long_description_es": "Los pacientes con asma suelen usar mal los inhaladores, desperdiciando la dosis. Graba un clip corto usándolo y la herramienta revisa los pasos — agitar, exhalar, sellar, inhalar despacio, retener — señalando cuáles omitiste o apuraste. Devuelve una tarjeta de puntaje simple con el único ajuste que más importa. Un proyecto enfocado y demostrable que convierte un error común en un momento de aprendizaje.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Color-Blind-Safe Lab Chart Recolorizer for Clinics",
+    "name_es": "Recoloreador de gráficos de laboratorio seguro para daltónicos",
+    "long_description": "Many clinical charts and heatmaps use red-green palettes that color-blind clinicians misread. Upload a chart image and the tool detects the risky palette and repaints it with a color-blind-safe scheme plus patterns, preserving the legend. A sharp single-screen build that makes existing medical visuals readable for everyone in one click.",
+    "long_description_es": "Muchos gráficos clínicos y mapas de calor usan paletas rojo-verde que los clínicos daltónicos malinterpretan. Sube una imagen del gráfico y la herramienta detecta la paleta riesgosa y la repinta con un esquema seguro para daltónicos más patrones, conservando la leyenda. Un proyecto nítido de una sola pantalla que hace legibles los visuales médicos existentes con un clic.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "accessibility",
+      "med-data"
+    ]
+  },
+  {
+    "name": "Tinnitus Sound-Matching Tool for Audiology Intake",
+    "name_es": "Herramienta de coincidencia de sonido para tinnitus en audiología",
+    "long_description": "Describing the pitch and texture of your tinnitus is hard. This tool plays candidate tones and noises and lets you steer sliders until the synthesized sound matches what you hear, then exports the profile for an audiologist. The demo has someone dial in a ringing tone and watch the matched frequency chart appear, turning a vague complaint into structured data.",
+    "long_description_es": "Describir el tono y la textura de tu tinnitus es difícil. Esta herramienta reproduce tonos y ruidos candidatos y te deja ajustar deslizadores hasta que el sonido sintetizado coincida con lo que oyes, y luego exporta el perfil para un audiólogo. La demo hace que alguien sintonice un zumbido y vea aparecer el gráfico de frecuencia coincidente, convirtiendo una queja vaga en datos estructurados.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Fall-Risk Quick Test from a 30-Second Chair Stand",
+    "name_es": "Test rápido de riesgo de caída con sentarse y pararse 30s",
+    "long_description": "Older adults' fall risk can be estimated from how many times they stand from a chair in 30 seconds. Point a phone at the person and the tool counts reps automatically, checks symmetry, and compares against age norms to flag elevated risk. The demo runs a live count on camera and shows a clear traffic-light result that a caregiver could act on.",
+    "long_description_es": "El riesgo de caída en adultos mayores puede estimarse por cuántas veces se paran de una silla en 30 segundos. Apunta el teléfono a la persona y la herramienta cuenta las repeticiones automáticamente, revisa la simetría y compara con normas por edad para señalar riesgo elevado. La demo hace un conteo en vivo por cámara y muestra un resultado tipo semáforo sobre el cual un cuidador podría actuar.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "fitness",
+      "wearable-health"
+    ]
+  },
+  {
+    "name": "Discharge Instructions Translator into a Day-by-Day Plan",
+    "name_es": "Traductor de instrucciones de alta a un plan día por día",
+    "long_description": "Hospital discharge papers cram meds, wound care, and follow-ups into dense text. Paste them and the tool rebuilds everything as a clear day-by-day calendar with checkboxes — when to take each pill, when to change a dressing, which warning signs mean call now. The demo takes a real discharge sheet and turns it into an at-a-glance recovery schedule.",
+    "long_description_es": "Los papeles de alta hospitalaria amontonan medicamentos, cuidado de heridas y seguimientos en texto denso. Pégalos y la herramienta lo reconstruye como un calendario claro día por día con casillas — cuándo tomar cada pastilla, cuándo cambiar un vendaje, qué señales de alarma significan llamar ya. La demo toma una hoja de alta real y la convierte en un cronograma de recuperación de un vistazo.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "telemedicine"
+    ]
+  },
+  {
+    "name": "Allergy-Aware Menu Scanner for Restaurant Photos",
+    "name_es": "Escáner de menú con alertas de alergia desde fotos",
+    "long_description": "Eating out with a serious food allergy is stressful. Snap a photo of any menu, set your allergens, and the tool flags every dish that likely contains or hides them — including sneaky sources like soy in sauces — with a confidence note and a question to ask the server. A tight build whose demo makes a risky menu instantly navigable.",
+    "long_description_es": "Comer afuera con una alergia alimentaria seria es estresante. Saca una foto de cualquier menú, define tus alérgenos y la herramienta marca cada plato que probablemente los contiene u oculta — incluso fuentes escondidas como soja en salsas — con una nota de confianza y una pregunta para hacerle al mesero. Un proyecto compacto cuya demo hace un menú riesgoso navegable al instante.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "nutrition",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Pediatric Dose Calculator that Reads a Prescription",
+    "name_es": "Calculadora de dosis pediátrica que lee una receta",
+    "long_description": "Liquid medicine dosing for kids is a frequent source of dangerous errors. Enter the child's weight and snap the bottle label; the tool computes the exact mL per dose, the syringe marking to hit, and the safe daily maximum, warning if the prescription looks off. A demoable safety tool that turns scary mental math into a clear, checkable number for caregivers.",
+    "long_description_es": "Dosificar medicina líquida para niños es una fuente frecuente de errores peligrosos. Ingresa el peso del niño y fotografía la etiqueta del frasco; la herramienta calcula los mL exactos por dosis, la marca de la jeringa a alcanzar y el máximo diario seguro, avisando si la receta parece incorrecta. Una herramienta de seguridad demostrable que convierte un cálculo mental aterrador en un número claro y verificable.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Voice-Tremor Parkinsons Screener from a Sustained Vowel",
+    "name_es": "Screener de Parkinson por temblor de voz en una vocal sostenida",
+    "long_description": "Hold an 'ahh' for a few seconds and the tool analyzes jitter, shimmer, and pitch instability — acoustic markers linked to early Parkinsonian voice changes — returning a screening score and a clear caveat that it is not a diagnosis. It tracks the score across days. The demo records a sustained vowel live and plots the tremor signature instantly.",
+    "long_description_es": "Sostén un 'ahh' por unos segundos y la herramienta analiza jitter, shimmer e inestabilidad de tono — marcadores acústicos ligados a cambios tempranos de voz parkinsoniana — devolviendo un puntaje de screening con la advertencia clara de que no es un diagnóstico. Registra el puntaje a lo largo de los días. La demo graba una vocal sostenida en vivo y grafica la firma del temblor al instante.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "diagnostics",
+      "wearable-health"
+    ]
+  },
+  {
+    "name": "Shift-Worker Sleep Planner that Fights Jet Lag at Home",
+    "name_es": "Planificador de sueño para turnos que combate el jet lag en casa",
+    "long_description": "Nurses and other shift workers wreck their circadian rhythm rotating between days and nights. Enter your roster and the tool builds a personalized light, caffeine, and nap schedule to shift your body clock with the least misery before each rotation. The demo loads a brutal real shift pattern and produces an hour-by-hour adaptation plan for the week.",
+    "long_description_es": "El personal de enfermería y otros trabajadores por turnos destrozan su ritmo circadiano rotando entre días y noches. Ingresa tu cuadrante y la herramienta arma un plan personalizado de luz, cafeína y siestas para ajustar tu reloj biológico con la menor incomodidad antes de cada rotación. La demo carga un patrón de turnos real y brutal y produce un plan de adaptación hora por hora para la semana.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "wearable-health",
+      "mental-health"
+    ]
+  },
+  {
+    "name": "Range-of-Motion Tracker for Frozen Shoulder Recovery",
+    "name_es": "Medidor de rango de movimiento para recuperación de hombro congelado",
+    "long_description": "Recovering shoulder mobility is slow and hard to measure at home. Stand in front of the camera, raise your arm, and the tool measures the exact angle you reach, logs it daily, and shows the recovery curve climbing over weeks. It flags when you plateau so you know to escalate to your physio. A motivating, demoable progress tool grounded in a single clean measurement.",
+    "long_description_es": "Recuperar la movilidad del hombro es lento y difícil de medir en casa. Párate frente a la cámara, levanta el brazo y la herramienta mide el ángulo exacto que alcanzas, lo registra a diario y muestra la curva de recuperación subiendo a lo largo de las semanas. Avisa cuando te estancas para que sepas consultar a tu fisio. Una herramienta de progreso motivadora y demostrable basada en una sola medición limpia.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "fitness",
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Anxiety Exposure Ladder Builder with Gradual Steps",
+    "name_es": "Generador de escalera de exposición para la ansiedad por pasos",
+    "long_description": "Exposure therapy works by facing fears in small steps, but building the ladder is the hard part. Describe what you avoid and the tool drafts a personalized ladder from easiest to hardest, with a check-in after each rung to record anxiety before and after. The demo takes a phobia like public speaking and lays out a ten-rung plan you could actually start tonight.",
+    "long_description_es": "La terapia de exposición funciona enfrentando miedos en pasos pequeños, pero armar la escalera es lo difícil. Describe lo que evitas y la herramienta redacta una escalera personalizada de lo más fácil a lo más difícil, con un registro tras cada escalón para anotar la ansiedad antes y después. La demo toma una fobia como hablar en público y despliega un plan de diez escalones que podrías empezar esta noche.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "mental-health"
+    ]
+  },
+  {
+    "name": "Caregiver Burnout Radar from Daily Voice Check-Ins",
+    "name_es": "Radar de agotamiento del cuidador con check-ins de voz diarios",
+    "long_description": "Family caregivers burn out silently. Each day they leave a short voice note about how things went; the tool tracks tone, sleep mentions, and stress language over time and surfaces a gentle alert when the trend points toward burnout, suggesting concrete respite options. The demo plays a week of notes and shows the burnout curve and the nudge it triggers.",
+    "long_description_es": "Los cuidadores familiares se agotan en silencio. Cada día dejan una nota de voz corta sobre cómo fue todo; la herramienta sigue el tono, las menciones de sueño y el lenguaje de estrés con el tiempo y muestra una alerta suave cuando la tendencia apunta al agotamiento, sugiriendo opciones concretas de respiro. La demo reproduce una semana de notas y muestra la curva de agotamiento y el aviso que dispara.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "mental-health",
+      "wearable-health"
+    ]
+  },
+  {
+    "name": "Blood-Pressure Log Builder from Monitor Photos",
+    "name_es": "Generador de registro de presión arterial desde fotos del monitor",
+    "long_description": "Home blood-pressure tracking falls apart because logging readings by hand is tedious. Snap a photo of your monitor's screen and the tool reads the systolic, diastolic, and pulse numbers, timestamps them, and builds a clean trend chart your doctor can scan in seconds. It flags readings in the danger zone. A tight build that removes all friction from a tedious routine.",
+    "long_description_es": "El control de la presión en casa fracasa porque anotar las lecturas a mano es tedioso. Saca una foto de la pantalla de tu monitor y la herramienta lee los valores sistólico, diastólico y de pulso, les pone fecha y arma un gráfico de tendencia limpio que tu médico revisa en segundos. Marca las lecturas en zona de peligro. Un proyecto compacto que elimina toda la fricción de una rutina tediosa.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "wearable-health",
+      "med-data",
+      "diagnostics"
+    ]
+  },
+  {
+    "name": "Hearing Screening Game for Kids with Tone Detection",
+    "name_es": "Juego de screening auditivo para niños con detección de tonos",
+    "long_description": "Catching hearing loss early in kids matters, but clinical tests intimidate them. This turns a calibrated pure-tone screen into a game where the child taps a character whenever they hear a faint beep across frequencies, quietly mapping their threshold curve. It exports a clean audiogram for a clinician. The demo plays the game and reveals the hidden hearing map behind the fun.",
+    "long_description_es": "Detectar la pérdida auditiva temprano en niños importa, pero las pruebas clínicas los intimidan. Esto convierte un screening calibrado de tonos puros en un juego donde el niño toca un personaje cada vez que oye un pitido tenue en distintas frecuencias, mapeando en silencio su curva de umbral. Exporta un audiograma limpio para un clínico. La demo juega y revela el mapa auditivo oculto tras la diversión.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Migraine Trigger Finder that Correlates Diary and Weather",
+    "name_es": "Detector de desencadenantes de migraña que cruza diario y clima",
+    "long_description": "Migraine sufferers rarely spot their own patterns. Log each attack with a tap and the tool quietly pulls weather, sleep, and the foods you noted, then surfaces the correlations that actually predict your headaches — like pressure drops plus poor sleep. The demo loads a month of attacks and reveals the top two personalized triggers with a confidence note.",
+    "long_description_es": "Quienes sufren migraña rara vez detectan sus propios patrones. Registra cada ataque con un toque y la herramienta cruza en silencio el clima, el sueño y los alimentos que anotaste, y luego muestra las correlaciones que de verdad predicen tus dolores — como caídas de presión más mal sueño. La demo carga un mes de ataques y revela los dos principales desencadenantes personalizados con una nota de confianza.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "wearable-health",
+      "med-data"
+    ]
+  },
+  {
+    "name": "Pill Organizer Verifier that Catches a Wrong Fill",
+    "name_es": "Verificador de pastillero que detecta un llenado incorrecto",
+    "long_description": "After filling a weekly pill organizer, mistakes are easy and dangerous. Photograph the open box and the tool checks each compartment against your medication list — counting pills, recognizing shapes and colors — and flags a slot that has too many, too few, or the wrong pill. A focused safety check whose demo catches a deliberately wrong compartment on camera.",
+    "long_description_es": "Tras llenar un pastillero semanal, los errores son fáciles y peligrosos. Fotografía la caja abierta y la herramienta revisa cada compartimento contra tu lista de medicamentos — contando pastillas, reconociendo formas y colores — y marca un casillero con demasiadas, muy pocas o la pastilla equivocada. Un control de seguridad enfocado cuya demo atrapa un compartimento mal llenado a propósito frente a la cámara.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Swallowing-Safety Coach for Texture-Modified Diets",
+    "name_es": "Coach de deglución segura para dietas de textura modificada",
+    "long_description": "People with dysphagia need food thickened to a precise consistency, and getting it wrong risks choking. Describe or photograph a drink or meal and the tool maps it to the standardized texture levels, shows the simple thickening fix, and explains the safe-swallow posture. The demo takes a normal glass of juice and produces the exact steps to make it safe.",
+    "long_description_es": "Las personas con disfagia necesitan alimentos espesados a una consistencia precisa, y equivocarse implica riesgo de atragantamiento. Describe o fotografía una bebida o comida y la herramienta la asigna a los niveles de textura estandarizados, muestra el ajuste de espesado y explica la postura de deglución segura. La demo toma un vaso normal de jugo y produce los pasos exactos para hacerlo seguro.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "nutrition",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Newborn Jaundice Estimator from a Calibrated Skin Photo",
+    "name_es": "Estimador de ictericia neonatal por foto de piel calibrada",
+    "long_description": "New parents struggle to judge if a baby's yellow tint means dangerous jaundice. Place a printed color card beside the baby's skin, take a photo, and the tool calibrates against the card to estimate a bilirubin risk band, telling you clearly when to seek care. The demo shows the card-based correction and the resulting risk readout, with a firm not-a-diagnosis caveat.",
+    "long_description_es": "Los padres primerizos batallan para juzgar si el tinte amarillo de un bebé indica ictericia peligrosa. Coloca una tarjeta de color impresa junto a la piel del bebé, toma una foto y la herramienta se calibra con la tarjeta para estimar una banda de riesgo de bilirrubina, indicando con claridad cuándo buscar atención. La demo muestra la corrección con la tarjeta y la lectura de riesgo, con una firme advertencia de que no es un diagnóstico.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Two-Way Sign-Language Bridge for Emergency Rooms",
+    "name_es": "Puente bidireccional de lengua de señas para urgencias",
+    "long_description": "When a Deaf patient arrives at the ER without an interpreter, communication stalls. This tablet bridge captures the patient's signed answers to common triage questions and shows them as text to staff, while turning staff prompts into clear signed-avatar or captioned questions back. The demo runs a triage exchange both directions so a judge feels the gap it closes.",
+    "long_description_es": "Cuando un paciente sordo llega a urgencias sin intérprete, la comunicación se traba. Este puente en tablet capta las respuestas en señas del paciente a las preguntas comunes de triaje y las muestra como texto al personal, y convierte los mensajes del personal en preguntas claras con avatar de señas o subtítulos de vuelta. La demo corre un intercambio de triaje en ambos sentidos para que un juez sienta la brecha que cierra.",
+    "topic": "health-medtech",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "accessibility",
+      "telemedicine"
+    ]
+  },
+  {
+    "name": "Wheelchair-Accessible Route Mapper from Crowd Reports",
+    "name_es": "Mapeador de rutas accesibles en silla desde reportes de la gente",
+    "long_description": "Map apps ignore curbs, steps, and broken elevators that block wheelchair users. This routes you door to door using accessibility data — ramp slopes, step-free paths, working lifts — and lets users drop quick reports that instantly reroute others. The demo plans a route across a city, then drops a broken-elevator report and shows the path adapt around it live.",
+    "long_description_es": "Las apps de mapas ignoran cordones, escalones y ascensores rotos que bloquean a los usuarios de silla de ruedas. Esto te lleva de puerta a puerta usando datos de accesibilidad — pendientes de rampas, rutas sin escalones, ascensores en servicio — y permite dejar reportes rápidos que reenrutan a otros al instante. La demo planifica una ruta por una ciudad, luego registra un ascensor roto y muestra el camino adaptarse en vivo.",
+    "topic": "health-medtech",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Offline Triage Assistant for Disaster Field Medics",
+    "name_es": "Asistente de triaje offline para médicos de campo en desastres",
+    "long_description": "In a disaster zone with no signal, medics must triage many casualties fast and consistently. This fully offline tool walks a medic through a standard triage protocol per patient, assigns a color priority, and keeps a running board of everyone tagged so handoff to incoming teams is instant. The demo triages a wave of simulated casualties and shows the live priority board it builds.",
+    "long_description_es": "En una zona de desastre sin señal, los médicos deben triar a muchas víctimas rápido y de forma consistente. Esta herramienta totalmente offline guía al médico por un protocolo de triaje estándar por paciente, asigna un color de prioridad y mantiene un tablero vivo de todos los etiquetados para que el relevo con los equipos entrantes sea instantáneo. La demo tría una ola de víctimas simuladas y muestra el tablero de prioridades que construye.",
+    "topic": "health-medtech",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "telemedicine",
+      "diagnostics",
+      "med-data"
+    ]
+  },
+  {
+    "name": "Clinical Trial Matcher from a Plain Patient Story",
+    "name_es": "Buscador de ensayos clínicos desde la historia simple del paciente",
+    "long_description": "Patients rarely find trials they qualify for because eligibility criteria are dense and technical. Describe your condition and history in plain words and the tool matches you to open trials, explaining in plain language why you likely qualify or what would exclude you. The demo takes a patient narrative and returns a ranked, readable shortlist with the key eligibility gaps highlighted.",
+    "long_description_es": "Los pacientes rara vez encuentran ensayos para los que califican porque los criterios de elegibilidad son densos y técnicos. Describe tu condición e historia en palabras simples y la herramienta te empareja con ensayos abiertos, explicando en lenguaje claro por qué probablemente calificas o qué te excluiría. La demo toma una narrativa de paciente y devuelve una lista corta jerarquizada y legible con las brechas clave de elegibilidad resaltadas.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "med-data",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Dental X-Ray Cavity Highlighter for Patient Explanations",
+    "name_es": "Resaltador de caries en radiografías para explicar al paciente",
+    "long_description": "Patients can't read their own dental X-rays, so they just trust the dentist. Upload a bitewing image and the tool highlights suspected cavities and bone-loss areas with a plain-language note for each, turning a gray blur into something a patient can actually understand. The demo overlays the findings on a real X-ray, framed clearly as an explanation aid, not a diagnosis.",
+    "long_description_es": "Los pacientes no saben leer sus propias radiografías dentales, así que solo confían en el dentista. Sube una imagen de aleta de mordida y la herramienta resalta las caries sospechosas y las zonas de pérdida ósea con una nota en lenguaje claro para cada una, convirtiendo un borrón gris en algo que un paciente pueda entender. La demo superpone los hallazgos sobre una radiografía real, presentada claramente como apoyo explicativo, no un diagnóstico.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "diagnostics",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Grief Companion that Paces Support Across the First Year",
+    "name_es": "Acompañante de duelo que dosifica el apoyo durante el primer año",
+    "long_description": "Grief support tends to flood in early and vanish later, exactly backwards from when people need it. This companion paces gentle check-ins across the whole first year, anticipating hard dates like birthdays and anniversaries and offering grounding rituals tuned to each phase. The demo fast-forwards a timeline to show how it quietly shows up months later when most support has faded.",
+    "long_description_es": "El apoyo en el duelo suele desbordarse al inicio y desvanecerse después, justo al revés de cuando la gente lo necesita. Este acompañante dosifica check-ins suaves a lo largo de todo el primer año, anticipando fechas difíciles como cumpleaños y aniversarios y ofreciendo rituales de contención ajustados a cada fase. La demo adelanta una línea de tiempo para mostrar cómo aparece en silencio meses después, cuando casi todo el apoyo ya se apagó.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "mental-health"
+    ]
+  },
+  {
+    "name": "Insulin-on-Board Visualizer to Prevent Stacking",
+    "name_es": "Visualizador de insulina activa para evitar apilar dosis",
+    "long_description": "People on insulin risk dangerous lows by stacking doses before the last one has finished working. Log a dose and the tool models the remaining active insulin over time on a clear decay curve, warning when a new dose would overlap unsafely. The demo logs two doses close together and shows the overlap zone light up red, making an invisible risk visible.",
+    "long_description_es": "Quienes usan insulina arriesgan bajadas peligrosas al apilar dosis antes de que la anterior termine de actuar. Registra una dosis y la herramienta modela la insulina activa restante en el tiempo sobre una curva de decaimiento clara, avisando cuando una nueva dosis se superpondría de forma insegura. La demo registra dos dosis muy seguidas y muestra la zona de superposición encenderse en rojo, haciendo visible un riesgo invisible.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "wearable-health",
+      "med-data"
+    ]
+  },
+  {
+    "name": "Reading-Strain Detector that Adjusts Screen Text Live",
+    "name_es": "Detector de fatiga lectora que ajusta el texto en pantalla en vivo",
+    "long_description": "Eye strain and fatigue creep up silently during long reading. Using the webcam, the tool watches blink rate and squinting and, when strain rises, gently bumps up font size, contrast, and line spacing and suggests a micro-break. The demo simulates rising fatigue and shows the page reflow itself to stay comfortable, a quiet accessibility win for anyone reading for hours.",
+    "long_description_es": "La fatiga y el cansancio visual se acumulan en silencio durante lecturas largas. Usando la webcam, la herramienta observa la tasa de parpadeo y el entrecerrar de ojos y, cuando sube la fatiga, aumenta suavemente el tamaño de fuente, el contraste y el interlineado y sugiere una micropausa. La demo simula fatiga creciente y muestra la página reorganizarse para mantenerse cómoda, una victoria silenciosa de accesibilidad para quien lee horas.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "wearable-health"
+    ]
+  },
+  {
+    "name": "Antibiotic Course Tracker that Prevents Early Stopping",
+    "name_es": "Seguidor de antibióticos que evita abandonar el tratamiento antes",
+    "long_description": "People feel better and stop antibiotics early, fueling resistance. Scan the prescription and the tool builds an exact dosing schedule with smart reminders, shows a progress bar of the full course, and explains plainly why finishing matters even when symptoms vanish. The demo sets up a real course and shows the streak and the gentle nudge that fires when a dose is missed.",
+    "long_description_es": "La gente se siente mejor y deja los antibióticos antes de tiempo, alimentando la resistencia. Escanea la receta y la herramienta arma un cronograma exacto de dosis con recordatorios inteligentes, muestra una barra de progreso del tratamiento completo y explica con claridad por qué terminar importa aunque los síntomas desaparezcan. La demo configura un tratamiento real y muestra la racha y el aviso suave que salta cuando se olvida una dosis.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "med-data",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Pregnancy Kick-Counter that Learns Baby's Normal Pattern",
+    "name_es": "Contador de pataditas que aprende el patrón normal del bebé",
+    "long_description": "Counting fetal movements helps catch problems, but a raw count means little without context. Tap each kick and the tool learns the baby's own daily rhythm, then alerts gently when today's activity drifts well below that personal baseline. The demo builds a few days of pattern, then simulates a quiet day and shows the personalized alert that suggests calling a midwife.",
+    "long_description_es": "Contar los movimientos fetales ayuda a detectar problemas, pero un conteo crudo dice poco sin contexto. Toca en cada patadita y la herramienta aprende el ritmo diario propio del bebé, y luego avisa con suavidad cuando la actividad de hoy baja muy por debajo de esa línea base personal. La demo construye unos días de patrón, simula un día tranquilo y muestra la alerta personalizada que sugiere llamar a la partera.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "wearable-health"
+    ]
+  },
+  {
+    "name": "Color-and-Texture Plate Coach for Balanced Meals",
+    "name_es": "Coach de color y textura del plato para comidas equilibradas",
+    "long_description": "Instead of counting calories, this nudges variety: photograph your plate and the tool scores how many color groups and food textures it covers, since diversity tracks with nutrient breadth. It suggests the one swap that would round it out. The demo snaps a beige, monochrome plate, scores it low, and shows it climb when a colorful side is added.",
+    "long_description_es": "En lugar de contar calorías, esto fomenta la variedad: fotografía tu plato y la herramienta puntúa cuántos grupos de color y texturas de alimento cubre, ya que la diversidad acompaña la amplitud de nutrientes. Sugiere el único cambio que lo completaría. La demo fotografía un plato beige y monocromático, lo puntúa bajo y muestra cómo sube al agregar un acompañamiento colorido.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "nutrition",
+      "fitness"
+    ]
+  },
+  {
+    "name": "Telehealth Pre-Visit Summary Built from Patient Answers",
+    "name_es": "Resumen previo a teleconsulta armado con respuestas del paciente",
+    "long_description": "Telehealth visits waste minutes on basic history-taking. Before the call, the patient answers an adaptive questionnaire that drills into their main complaint, and the tool hands the clinician a tight structured summary — onset, severity, red flags, current meds. The demo walks a patient through intake and produces the one-screen brief the doctor opens, so the call starts at minute zero.",
+    "long_description_es": "Las teleconsultas pierden minutos en tomar la historia básica. Antes de la llamada, el paciente responde un cuestionario adaptativo que profundiza en su motivo principal, y la herramienta entrega al clínico un resumen estructurado y conciso — inicio, severidad, señales de alarma, medicación actual. La demo guía a un paciente por la admisión y produce el resumen de una pantalla que el médico abre, para que la llamada arranque en el minuto cero.",
+    "topic": "health-medtech",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "telemedicine",
+      "med-data"
+    ]
+  },
+  {
+    "name": "Aphasia Communication Board that Predicts Next Words",
+    "name_es": "Tablero de comunicación para afasia que predice palabras",
+    "long_description": "People with aphasia struggle to retrieve words, and static picture boards are slow. This board predicts likely next words and phrases from context and the conversation so far, surfacing the right tiles before the user hunts for them, and speaks the chosen phrase aloud. The demo has someone build a sentence in a few taps as the predictions adapt, dramatically cutting the effort.",
+    "long_description_es": "Las personas con afasia tienen dificultad para recuperar palabras, y los tableros de imágenes fijos son lentos. Este tablero predice las palabras y frases siguientes probables según el contexto y la conversación hasta el momento, mostrando las fichas adecuadas antes de que el usuario las busque, y dice en voz alta la frase elegida. La demo hace que alguien arme una oración en pocos toques mientras las predicciones se adaptan, reduciendo drásticamente el esfuerzo.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "accessibility",
+      "mental-health"
+    ]
+  },
+  {
+    "name": "Dehydration Spotter from Voice and a Few Quick Questions",
+    "name_es": "Detector de deshidratación por voz y unas preguntas rápidas",
+    "long_description": "Older adults and athletes miss early dehydration. The tool combines a short spoken sample — dry-mouth acoustic cues — with quick questions about urine color and dizziness to estimate a hydration risk band and a concrete drink-now recommendation. The demo runs the quick check and shows the risk readout, a fast field tool that needs no special hardware.",
+    "long_description_es": "Los adultos mayores y los atletas pasan por alto la deshidratación temprana. La herramienta combina una muestra hablada corta — señales acústicas de boca seca — con preguntas rápidas sobre el color de la orina y los mareos para estimar una banda de riesgo de hidratación y una recomendación concreta de beber ya. La demo corre el chequeo rápido y muestra la lectura de riesgo, una herramienta de campo veloz que no necesita hardware especial.",
+    "topic": "health-medtech",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "diagnostics",
+      "fitness",
+      "wearable-health"
+    ]
+  },
+  {
+    "name": "Chronic-Condition Self-Management Coach Over Many Weeks",
+    "name_es": "Coach de autocuidado de enfermedad crónica a lo largo de semanas",
+    "long_description": "Living with a chronic condition like heart failure means juggling daily weight, symptoms, meds, and activity, with deterioration that creeps in slowly. This builds a full self-management program over weeks: daily check-ins, trend dashboards, escalating alerts when several signals drift together, and a shareable report for the care team. The demo simulates a slow decline and shows the system catch it days before a crisis.",
+    "long_description_es": "Vivir con una enfermedad crónica como insuficiencia cardíaca implica gestionar a diario peso, síntomas, medicación y actividad, con un deterioro que se cuela lentamente. Esto construye un programa completo de autocuidado durante semanas: check-ins diarios, paneles de tendencias, alertas escaladas cuando varias señales se desvían juntas y un informe compartible para el equipo de salud. La demo simula un declive lento y muestra al sistema detectarlo días antes de una crisis.",
+    "topic": "health-medtech",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "telemedicine",
+      "wearable-health",
+      "med-data",
+      "diagnostics"
+    ]
+  },
+  {
+    "name": "Rural Eye-Camp Platform from Screening to Surgery Queue",
+    "name_es": "Plataforma de campañas oculares de screening a cola de cirugía",
+    "long_description": "Rural eye camps screen hundreds for cataracts and refractive errors but lose people between screening and surgery. This builds the full flow: offline visual-acuity and basic eye screening on a phone, automatic prioritization of who needs surgery soonest, and a synced queue that books and reminds patients when connectivity returns. The demo runs a camp end to end, from a vision check to a scheduled surgery slot.",
+    "long_description_es": "Las campañas oculares rurales examinan a cientos por cataratas y errores refractivos pero pierden gente entre el screening y la cirugía. Esto construye el flujo completo: screening offline de agudeza visual y básico en un teléfono, priorización automática de quién necesita cirugía antes y una cola sincronizada que agenda y recuerda a los pacientes cuando vuelve la conectividad. La demo corre una campaña de punta a punta, de un chequeo de visión a un turno de cirugía agendado.",
+    "topic": "health-medtech",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "telemedicine",
+      "diagnostics",
+      "accessibility",
+      "med-data"
+    ]
+  },
+  {
+    "name": "Quit-Smoking Coach that Maps and Defuses Your Triggers",
+    "name_es": "Coach para dejar de fumar que mapea y desactiva tus disparadores",
+    "long_description": "Generic quit plans ignore that everyone's cravings fire from different cues. Log each craving with a tap noting place, mood, and trigger; the tool learns your personal danger map and pre-empts high-risk moments with a tailored coping action right before they hit. The demo builds a few days of cravings and shows it predict the next risky window and intervene before the urge peaks.",
+    "long_description_es": "Los planes genéricos para dejar de fumar ignoran que las ganas de cada persona se disparan por señales distintas. Registra cada antojo con un toque anotando lugar, ánimo y disparador; la herramienta aprende tu mapa personal de riesgo y se adelanta a los momentos peligrosos con una acción de afrontamiento a medida justo antes de que lleguen. La demo construye unos días de antojos y muestra cómo predice la próxima ventana riesgosa e interviene antes del pico.",
+    "topic": "health-medtech",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "mental-health",
+      "wearable-health"
+    ]
+  }
+]

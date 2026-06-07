@@ -1,0 +1,536 @@
+[
+  {
+    "name": "Single-Sensor Water-Safe Buoy that Scores a Sip",
+    "name_es": "Boya de un sensor que califica si el agua es potable",
+    "long_description": "A pocket probe you dip into a stream or tank that reads turbidity and TDS, then runs a tiny on-device model to flag the water as drink, boil, or avoid with a single LED color. The whole build is one sensor plus a microcontroller, so it fits a quick sprint and demos by dunking it in clean versus murky cups.",
+    "long_description_es": "Una sonda de bolsillo que sumergís en un arroyo o tanque, mide turbidez y TDS y corre un modelo diminuto en el dispositivo para marcar el agua como tomar, hervir o evitar con un solo color de LED. Todo el armado es un sensor más un microcontrolador, así que entra en un sprint corto y se demuestra sumergiéndola en vasos limpios y turbios.",
+    "topic": "iot-hardware",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "sensors",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Desk Cube that Flips to Start and Stop a Time Log",
+    "name_es": "Cubo de escritorio que registra tiempo al voltearlo",
+    "long_description": "A small cube with an accelerometer where each face means a task; flip it and it logs the time you spend on that activity, beeping when you cross an hour. It needs only one motion sensor and a microcontroller, making it a sharp single-feature build whose demo is just turning the cube and watching the running tally change.",
+    "long_description_es": "Un cubo pequeño con acelerómetro donde cada cara representa una tarea; lo volteás y registra el tiempo que pasás en esa actividad, sonando al cruzar una hora. Solo necesita un sensor de movimiento y un microcontrolador, lo que lo hace un build de una sola función cuya demo es voltear el cubo y ver cambiar el conteo.",
+    "topic": "iot-hardware",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "sensors",
+      "wearables"
+    ]
+  },
+  {
+    "name": "UV-Dose Badge that Buzzes When You Should Reapply",
+    "name_es": "Insignia de dosis UV que vibra para reaplicar protector",
+    "long_description": "A clip-on badge with a UV sensor that tracks accumulated sun exposure and gently buzzes once you hit a burn-risk threshold for your skin type, set with one dial. A single sensor and a vibration motor make it a tight short-sprint wearable; the demo shines a UV lamp and watches the alert trip in seconds.",
+    "long_description_es": "Una insignia con clip y sensor UV que rastrea la exposición solar acumulada y vibra suavemente al alcanzar el umbral de riesgo de quemadura para tu tipo de piel, fijado con un dial. Un solo sensor y un motor de vibración la hacen un wearable ajustado para sprint corto; la demo apunta una lámpara UV y ve saltar la alerta en segundos.",
+    "topic": "iot-hardware",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "wearables",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Fridge-Door Tally that Counts How Often You Snack",
+    "name_es": "Contador de puerta de heladera que cuenta tus picoteos",
+    "long_description": "A magnetic reed switch on the fridge door logs every open, charts a daily snacking timeline, and flashes a light if you raid it past a bedtime you set. One cheap switch and a microcontroller make it a fast single-feature hack; the demo opens and closes the door and watches the count and timeline update live.",
+    "long_description_es": "Un interruptor de lengüeta magnético en la puerta de la heladera registra cada apertura, grafica una línea de tiempo diaria de picoteo y enciende una luz si la asaltás pasada una hora límite que fijás. Un interruptor barato y un microcontrolador lo hacen un hack veloz de una función; la demo abre y cierra la puerta y ve actualizarse el conteo en vivo.",
+    "topic": "iot-hardware",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "sensors",
+      "home-automation"
+    ]
+  },
+  {
+    "name": "Doorway Counter that Knows If a Room Is Empty",
+    "name_es": "Contador de puerta que sabe si una sala está vacía",
+    "long_description": "A pair of beam sensors at a doorway figures out direction of travel so it always knows the live headcount inside a room, then turns the lights off the moment it empties. Two sensors and a relay keep it a crisp short build; the demo walks people through the frame and shows the occupancy number rise and fall.",
+    "long_description_es": "Un par de sensores de haz en una puerta deduce la dirección del paso para saber siempre cuánta gente hay dentro de una sala, y apaga las luces apenas queda vacía. Dos sensores y un relé lo mantienen un build corto y nítido; la demo hace pasar personas por el marco y muestra subir y bajar el número de ocupación.",
+    "topic": "iot-hardware",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "lights",
+      "home-automation"
+    ]
+  },
+  {
+    "name": "Cough-Counting Bedside Node for Tracking a Cold",
+    "name_es": "Nodo de mesa de luz que cuenta tos para seguir un resfrío",
+    "long_description": "A bedside box runs a tiny audio model that distinguishes coughs from other night sounds and charts how your cough frequency falls as you recover, all without sending audio off the device. A single mic and an edge model make it a focused half-day build; the demo fakes a few coughs and watches the nightly count climb.",
+    "long_description_es": "Una caja de mesa de luz corre un modelo de audio diminuto que distingue toses de otros sonidos nocturnos y grafica cómo baja tu frecuencia de tos al recuperarte, sin enviar audio fuera del dispositivo. Un micrófono y un modelo en el borde la hacen un build enfocado de medio día; la demo simula unas toses y ve subir el conteo nocturno.",
+    "topic": "iot-hardware",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Snore-Sensing Pillow Tag that Nudges You to Roll",
+    "name_es": "Etiqueta de almohada que detecta ronquidos y te hace girar",
+    "long_description": "A flat tag clipped to a pillow listens for snoring with an on-device sound model and gives a soft vibration to prompt a position change, logging how often it had to act. One mic, one motor, and a tiny classifier make it a sharp half-day wearable-adjacent build; the demo plays snore audio and feels the nudge fire.",
+    "long_description_es": "Una etiqueta plana sujeta a la almohada escucha ronquidos con un modelo de sonido en el dispositivo y da una vibración suave para inducir un cambio de posición, registrando cuántas veces tuvo que actuar. Un micrófono, un motor y un clasificador diminuto la hacen un build ajustado de medio día; la demo reproduce audio de ronquido y siente saltar el empujón.",
+    "topic": "iot-hardware",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "wearables",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Parking-Spot Sensor that Lights Free Bays Green",
+    "name_es": "Sensor de estacionamiento que ilumina lugares libres en verde",
+    "long_description": "Ultrasonic sensors over each bay in a small lot show a ceiling light per spot, green when free and red when taken, plus a single count of open spaces at the entrance. The per-bay node is cheap and repeatable, so a half-day yields a working aisle; the demo slides a box under a sensor and watches its light flip to red.",
+    "long_description_es": "Sensores ultrasónicos sobre cada lugar de un estacionamiento chico muestran una luz de techo por plaza, verde si está libre y roja si ocupada, más un conteo único de espacios libres en la entrada. El nodo por plaza es barato y replicable, así que medio día rinde un pasillo funcional; la demo desliza una caja bajo un sensor y ve su luz pasar a rojo.",
+    "topic": "iot-hardware",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "lights"
+    ]
+  },
+  {
+    "name": "Soldering-Fume Watchdog that Vents Your Bench",
+    "name_es": "Vigía de humos de soldadura que ventila tu banco",
+    "long_description": "A bench node sniffs for solder fume particulates and VOCs, ramps a small fan when levels climb, and flashes amber if your face is too close to the plume. A gas sensor, a fan, and a distance sensor make it a contained half-day build; the demo waves a hot iron near it and watches the fan spin up automatically.",
+    "long_description_es": "Un nodo de banco olfatea partículas de humo de soldadura y COV, acelera un ventilador chico cuando suben los niveles y parpadea ámbar si tu cara está muy cerca de la columna de humo. Un sensor de gas, un ventilador y un sensor de distancia lo hacen un build contenido de medio día; la demo acerca un soldador caliente y ve arrancar el ventilador solo.",
+    "topic": "iot-hardware",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "home-automation",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Tap-to-Pair Light Switch that Skips the Wiring",
+    "name_es": "Interruptor de luz por toque que evita el cableado",
+    "long_description": "A battery-free wall button harvests the press energy itself to send a wireless toggle to a nearby lamp, so you can stick a new switch anywhere with no wiring. The hook is the energy-harvesting press; a half-day yields a working button-to-lamp pair, and the demo peels the switch off one wall and re-sticks it across the room.",
+    "long_description_es": "Un botón de pared sin batería cosecha la energía de la propia pulsación para enviar un toggle inalámbrico a una lámpara cercana, así pegás un interruptor nuevo en cualquier lado sin cables. El gancho es la pulsación que cosecha energía; medio día rinde un par botón-lámpara funcional, y la demo despega el interruptor de una pared y lo repega al otro lado.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "lights",
+      "home-automation",
+      "energy-monitor"
+    ]
+  },
+  {
+    "name": "Beehive Scale that Weighs the Colony and Warns of Loss",
+    "name_es": "Balanza de colmena que pesa la colonia y avisa pérdidas",
+    "long_description": "A load-cell platform under a beehive logs its weight through the day, learns the normal nectar-and-foraging rhythm, and pings the keeper when a sudden drop hints at a swarm or theft. One scale plus temperature gives a rich signal; a day of work yields a logging hive, and the demo lifts a jar off the plate to trigger a loss alert.",
+    "long_description_es": "Una plataforma con celda de carga bajo una colmena registra su peso durante el día, aprende el ritmo normal de néctar y forrajeo, y avisa al apicultor cuando una caída brusca sugiere enjambrazón o robo. Una balanza más temperatura da una señal rica; un día de trabajo rinde una colmena con registro, y la demo levanta un frasco del plato para disparar la alerta de pérdida.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "arduino-rpi",
+      "energy-monitor"
+    ]
+  },
+  {
+    "name": "Tremor-Logging Spoon that Steadies a Shaky Hand",
+    "name_es": "Cuchara que registra temblores y estabiliza la mano",
+    "long_description": "A handle holds a small gimbal that counter-rotates to keep the spoon level despite hand tremor, while logging tremor intensity over meals to share with a clinician. The hook is active stabilization plus quiet tracking; a day yields a working motorized handle, and the demo shakes the grip while the bowl stays remarkably still.",
+    "long_description_es": "Un mango sostiene un pequeño gimbal que contrarrota para mantener la cuchara nivelada pese al temblor de la mano, registrando la intensidad del temblor en las comidas para compartir con un clínico. El gancho es estabilización activa más seguimiento silencioso; un día rinde un mango motorizado funcional, y la demo agita la empuñadura mientras el cuenco queda notablemente quieto.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "wearables",
+      "robotics",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Geophone Stake that Hears Footsteps Before a Camera",
+    "name_es": "Estaca con geófono que oye pasos antes que una cámara",
+    "long_description": "A ground stake with a vibration geophone learns the seismic signature of human footsteps versus wind or animals and raises a silent alert without any camera, ideal for a privacy-respecting perimeter. The hook is camera-free detection through the soil; a day yields a trained node, and the demo has someone walk up while the alert lights only for people.",
+    "long_description_es": "Una estaca con geófono de vibración aprende la firma sísmica de pasos humanos frente a viento o animales y levanta una alerta silenciosa sin cámara, ideal para un perímetro que respeta la privacidad. El gancho es la detección sin cámara a través del suelo; un día rinde un nodo entrenado, y la demo hace que alguien se acerque mientras la alerta se enciende solo para personas.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "sensors",
+      "home-automation",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Grip-Strength Cuff that Coaches Rehab Reps by Light",
+    "name_es": "Brazalete de fuerza de agarre que guía la rehabilitación",
+    "long_description": "A wrap-around cuff measures grip and pinch force, walks a patient through a prescribed rehab set with a light bar that fills as they squeeze, and logs progress across days. A force sensor and an LED bar make it a focused build; the demo squeezes the cuff and watches the bar fill and a rep counter tick up toward the target.",
+    "long_description_es": "Un brazalete envolvente mide la fuerza de agarre y pinza, guía al paciente por una serie de rehabilitación prescrita con una barra de luz que se llena al apretar, y registra el progreso día a día. Un sensor de fuerza y una barra LED lo hacen un build enfocado; la demo aprieta el brazalete y ve llenarse la barra y subir un contador de repeticiones hacia la meta.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "wearables",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Compost Bin Brain that Tells You When to Turn It",
+    "name_es": "Cerebro de compostera que te dice cuándo voltearla",
+    "long_description": "A probe in a compost pile tracks temperature, moisture, and gas to gauge how the decomposition is going, then advises exactly when to turn or water it for the fastest finish. Three sensors and a simple rule engine make it a tidy day build; the demo pours water in and watches the moisture reading and the next-action advice change.",
+    "long_description_es": "Una sonda en una pila de compost rastrea temperatura, humedad y gas para evaluar cómo va la descomposición y luego aconseja exactamente cuándo voltearla o regarla para terminar más rápido. Tres sensores y un motor de reglas simple la hacen un build prolijo de un día; la demo echa agua y ve cambiar la lectura de humedad y el consejo de próxima acción.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "arduino-rpi",
+      "home-automation"
+    ]
+  },
+  {
+    "name": "Power-Strip Phantom-Load Killer that Cuts Vampire Watts",
+    "name_es": "Zapatilla que corta el consumo fantasma en reposo",
+    "long_description": "A smart strip senses when a device drops into standby draw and fully cuts its socket, surfacing how many vampire watts it reclaimed each day on a tiny display. Current sensing plus relays per socket make it a satisfying day build; the demo flips a TV to standby and watches the strip detect the idle draw and snap the outlet off.",
+    "long_description_es": "Una zapatilla inteligente detecta cuándo un aparato cae a consumo en espera y corta del todo su toma, mostrando cuántos vatios vampiro recuperó cada día en una pantalla diminuta. La medición de corriente más relés por toma la hacen un build satisfactorio de un día; la demo pone un TV en espera y ve a la zapatilla detectar el consumo ocioso y apagar la toma.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "energy-monitor",
+      "home-automation",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Whiteboard Plotter Bot that Redraws Your Sketch",
+    "name_es": "Robot plotter de pizarra que redibuja tu boceto",
+    "long_description": "A two-cable hanging plotter clings to any whiteboard and redraws an uploaded line sketch with a dry-erase marker, turning a meeting board into a print surface. The hook is the wall-climbing cable kinematics; a day yields a drawing bot, and the demo sends a doodle from a phone and watches the marker trace it on the board.",
+    "long_description_es": "Un plotter colgante de dos cables se aferra a cualquier pizarra y redibuja un boceto de líneas cargado con un marcador borrable, convirtiendo un pizarrón de reunión en superficie de impresión. El gancho es la cinemática de cables que trepan la pared; un día rinde un bot dibujante, y la demo manda un garabato desde el teléfono y ve al marcador trazarlo en la pizarra.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Rain-Aware Awning that Rolls Out When Drops Hit",
+    "name_es": "Toldo que se despliega cuando empiezan las gotas",
+    "long_description": "A motorized patio awning watches a rain sensor and wind gauge to roll itself out at the first drops but retract before a gust can tear it, logging each weather event it reacted to. Two sensors and a motor make it a clean day build; the demo flicks water on the sensor and watches the awning extend, then fan-blasts it to make it retract.",
+    "long_description_es": "Un toldo de patio motorizado vigila un sensor de lluvia y un anemómetro para desplegarse a las primeras gotas pero retraerse antes de que una ráfaga lo rompa, registrando cada evento al que reaccionó. Dos sensores y un motor lo hacen un build limpio de un día; la demo salpica agua en el sensor y ve extenderse el toldo, luego lo sopla con un ventilador para retraerlo.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "home-automation",
+      "sensors",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Crowd-Density Beacon that Warns When a Room Packs In",
+    "name_es": "Baliza de densidad que avisa cuando una sala se llena",
+    "long_description": "A ceiling node estimates how many phones and bodies are in a space using Wi-Fi probe counts and a thermal grid, then shifts a public light from green to red as crowding nears a safe limit. Sensor fusion makes it a meaty day build; the demo fills the area with people and watches the density readout and the warning light climb.",
+    "long_description_es": "Un nodo de techo estima cuántos teléfonos y cuerpos hay en un espacio usando conteos de sondas Wi-Fi y una grilla térmica, y luego cambia una luz pública de verde a rojo a medida que la aglomeración se acerca a un límite seguro. La fusión de sensores la hace un build sustancioso de un día; la demo llena el área de gente y ve subir la densidad y la luz de aviso.",
+    "topic": "iot-hardware",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "sensors",
+      "lights",
+      "energy-monitor"
+    ]
+  },
+  {
+    "name": "Gait-Watching Insole that Flags an Uneven Limp",
+    "name_es": "Plantilla que observa la marcha y marca una cojera",
+    "long_description": "A pressure-sensing insole maps how your weight rolls across each foot, compares left versus right, and flags a developing limp or favoring before it becomes an injury. Pressure arrays plus an on-device model make it a full-day wearable; the demo walks normally then fakes a limp and watches the asymmetry score spike on screen.",
+    "long_description_es": "Una plantilla con sensores de presión mapea cómo rueda tu peso por cada pie, compara izquierda contra derecha y marca una cojera o un favorecimiento incipiente antes de que sea lesión. Las matrices de presión más un modelo en el dispositivo la hacen un wearable de un día completo; la demo camina normal y luego finge cojear y ve dispararse el puntaje de asimetría.",
+    "topic": "iot-hardware",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "wearables",
+      "sensors",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Sorting Conveyor that Routes Parts by Size and Color",
+    "name_es": "Cinta clasificadora que enruta piezas por tamaño y color",
+    "long_description": "A short conveyor with a camera and a few air jets sorts small parts into bins by size and color in real time, showing a live count per category. Vision plus timed actuation make it a rich overnight build; the demo dumps a mixed handful on the belt and watches each piece get blown into the right bin as the tallies update.",
+    "long_description_es": "Una cinta corta con cámara y unos chorros de aire clasifica piezas chicas en cajones por tamaño y color en tiempo real, mostrando un conteo en vivo por categoría. La visión más la actuación temporizada la hacen un build nocturno rico; la demo vuelca un puñado mezclado en la cinta y ve cada pieza soplada al cajón correcto mientras se actualizan los conteos.",
+    "topic": "iot-hardware",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "sensors",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Cold-Chain Tag that Proves a Package Stayed Chilled",
+    "name_es": "Etiqueta de cadena de frío que prueba que se mantuvo fría",
+    "long_description": "A stick-on logger rides inside a shipment, records the full temperature history, and at delivery shows a green or red verdict plus the exact minutes it spent out of the safe range. Logging plus a tamper-evident readout make it a solid day build; the demo warms the tag briefly and watches the verdict flip to red with the breach time shown.",
+    "long_description_es": "Un registrador adhesivo viaja dentro de un envío, graba todo el historial de temperatura y al entregar muestra un veredicto verde o rojo más los minutos exactos fuera del rango seguro. El registro más una lectura a prueba de manipulación lo hacen un build sólido de un día; la demo calienta la etiqueta un momento y ve el veredicto pasar a rojo con el tiempo de violación mostrado.",
+    "topic": "iot-hardware",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "wearables",
+      "energy-monitor"
+    ]
+  },
+  {
+    "name": "Braille Cell Strip that Refreshes Text Line by Line",
+    "name_es": "Tira de celdas braille que refresca texto línea a línea",
+    "long_description": "A row of motorized pins forms a refreshable braille line that steps through any pasted text one segment at a time at a pace the reader sets with a thumb wheel. The hook is low-cost refreshable braille from servos or solenoids; an overnight build yields a readable cell, and the demo pastes a sentence and feels the pins reshape as it advances.",
+    "long_description_es": "Una fila de pines motorizados forma una línea braille refrescable que recorre cualquier texto pegado un segmento a la vez al ritmo que el lector fija con una rueda de pulgar. El gancho es braille refrescable de bajo costo con servos o solenoides; un build nocturno rinde una celda legible, y la demo pega una frase y se siente a los pines reformarse al avanzar.",
+    "topic": "iot-hardware",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "arduino-rpi",
+      "wearables"
+    ]
+  },
+  {
+    "name": "Soil Network that Tells Each Bed What to Plant Next",
+    "name_es": "Red de suelo que dice qué plantar en cada cantero",
+    "long_description": "A handful of wireless soil stakes across garden beds track moisture, light hours, and nutrient proxies, then recommend which crop suits each bed this season based on its real conditions. Multi-node sensing plus a matching rule set make it a full-day build; the demo shades one stake and waters another and watches their crop suggestions diverge.",
+    "long_description_es": "Un puñado de estacas de suelo inalámbricas por los canteros del jardín rastrean humedad, horas de luz y proxies de nutrientes, y luego recomiendan qué cultivo conviene a cada cantero esta temporada según sus condiciones reales. El sensado multinodo más un conjunto de reglas de emparejamiento lo hacen un build de un día; la demo sombrea una estaca y riega otra y ve divergir sus sugerencias de cultivo.",
+    "topic": "iot-hardware",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "sensors",
+      "home-automation",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "EMG Armband that Maps a Clench to Any Key Combo",
+    "name_es": "Banda EMG que asigna un apriete a cualquier atajo",
+    "long_description": "An armband reads forearm muscle signals so a clench, a flick, or a finger pinch can fire any keyboard shortcut hands-free, with a quick on-device training step per gesture. Cheap EMG plus gesture classification make it a rich overnight build; the demo trains three clenches live and uses them to switch slides without touching anything.",
+    "long_description_es": "Una banda de brazo lee señales musculares del antebrazo para que un apriete, un golpe o un pellizco disparen cualquier atajo de teclado sin manos, con un paso rápido de entrenamiento por gesto en el dispositivo. EMG barato más clasificación de gestos la hacen un build nocturno rico; la demo entrena tres aprietes en vivo y los usa para pasar diapositivas sin tocar nada.",
+    "topic": "iot-hardware",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "wearables",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Window-Crawling Cleaner Bot for Glass You Can't Reach",
+    "name_es": "Robot que trepa ventanas para limpiar vidrios altos",
+    "long_description": "A suction-driven bot adheres to a window, plans a coverage path across the pane, and squeegees it clean while a tether catches it if suction ever fails. The hook is safe vertical adhesion with fall protection; a long sprint yields a crawling cleaner, and the demo sticks it to a glass door and watches it map and wipe the whole pane.",
+    "long_description_es": "Un robot por succión se adhiere a una ventana, planifica un recorrido de cobertura por el vidrio y lo limpia con un secador mientras un cordel lo atrapa si la succión falla. El gancho es la adhesión vertical segura con protección anticaída; un sprint largo rinde un limpiador trepador, y la demo lo pega a una puerta de vidrio y lo ve mapear y limpiar todo el panel.",
+    "topic": "iot-hardware",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "sensors",
+      "home-automation"
+    ]
+  },
+  {
+    "name": "Beach Litter Rover that Sifts Sand for Microplastics",
+    "name_es": "Rover de playa que tamiza arena buscando microplásticos",
+    "long_description": "A tracked rover drives a beach line, scoops and sifts sand through a screen, and uses a camera to tally suspected plastic fragments onto a cleanup heat map. Mobility plus on-device vision make it a meaty two-day build; the demo runs it over a sandbox seeded with bits and watches the map fill in where it found the most.",
+    "long_description_es": "Un rover con orugas recorre una línea de playa, recoge y tamiza arena por una malla y usa una cámara para contar fragmentos sospechosos de plástico en un mapa de calor de limpieza. La movilidad más la visión en el dispositivo la hacen un build sustancioso de dos días; la demo lo pasa por un cajón de arena sembrado con trozos y ve llenarse el mapa donde más encontró.",
+    "topic": "iot-hardware",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "sensors",
+      "drones"
+    ]
+  },
+  {
+    "name": "Crop-Scout Drone that Flags Sick Plants from the Air",
+    "name_es": "Dron explorador que marca plantas enfermas desde el aire",
+    "long_description": "A small drone flies a saved grid over a field, captures multispectral-style imagery, and lands with a map pinning the rows where plant stress or disease is creeping in. Autonomous routing plus crop-stress vision make it a full two-day build; the demo flies it over a planter and shows the heat map lighting up over the wilted plants.",
+    "long_description_es": "Un dron pequeño vuela una grilla guardada sobre un campo, captura imágenes de estilo multiespectral y aterriza con un mapa que marca las hileras donde el estrés o la enfermedad de las plantas avanza. El ruteo autónomo más la visión de estrés vegetal lo hacen un build de dos días; la demo lo vuela sobre una jardinera y muestra el mapa de calor encendiéndose sobre las plantas marchitas.",
+    "topic": "iot-hardware",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "drones",
+      "sensors",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Exo-Glove that Adds Grip for a Weak Hand",
+    "name_es": "Exoguante que suma agarre a una mano debilitada",
+    "long_description": "A soft tendon-driven glove senses your intent to close and adds gentle motorized force so a weak or recovering hand can grip a mug or a doorknob. The hook is assistive force that follows your own effort; a two-day build yields a working glove, and the demo has someone grasp an object they couldn't hold before as the assist kicks in.",
+    "long_description_es": "Un guante blando accionado por tendones detecta tu intención de cerrar y suma una fuerza motorizada suave para que una mano débil o en recuperación pueda agarrar una taza o un picaporte. El gancho es la fuerza asistiva que sigue tu propio esfuerzo; un build de dos días rinde un guante funcional, y la demo hace que alguien agarre un objeto que antes no podía mientras entra la asistencia.",
+    "topic": "iot-hardware",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "wearables",
+      "robotics",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Tabletop Foosball Bot that Defends with a Camera",
+    "name_es": "Robot de metegol de mesa que defiende con una cámara",
+    "long_description": "A motorized rod on a foosball table watches the ball with an overhead camera and slides and kicks to defend its goal against a human attacker in real time. Fast vision plus snappy actuation make it a thrilling two-day build; the demo lets a player shoot on goal and watches the robot rod intercept the ball again and again.",
+    "long_description_es": "Una varilla motorizada en una mesa de metegol observa la pelota con una cámara cenital y se desliza y patea para defender su arco contra un atacante humano en tiempo real. La visión rápida más la actuación ágil la hacen un build emocionante de dos días; la demo deja que un jugador remate al arco y ve a la varilla robot interceptar la pelota una y otra vez.",
+    "topic": "iot-hardware",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "sensors",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Off-Grid Weather Mast that Lives on Sun and LoRa",
+    "name_es": "Mástil meteorológico autónomo con sol y LoRa",
+    "long_description": "A solar-powered mast logs wind, rain, temperature, and humidity and relays it kilometers over LoRa with no mains power or cell signal, surviving on a battery sized to its own harvest. The hook is true off-grid endurance; a two-day build yields a self-powered station, and the demo cuts its USB power and watches it keep transmitting on solar alone.",
+    "long_description_es": "Un mástil alimentado por sol registra viento, lluvia, temperatura y humedad y los retransmite kilómetros por LoRa sin red eléctrica ni señal celular, sobreviviendo con una batería dimensionada a su propia cosecha. El gancho es la autonomía real fuera de la red; un build de dos días rinde una estación autoalimentada, y la demo le corta el USB y la ve seguir transmitiendo solo con solar.",
+    "topic": "iot-hardware",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "sensors",
+      "energy-monitor",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Autonomous Shelf Scanner that Spots Empty Slots",
+    "name_es": "Escáner de góndola autónomo que detecta huecos vacíos",
+    "long_description": "A small floor robot rolls a store aisle, scans the shelves with a camera, and produces a restock list of empty or misplaced facings without anyone walking the aisle. Navigation plus shelf-gap vision make it a deep multi-day build; the demo sends it down a mock aisle and watches it return a map flagging exactly which slots ran out.",
+    "long_description_es": "Un pequeño robot de piso recorre un pasillo de tienda, escanea las góndolas con una cámara y produce una lista de reposición de huecos vacíos o mal ubicados sin que nadie camine el pasillo. La navegación más la visión de huecos en estantería lo hacen un build profundo de varios días; la demo lo manda por un pasillo simulado y lo ve devolver un mapa marcando qué espacios se agotaron.",
+    "topic": "iot-hardware",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "sensors",
+      "arduino-rpi"
+    ]
+  },
+  {
+    "name": "Two-Drone Tag Team that Hands Off a Tracked Runner",
+    "name_es": "Dúo de drones que se relevan siguiendo a un corredor",
+    "long_description": "A pair of drones cover a route together, keeping a moving subject in frame and handing the follow off from one to the other when battery runs low so coverage never drops. The hook is the airborne handoff between aircraft; a long build yields a working relay, and the demo has someone jog a loop while the lead drone passes tracking to its partner.",
+    "long_description_es": "Un par de drones cubren juntos un recorrido, manteniendo a un sujeto en movimiento en cuadro y pasándose el seguimiento de uno a otro cuando baja la batería para que la cobertura nunca se corte. El gancho es el relevo aéreo entre aeronaves; un build largo rinde un relevo funcional, y la demo hace que alguien trote una vuelta mientras el dron líder pasa el seguimiento a su compañero.",
+    "topic": "iot-hardware",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "drones",
+      "robotics",
+      "sensors"
+    ]
+  },
+  {
+    "name": "Stair-Climbing Cargo Bot for Last-Meter Deliveries",
+    "name_es": "Robot que sube escaleras para la entrega del último metro",
+    "long_description": "A tracked or legged cargo bot carries a parcel up a flight of stairs to a door, balancing the load and finding each step without help. The hook is conquering stairs, the one obstacle wheeled delivery bots fail at; a multi-day build yields a climbing carrier, and the demo loads a box and watches it ascend a real staircase to deliver it.",
+    "long_description_es": "Un robot de carga con orugas o patas lleva un paquete por un tramo de escaleras hasta una puerta, equilibrando la carga y encontrando cada escalón sin ayuda. El gancho es vencer las escaleras, el obstáculo que los robots de entrega con ruedas no superan; un build de varios días rinde un cargador trepador, y la demo carga una caja y lo ve subir una escalera real para entregarla.",
+    "topic": "iot-hardware",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "robotics",
+      "sensors",
+      "arduino-rpi"
+    ]
+  }
+]

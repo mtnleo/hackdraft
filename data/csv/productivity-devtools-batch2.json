@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Always-On Terminal Debugger that Records Every Command",
+    "name_es": "Depurador de terminal siempre activo que graba cada comando",
+    "long_description": "A background daemon that quietly records every command you run, its exit code, and its output, then lets you scrub back through the session like a timeline when something breaks. Instead of re-running things blindly, you replay the exact failing command and inspect the environment as it was. The demo breaks a build, then rewinds to the moment it went wrong.",
+    "long_description_es": "Un demonio en segundo plano que graba en silencio cada comando que ejecutas, su código de salida y su salida, y luego te deja recorrer la sesión como una línea de tiempo cuando algo falla. En vez de repetir todo a ciegas, reproduces el comando exacto que falló e inspeccionas el entorno tal como estaba. La demo rompe un build y rebobina al momento justo en que se quebró.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "cli-tools",
+      "automation"
+    ]
+  },
+  {
+    "name": "Local-First Agent that Runs Plain-English Shell Tasks",
+    "name_es": "Agente local que ejecuta tareas de shell en lenguaje natural",
+    "long_description": "Type a task in plain English and a local agent proposes the shell commands to do it, shows you exactly what it will run, and only executes after you approve each step. Nothing leaves your machine, and every run is logged so you can audit what happened. The demo asks it to find and compress old logs, then watches it draft, confirm, and execute safely.",
+    "long_description_es": "Escribe una tarea en lenguaje natural y un agente local propone los comandos de shell para hacerla, te muestra exactamente qué ejecutará y solo actúa tras tu aprobación paso a paso. Nada sale de tu máquina y cada ejecución queda registrada para que audites lo ocurrido. La demo le pide encontrar y comprimir logs viejos y lo ve redactar, confirmar y ejecutar con seguridad.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Stack Trace Untangler that Folds Library Frames Away",
+    "name_es": "Desenredador de stack traces que pliega los marcos de librerías",
+    "long_description": "Paste a noisy stack trace and the tool collapses framework and dependency frames into one line, leaving only the frames from your own code highlighted and clickable. It guesses the likely culprit line and explains the call chain in order. A tight single-screen build that turns a wall of red text into the three lines that actually matter.",
+    "long_description_es": "Pega un stack trace ruidoso y la herramienta colapsa los marcos del framework y las dependencias en una sola línea, dejando solo los marcos de tu propio código resaltados y clicables. Adivina la línea culpable más probable y explica la cadena de llamadas en orden. Un build de una sola pantalla que convierte un muro de texto rojo en las tres líneas que de verdad importan.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Dependency Bloat Visualizer that Ranks What to Drop",
+    "name_es": "Visualizador de exceso de dependencias que ordena qué quitar",
+    "long_description": "Point it at a lockfile and it draws your dependency tree sized by install weight, then ranks packages by how much you'd save versus how little you actually import. It flags duplicates pulled in at different versions and one-function libraries you could inline. The demo loads a real project and surfaces the three packages worth removing first.",
+    "long_description_es": "Apúntalo a un lockfile y dibuja tu árbol de dependencias dimensionado por peso de instalación, luego ordena los paquetes según cuánto ahorrarías frente a lo poco que realmente importas. Marca duplicados traídos en versiones distintas y librerías de una sola función que podrías incorporar. La demo carga un proyecto real y destaca los tres paquetes que conviene quitar primero.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "automation"
+    ]
+  },
+  {
+    "name": "Flaky Network Simulator that Tortures Your App Live",
+    "name_es": "Simulador de red inestable que tortura tu app en vivo",
+    "long_description": "A local proxy that injects latency, packet loss, and random 500s into your app's outgoing calls so you can see how the UI behaves under a bad connection. You toggle scenarios from a panel and watch retries, timeouts, and spinners react in real time. The demo runs a checkout flow on a fake subway-tunnel connection and exposes every place it hangs.",
+    "long_description_es": "Un proxy local que inyecta latencia, pérdida de paquetes y errores 500 aleatorios en las llamadas salientes de tu app para ver cómo se comporta la UI con mala conexión. Activas escenarios desde un panel y observas reintentos, timeouts y spinners reaccionar en tiempo real. La demo corre un flujo de pago sobre una conexión falsa de túnel de subte y expone cada punto donde se cuelga.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "testing",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Changelog Drafter that Groups Commits by User Impact",
+    "name_es": "Redactor de changelog que agrupa commits por impacto al usuario",
+    "long_description": "Feed it a range of commits and it drafts a release changelog split into what users will notice, what developers should know, and internal-only noise. It rewrites terse commit subjects into readable bullet points and flags breaking changes at the top. The demo turns a messy week of commits into a polished release note ready to paste.",
+    "long_description_es": "Dale un rango de commits y redacta un changelog de versión dividido en lo que los usuarios notarán, lo que los desarrolladores deben saber y el ruido solo interno. Reescribe asuntos de commit escuetos en viñetas legibles y marca los cambios incompatibles arriba. La demo convierte una semana caótica de commits en una nota de versión pulida lista para pegar.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Onboarding Map that Traces a Repo's Real Entry Points",
+    "name_es": "Mapa de onboarding que rastrea los puntos de entrada reales",
+    "long_description": "Drop a new dev into an unfamiliar repo and this tool draws the actual paths a request takes from entry point to database, ranking which files matter most by how often they sit on those paths. It generates a guided reading order instead of a flat file list. The demo opens a strange codebase and produces a one-page tour of where to start.",
+    "long_description_es": "Mete a un dev nuevo en un repo desconocido y esta herramienta dibuja los caminos reales que toma una petición desde el punto de entrada hasta la base de datos, ordenando qué archivos importan más según cuán seguido están en esos caminos. Genera un orden de lectura guiado en vez de una lista plana de archivos. La demo abre un código extraño y produce un recorrido de una página de por dónde empezar.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "knowledge-mgmt",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Schema Migration Previewer that Shows Locked Rows",
+    "name_es": "Previsualizador de migraciones que muestra filas bloqueadas",
+    "long_description": "Paste a migration and it explains in plain language what each statement does, estimates how long it will lock the table, and warns when a change will block writes on a large table. It suggests a safer online-migration ordering when one exists. The demo takes a scary ALTER on a million-row table and reveals the hidden production stall before it ships.",
+    "long_description_es": "Pega una migración y explica en lenguaje claro qué hace cada sentencia, estima cuánto bloqueará la tabla y avisa cuando un cambio bloqueará escrituras en una tabla grande. Sugiere un orden de migración online más seguro cuando existe. La demo toma un ALTER aterrador sobre una tabla de un millón de filas y revela el bloqueo oculto en producción antes de desplegar.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "cli-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Paste-Anywhere Formatter that Detects the Language First",
+    "name_es": "Formateador universal que detecta el lenguaje primero",
+    "long_description": "Paste any blob — JSON, XML, SQL, a stack trace, a JWT — and the tool guesses what it is, then formats, pretty-prints, or decodes it without you choosing a mode. It chains transforms, so a base64 string that contains JSON unfolds in one click. A fast single-screen utility that kills the daily hunt for the right online formatter.",
+    "long_description_es": "Pega cualquier bloque — JSON, XML, SQL, un stack trace, un JWT — y la herramienta adivina qué es, luego lo formatea, lo imprime ordenado o lo decodifica sin que elijas un modo. Encadena transformaciones, así un base64 que contiene JSON se despliega en un clic. Una utilidad rápida de una sola pantalla que mata la búsqueda diaria del formateador online correcto.",
+    "topic": "productivity-devtools",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "cli-tools",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Build Time Profiler that Blames the Slowest Steps",
+    "name_es": "Perfilador de tiempos de build que culpa a los pasos lentos",
+    "long_description": "Wrap your build or CI script and the tool times each step, then draws a waterfall that highlights the few stages eating most of the wall clock. It tracks runs over time so you can see when a step suddenly got slower and what commit did it. The demo profiles a sluggish pipeline and points straight at the install step nobody suspected.",
+    "long_description_es": "Envuelve tu script de build o CI y la herramienta cronometra cada paso, luego dibuja una cascada que resalta las pocas etapas que se comen casi todo el tiempo real. Registra ejecuciones en el tiempo para ver cuándo un paso se volvió lento y qué commit lo causó. La demo perfila un pipeline lento y apunta directo al paso de instalación que nadie sospechaba.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Feature Flag Janitor that Finds Flags Safe to Delete",
+    "name_es": "Conserje de feature flags que halla flags seguros de borrar",
+    "long_description": "Scan a codebase and the tool lists every feature flag, how long it's been fully on or off, and where it's still referenced, then ranks which stale flags are safe to rip out. It generates the cleanup diff that removes the dead branch behind each flag. The demo finds a flag that's been 100% live for a year and offers the one-click removal.",
+    "long_description_es": "Escanea un código y la herramienta lista cada feature flag, cuánto lleva totalmente encendido o apagado y dónde se referencia aún, luego ordena qué flags obsoletos son seguros de eliminar. Genera el diff de limpieza que quita la rama muerta detrás de cada flag. La demo encuentra un flag activo al 100% desde hace un año y ofrece la eliminación en un clic.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Test Data Factory that Builds Realistic Rows from a Schema",
+    "name_es": "Fábrica de datos de prueba que genera filas reales de un esquema",
+    "long_description": "Point it at a table schema and it generates believable seed data that respects foreign keys, value ranges, and formats like emails and phone numbers, instead of dumping random gibberish. You tune the shape — mostly active users, a few edge cases — and export ready-to-load rows. The demo fills an empty database with a coherent set of customers and orders in one pass.",
+    "long_description_es": "Apúntalo a un esquema de tabla y genera datos de semilla creíbles que respetan claves foráneas, rangos de valores y formatos como emails y teléfonos, en vez de volcar basura aleatoria. Ajustas la forma — usuarios mayormente activos, unos pocos casos límite — y exportas filas listas para cargar. La demo llena una base vacía con un conjunto coherente de clientes y pedidos de una sola vez.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "name": "OpenAPI Diff that Speaks in Breaking and Safe Changes",
+    "name_es": "Diff de OpenAPI que habla de cambios rotos y seguros",
+    "long_description": "Drop two versions of an API spec and the tool classifies every difference as breaking, additive, or cosmetic, then writes the migration notes a consumer needs. It catches the subtle ones — a field that became required, an enum value removed — that plain text diffs hide. The demo compares two specs and produces a clear go or no-go for shipping the change.",
+    "long_description_es": "Suelta dos versiones de una spec de API y la herramienta clasifica cada diferencia como ruptura, agregado o cosmética, luego escribe las notas de migración que un consumidor necesita. Atrapa las sutiles — un campo que se volvió obligatorio, un valor de enum eliminado — que los diffs de texto plano ocultan. La demo compara dos specs y produce un claro sí o no para publicar el cambio.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Code Review Pre-Flight that Comments Before Humans Do",
+    "name_es": "Pre-revisión de código que comenta antes que los humanos",
+    "long_description": "Run it on your own diff before opening a pull request and it leaves the comments a reviewer probably would — missing null checks, untested branches, a name that lies about what it does — so you fix them privately first. It groups nitpicks separately from real concerns. The demo runs on a fresh diff and hands back a tidy list of self-fixes before anyone else looks.",
+    "long_description_es": "Córrelo sobre tu propio diff antes de abrir un pull request y deja los comentarios que probablemente haría un revisor — chequeos de null faltantes, ramas sin probar, un nombre que miente sobre lo que hace — para que los arregles en privado primero. Separa las nimiedades de las preocupaciones reales. La demo corre sobre un diff nuevo y devuelve una lista ordenada de autocorrecciones antes de que otro lo mire.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "collaboration",
+      "testing"
+    ]
+  },
+  {
+    "name": "Secret Rotation Reminder that Reads Your Expiry Dates",
+    "name_es": "Recordatorio de rotación que lee tus fechas de vencimiento",
+    "long_description": "Point it at your certs, tokens, and API keys and it parses their real expiry dates, then builds a calendar of what dies when and nags you before each one lapses. It groups secrets by service so you rotate related ones together. The demo scans a config folder and surfaces the TLS cert quietly expiring next Tuesday before it takes prod down.",
+    "long_description_es": "Apúntalo a tus certificados, tokens y claves de API y parsea sus fechas reales de vencimiento, luego arma un calendario de qué muere cuándo y te avisa antes de que cada uno caduque. Agrupa secretos por servicio para que rotes los relacionados juntos. La demo escanea una carpeta de configuración y destaca el certificado TLS que vence el martes antes de que tumbe producción.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "time-mgmt"
+    ]
+  },
+  {
+    "name": "Visual Diff for Rendered Output, Not Just Source Lines",
+    "name_es": "Diff visual de la salida renderizada, no solo del código",
+    "long_description": "Instead of diffing source, this tool renders the before and after of generated output — a chart, an email template, a PDF — and overlays exactly which pixels moved. It flags unintended visual regressions a line diff would never show. The demo edits a template, then highlights that one logo shifted four pixels while the code looked harmless.",
+    "long_description_es": "En vez de comparar código, esta herramienta renderiza el antes y el después de una salida generada — un gráfico, una plantilla de email, un PDF — y superpone exactamente qué píxeles se movieron. Marca regresiones visuales no intencionadas que un diff de líneas jamás mostraría. La demo edita una plantilla y resalta que un logo se corrió cuatro píxeles aunque el código parecía inofensivo.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "name": "Meeting-Free Block Negotiator for a Whole Team Calendar",
+    "name_es": "Negociador de bloques sin reuniones para todo el equipo",
+    "long_description": "Connect a team's calendars and the tool proposes shared maker-time blocks where it can carve focus hours for everyone with the fewest meetings moved. It shows the trade-offs and lets the team vote before applying. The demo takes a fractured week of overlapping meetings and finds two protected mornings the whole team can keep.",
+    "long_description_es": "Conecta los calendarios de un equipo y la herramienta propone bloques compartidos de tiempo de creación donde puede tallar horas de foco para todos moviendo la menor cantidad de reuniones. Muestra los compromisos y deja que el equipo vote antes de aplicar. La demo toma una semana fragmentada de reuniones superpuestas y encuentra dos mañanas protegidas que todo el equipo puede conservar.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "time-mgmt",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Local Webhook Tunnel that Names and Filters Events",
+    "name_es": "Túnel de webhooks local que nombra y filtra eventos",
+    "long_description": "Expose your local server to receive real webhooks, but instead of a raw firehose the tool labels each event by type, lets you filter to the ones you care about, and pins the exact payload you're debugging. You can edit and re-fire any captured event. A focused build for the painful loop of testing third-party callbacks against localhost.",
+    "long_description_es": "Expone tu servidor local para recibir webhooks reales, pero en vez de una manguera cruda la herramienta etiqueta cada evento por tipo, te deja filtrar los que te importan y fija el payload exacto que estás depurando. Puedes editar y reenviar cualquier evento capturado. Un build enfocado para el doloroso ciclo de probar callbacks de terceros contra localhost.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Config Drift Detector Across Your Dev and Prod Envs",
+    "name_es": "Detector de deriva de configuración entre dev y prod",
+    "long_description": "Feed it the config from two environments and it lines them up key by key, highlighting where dev and prod silently disagree and which differences are expected versus dangerous. It learns which keys should differ so it stops crying wolf. The demo compares staging and prod and surfaces the one feature flag set differently that explains the bug.",
+    "long_description_es": "Dale la configuración de dos entornos y los alinea clave por clave, resaltando dónde dev y prod difieren en silencio y qué diferencias son esperadas frente a peligrosas. Aprende qué claves deberían diferir para dejar de dar falsas alarmas. La demo compara staging y prod y destaca el único feature flag configurado distinto que explica el bug.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "cli-tools"
+    ]
+  },
+  {
+    "name": "Personal Command Palette that Learns Your Shell Aliases",
+    "name_es": "Paleta de comandos personal que aprende tus alias de shell",
+    "long_description": "A fuzzy launcher that watches your real command history, surfaces the long incantations you keep retyping, and offers to save them as named, parameterized shortcuts. It fills in the variable parts with a quick prompt at run time. A small but addictive build that turns your own habits into a personal command menu.",
+    "long_description_es": "Un lanzador difuso que observa tu historial real de comandos, destaca los conjuros largos que vuelves a teclear y ofrece guardarlos como atajos nombrados y parametrizados. Completa las partes variables con una pregunta rápida al ejecutar. Un build pequeño pero adictivo que convierte tus propios hábitos en un menú de comandos personal.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "time-mgmt"
+    ]
+  },
+  {
+    "name": "No-Code Form to Database App in One Shareable Link",
+    "name_es": "App de formulario a base de datos en un enlace compartible",
+    "long_description": "Drag fields onto a canvas and the tool instantly stands up a working form backed by a real table, complete with validation and a sortable view of submissions, shared as a single link. No deploy step, no schema writing. The demo builds a small intake form live and shows responses landing in a queryable table seconds later.",
+    "long_description_es": "Arrastra campos a un lienzo y la herramienta levanta al instante un formulario funcional respaldado por una tabla real, con validación y una vista ordenable de respuestas, compartida como un solo enlace. Sin paso de despliegue, sin escribir esquemas. La demo construye un pequeño formulario de ingreso en vivo y muestra las respuestas llegando a una tabla consultable segundos después.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "no-code",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "CI Failure Clusterer that Groups Red Builds by Cause",
+    "name_es": "Agrupador de fallos de CI que junta builds rojos por causa",
+    "long_description": "Pull a stream of failed CI runs and the tool clusters them by the underlying error signature, so one flaky cause stops looking like fifty separate failures. It ranks clusters by how much developer time each is wasting. The demo ingests a week of red builds and reveals that three error patterns explain most of the noise.",
+    "long_description_es": "Trae un flujo de ejecuciones de CI fallidas y la herramienta las agrupa por la firma de error subyacente, para que una causa inestable deje de parecer cincuenta fallos distintos. Ordena los grupos según cuánto tiempo de desarrollo desperdicia cada uno. La demo ingiere una semana de builds rojos y revela que tres patrones de error explican casi todo el ruido.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "name": "Throwaway Sandbox per Pull Request with a Live URL",
+    "name_es": "Sandbox descartable por pull request con URL en vivo",
+    "long_description": "Open a pull request and the tool spins up an isolated preview environment with seeded data and hands back a shareable URL, then tears it down when the PR closes. Reviewers click instead of pulling the branch and running it locally. A meatier build whose payoff is letting a non-technical stakeholder try the change before merge.",
+    "long_description_es": "Abre un pull request y la herramienta levanta un entorno de vista previa aislado con datos de semilla y devuelve una URL compartible, luego lo destruye cuando el PR se cierra. Los revisores hacen clic en vez de bajar la rama y correrla local. Un build más sustancioso cuyo premio es dejar que un interesado no técnico pruebe el cambio antes del merge.",
+    "topic": "productivity-devtools",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "automation",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Self-Hosted Status Page that Watches Your Own Endpoints",
+    "name_es": "Página de estado autoalojada que vigila tus endpoints",
+    "long_description": "Define your services in a simple file and the tool probes each endpoint on a schedule, computes uptime, and serves a clean public status page that updates itself. It groups related checks and shows incident history without a paid SaaS. The demo lists three services, knocks one offline, and watches the page flip to a clear degraded state.",
+    "long_description_es": "Define tus servicios en un archivo simple y la herramienta sondea cada endpoint según un calendario, calcula el uptime y sirve una página de estado pública y limpia que se actualiza sola. Agrupa chequeos relacionados y muestra el historial de incidentes sin un SaaS pago. La demo lista tres servicios, deja uno offline y ve la página pasar a un estado degradado claro.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Glossary Builder that Mines Your Codebase for Jargon",
+    "name_es": "Generador de glosario que extrae la jerga de tu código",
+    "long_description": "Scan a repo and the tool surfaces the domain terms that appear in names and comments but are never defined anywhere, then drafts a starter glossary entry for each and lets the team confirm definitions. It links each term back to where it's used. The demo runs on a project and exposes the ten invented words new hires keep asking about.",
+    "long_description_es": "Escanea un repo y la herramienta destaca los términos de dominio que aparecen en nombres y comentarios pero nunca se definen, luego redacta una entrada inicial de glosario para cada uno y deja que el equipo confirme las definiciones. Enlaza cada término a donde se usa. La demo corre sobre un proyecto y expone las diez palabras inventadas que los nuevos siempre preguntan.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "knowledge-mgmt",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Load Test Recorder that Replays Your Click Path at Scale",
+    "name_es": "Grabador de pruebas de carga que repite tu clic a escala",
+    "long_description": "Click through a real user flow once in the browser and the tool records it as a script, then replays it from many simulated users at once while charting where latency cracks. No hand-writing load scripts. The demo records a login-and-checkout path, ramps to a thousand virtual users, and shows the exact step that buckles first.",
+    "long_description_es": "Recorre un flujo de usuario real una vez en el navegador y la herramienta lo graba como script, luego lo reproduce desde muchos usuarios simulados a la vez mientras grafica dónde se quiebra la latencia. Sin escribir scripts de carga a mano. La demo graba un camino de login y pago, escala a mil usuarios virtuales y muestra el paso exacto que cede primero.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "testing",
+      "automation"
+    ]
+  },
+  {
+    "name": "Pomodoro Timer that Auto-Logs Work to the Right Ticket",
+    "name_es": "Temporizador Pomodoro que registra el trabajo al ticket justo",
+    "long_description": "A focus timer that watches which branch and ticket you're on, so when a session ends it logs the time against the correct task without you filling a timesheet. It batches the day into a clean summary you can confirm in one click. A small build that quietly solves the time-tracking everyone forgets to do.",
+    "long_description_es": "Un temporizador de foco que observa en qué rama y ticket estás, así cuando termina una sesión registra el tiempo contra la tarea correcta sin que llenes una planilla. Agrupa el día en un resumen limpio que confirmas en un clic. Un build pequeño que resuelve en silencio el registro de tiempo que todos olvidan hacer.",
+    "topic": "productivity-devtools",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "time-mgmt",
+      "automation"
+    ]
+  },
+  {
+    "name": "Error Budget Tracker that Turns SLOs into a Live Gauge",
+    "name_es": "Rastreador de presupuesto de error que vuelve SLOs un medidor",
+    "long_description": "Define an availability target and the tool watches your error rate, then shows how much error budget is left this month as a simple gauge that ticks down with every incident. It warns when the burn rate means you'll blow the budget early. The demo sets a target, replays a spike of errors, and shows the gauge dropping into the danger zone.",
+    "long_description_es": "Define un objetivo de disponibilidad y la herramienta vigila tu tasa de error, luego muestra cuánto presupuesto de error queda este mes como un medidor simple que baja con cada incidente. Avisa cuando el ritmo de consumo implica que agotarás el presupuesto antes de tiempo. La demo fija un objetivo, repite un pico de errores y muestra el medidor cayendo a la zona de peligro.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "automation",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Reproducible Bug Capsule from a Single Failing Session",
+    "name_es": "Cápsula de bug reproducible desde una sesión que falla",
+    "long_description": "When something breaks, hit record and the tool bundles the exact inputs, environment variables, and steps into a portable capsule a teammate can replay verbatim, ending the it-works-on-my-machine standoff. It strips secrets before sharing. The demo captures a crash, sends the capsule to another machine, and reproduces the failure on the first try.",
+    "long_description_es": "Cuando algo se rompe, presionas grabar y la herramienta empaqueta los inputs exactos, las variables de entorno y los pasos en una cápsula portátil que un compañero puede reproducir al pie de la letra, acabando con el clásico funciona-en-mi-máquina. Quita secretos antes de compartir. La demo captura un crash, envía la cápsula a otra máquina y reproduce el fallo al primer intento.",
+    "topic": "productivity-devtools",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "testing",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "Inline Doc Checker that Flags Comments the Code Outgrew",
+    "name_es": "Verificador de docs que marca comentarios que el código superó",
+    "long_description": "Scan a repo and the tool finds comments and docstrings that no longer match the code beside them — a parameter that was renamed, a return type that changed, an example that would now throw. It ranks the most misleading ones first. A sharp build that hunts the documentation lies quietly rotting next to working code.",
+    "long_description_es": "Escanea un repo y la herramienta encuentra comentarios y docstrings que ya no concuerdan con el código a su lado — un parámetro renombrado, un tipo de retorno cambiado, un ejemplo que ahora fallaría. Ordena primero los más engañosos. Un build agudo que caza las mentiras de documentación que se pudren en silencio junto al código que funciona.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "knowledge-mgmt",
+      "testing"
+    ]
+  },
+  {
+    "name": "Drag-and-Drop Scraper that Outputs a Scheduled Feed",
+    "name_es": "Scraper de arrastrar y soltar que genera un feed programado",
+    "long_description": "Point at a web page, click the elements you want, and the tool builds a scraper visually that runs on a schedule and emits a clean structured feed you can subscribe to. No selectors written by hand, and it warns when a page layout breaks the recipe. The demo turns a listings page into a daily JSON feed in a couple of clicks.",
+    "long_description_es": "Apunta a una página web, haz clic en los elementos que quieres y la herramienta construye un scraper visualmente que corre programado y emite un feed estructurado y limpio al que puedes suscribirte. Sin selectores escritos a mano, y avisa cuando un cambio de diseño rompe la receta. La demo convierte una página de listados en un feed JSON diario en un par de clics.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "no-code",
+      "automation"
+    ]
+  },
+  {
+    "name": "Keyboard-Only Database Browser for Fast Ad-Hoc Queries",
+    "name_es": "Navegador de base de datos por teclado para consultas rápidas",
+    "long_description": "A terminal database client built for speed: fuzzy-jump to any table, page through rows, and build filters without touching the mouse or writing full SQL for simple lookups. It remembers your recent queries per database. A focused build for the developer who lives in the keyboard and just wants to peek at a row right now.",
+    "long_description_es": "Un cliente de base de datos en terminal hecho para la velocidad: salta con búsqueda difusa a cualquier tabla, recorre filas y arma filtros sin tocar el mouse ni escribir SQL completo para búsquedas simples. Recuerda tus consultas recientes por base de datos. Un build enfocado para el desarrollador que vive en el teclado y solo quiere espiar una fila ya mismo.",
+    "topic": "productivity-devtools",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "cli-tools",
+      "api-tools"
+    ]
+  },
+  {
+    "name": "Incident Timeline Stitcher from Logs, Chats, and Deploys",
+    "name_es": "Costurero de cronologías de incidentes desde logs y chats",
+    "long_description": "After an outage, point the tool at your logs, deploy records, and chat thread and it merges them into one ordered timeline of what happened when, so the postmortem writes its own first draft. It marks the deploy that lines up with the first error spike. A bigger build that turns scattered incident evidence into a coherent story.",
+    "long_description_es": "Tras una caída, apunta la herramienta a tus logs, registros de despliegue e hilo de chat y los fusiona en una sola cronología ordenada de qué pasó y cuándo, así el postmortem escribe su propio primer borrador. Marca el despliegue que coincide con el primer pico de errores. Un build más grande que convierte evidencia dispersa de incidentes en una historia coherente.",
+    "topic": "productivity-devtools",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "knowledge-mgmt",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "API Mock that Mutates State Like a Real Backend",
+    "name_es": "Mock de API que muta el estado como un backend real",
+    "long_description": "Most mocks return canned responses; this one keeps in-memory state, so a POST actually creates a record a later GET returns, letting you build a whole frontend before the backend exists. You seed initial data and define simple rules per route. The demo wires a UI to the mock and runs a real create-read-update cycle with no server written.",
+    "long_description_es": "La mayoría de los mocks devuelven respuestas enlatadas; este mantiene estado en memoria, así un POST realmente crea un registro que un GET posterior devuelve, dejándote construir todo un frontend antes de que exista el backend. Siembras datos iniciales y defines reglas simples por ruta. La demo conecta una UI al mock y corre un ciclo real de crear-leer-actualizar sin servidor escrito.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "api-tools",
+      "testing"
+    ]
+  },
+  {
+    "name": "Spaced-Repetition Trainer for Your Team's Runbooks",
+    "name_es": "Entrenador de repetición espaciada para los runbooks del equipo",
+    "long_description": "Turn the critical steps of your operational runbooks into short drills the on-call rotation practices on a spaced schedule, so the deploy or rollback steps are muscle memory before a real 3 a.m. page. It tracks who's rusty on which procedure. A focused build that keeps emergency know-how fresh instead of letting it decay in a wiki.",
+    "long_description_es": "Convierte los pasos críticos de tus runbooks operativos en ejercicios cortos que la rotación de guardia practica en un calendario espaciado, así los pasos de despliegue o rollback son memoria muscular antes de una alerta real a las 3 a.m. Registra quién está oxidado en qué procedimiento. Un build enfocado que mantiene fresco el saber de emergencia en vez de dejarlo decaer en una wiki.",
+    "topic": "productivity-devtools",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "knowledge-mgmt",
+      "collaboration"
+    ]
+  }
+]

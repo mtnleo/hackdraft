@@ -1,0 +1,551 @@
+[
+  {
+    "name": "Polling-Place Wait-Time Reporter Crowdsourced by Voters",
+    "name_es": "Reportero de tiempos de espera en mesas de votacion",
+    "long_description": "Voters tap one button on arrival and another when they finish, and the app crowdsources live wait times per polling location onto a map. Late voters can see which nearby site has the shortest line before heading out. The demo shows wait times turning red as fake check-ins pile up, a sharp single-screen civic tool.",
+    "long_description_es": "Los votantes tocan un boton al llegar y otro al terminar, y la app calcula tiempos de espera en vivo por mesa sobre un mapa. Quienes votan tarde pueden ver que lugar cercano tiene la fila mas corta antes de salir. La demo muestra los tiempos volviendose rojos a medida que se acumulan registros, una herramienta civica de una sola pantalla.",
+    "topic": "social-impact",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Contrast Checker that Audits a Live Page for Low Vision",
+    "name_es": "Verificador de contraste que audita una pagina para baja vision",
+    "long_description": "Paste any URL and the tool walks the rendered page, flags every text block that fails contrast ratios for low-vision readers, and proposes the nearest passing color. It overlays a heatmap so a designer sees the worst offenders at a glance. A tight single-feature build that turns an accessibility audit into one click.",
+    "long_description_es": "Pega cualquier URL y la herramienta recorre la pagina renderizada, marca cada bloque de texto que falla los ratios de contraste para personas con baja vision y propone el color valido mas cercano. Superpone un mapa de calor para que el disenador vea los peores casos de un vistazo. Una construccion ajustada que convierte una auditoria de accesibilidad en un clic.",
+    "topic": "social-impact",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "accessibility",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Flashcard Maker that Turns a Textbook Photo into a Quiz Set",
+    "name_es": "Generador de tarjetas que convierte la foto de un libro en un examen",
+    "long_description": "A student snaps a photo of a textbook page and instantly gets a spaced-repetition deck of question-and-answer cards pulled from the key terms and definitions. It works on any subject and exports to study apps. A focused single-feature build that removes the tedious part of studying for kids without paid tools.",
+    "long_description_es": "Un estudiante saca una foto de la pagina de un libro y obtiene al instante un mazo de repeticion espaciada con tarjetas de pregunta y respuesta extraidas de los terminos y definiciones clave. Funciona con cualquier materia y exporta a apps de estudio. Una construccion enfocada que elimina la parte tediosa de estudiar para chicos sin herramientas pagas.",
+    "topic": "social-impact",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "education"
+    ]
+  },
+  {
+    "name": "Reading-Level Meter that Grades Any Public Notice as You Type",
+    "name_es": "Medidor de nivel de lectura que califica un aviso publico al escribir",
+    "long_description": "A clerk pastes a draft public notice and a live gauge shows the reading grade level, highlighting the exact sentences that push it above what most residents can follow. It suggests simpler swaps for jargon words inline. A sharp single-screen tool that helps agencies write notices everyone can actually read.",
+    "long_description_es": "Un funcionario pega el borrador de un aviso publico y un medidor en vivo muestra el nivel de lectura, resaltando las frases exactas que lo elevan por encima de lo que la mayoria de los vecinos puede seguir. Sugiere reemplazos mas simples para la jerga sobre la marcha. Una herramienta de una pantalla que ayuda a las agencias a escribir avisos que todos puedan leer.",
+    "topic": "social-impact",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "civic-tech",
+      "accessibility",
+      "language"
+    ]
+  },
+  {
+    "name": "Split-the-Bill Tool for Informal Savings Groups Offline",
+    "name_es": "Herramienta de division de aportes para grupos de ahorro informales sin conexion",
+    "long_description": "Members of a rotating savings club log weekly contributions on a shared phone that works offline, and the tool tracks whose turn it is to receive the pot and who still owes. It prints a clear ledger card so trust stays intact without a bank. A tight build for communities running money circles by hand.",
+    "long_description_es": "Los miembros de un club de ahorro rotativo registran los aportes semanales en un telefono compartido que funciona sin conexion, y la herramienta lleva el control de a quien le toca recibir el fondo y quien todavia debe. Imprime una tarjeta de cuentas clara para que la confianza se mantenga sin banco. Una construccion ajustada para comunidades que manejan circulos de dinero a mano.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "finance-inclusion",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "Curb-Cut Gap Finder that Spots Missing Ramps from Map Imagery",
+    "name_es": "Buscador de rampas faltantes a partir de imagenes de mapas",
+    "long_description": "Feed a neighborhood bounding box and the tool scans street-level imagery for intersections that lack curb cuts, then ranks the gaps that strand the most wheelchair routes. City staff get a prioritized punch list with photos attached. The demo lets a judge draw a box on a map and watch missing ramps pin themselves.",
+    "long_description_es": "Ingresa el area de un barrio y la herramienta escanea imagenes a nivel de calle en busca de esquinas sin rampas, y luego ordena las brechas que dejan aisladas a mas rutas en silla de ruedas. El personal municipal recibe una lista priorizada con fotos adjuntas. La demo permite a un juez dibujar un area en un mapa y ver como se marcan las rampas faltantes.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Tactile Diagram Generator that Prints Charts for Blind Students",
+    "name_es": "Generador de diagramas tactiles que imprime graficos para estudiantes ciegos",
+    "long_description": "A teacher uploads a chart or simple diagram and the tool converts it into a swell-paper or 3D-printable tactile version with braille labels placed correctly. It keeps proportions so a blind student feels the same trends a sighted peer sees. A meaty build that makes visual science material physically explorable.",
+    "long_description_es": "Un docente sube un grafico o diagrama simple y la herramienta lo convierte en una version tactil para papel termico o impresion 3D con etiquetas en braille bien ubicadas. Mantiene las proporciones para que un estudiante ciego sienta las mismas tendencias que ve un companero vidente. Una construccion sustancial que hace explorable fisicamente el material cientifico visual.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "education"
+    ]
+  },
+  {
+    "name": "Rumor-Tracker Dashboard for Crisis Misinformation in Real Time",
+    "name_es": "Panel de rumores para desinformacion en crisis en tiempo real",
+    "long_description": "During a disaster the tool clusters incoming social posts into distinct rumors, ranks each by spread and potential harm, and lets responders mark which ones to debunk first. A timeline shows a false evacuation claim ballooning before it is corrected. The demo replays a real crisis feed and watches dangerous rumors rise to the top.",
+    "long_description_es": "Durante un desastre la herramienta agrupa las publicaciones entrantes en rumores distintos, los ordena por difusion y dano potencial, y permite a los equipos marcar cuales desmentir primero. Una linea de tiempo muestra una falsa alerta de evacuacion creciendo antes de ser corregida. La demo reproduce un feed real de crisis y ve subir los rumores peligrosos.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "disaster-response",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Grant-Deadline Radar that Surfaces Funding a Nonprofit Qualifies For",
+    "name_es": "Radar de fechas de subvenciones que muestra fondos para los que una ONG califica",
+    "long_description": "A small nonprofit enters its mission, size, and region, and the tool scans open grant calls to surface only the ones it actually qualifies for, sorted by deadline. It flags eligibility deal-breakers up front so no time is wasted. The demo profiles a fake food bank and watches matching grants populate a countdown board.",
+    "long_description_es": "Una ONG pequena ingresa su mision, tamano y region, y la herramienta escanea convocatorias abiertas para mostrar solo aquellas para las que realmente califica, ordenadas por fecha limite. Marca de entrada los requisitos excluyentes para no perder tiempo. La demo perfila un banco de alimentos ficticio y ve poblarse un tablero de cuenta regresiva con subvenciones compatibles.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "nonprofit",
+      "finance-inclusion"
+    ]
+  },
+  {
+    "name": "Pronunciation Coach that Scores a Heritage Learner Word by Word",
+    "name_es": "Entrenador de pronunciacion que califica a un hablante de herencia palabra por palabra",
+    "long_description": "A heritage-language learner reads a phrase aloud and the tool scores each word against a native model, highlighting the exact sounds that drifted and looping just those. It builds short drills from the words a learner keeps missing. The demo has someone speak a sentence and watch the weak syllables light up instantly.",
+    "long_description_es": "Un aprendiz de lengua de herencia lee una frase en voz alta y la herramienta califica cada palabra contra un modelo nativo, resaltando los sonidos exactos que se desviaron y repitiendo solo esos. Arma ejercicios cortos con las palabras que el aprendiz sigue fallando. La demo hace que alguien diga una oracion y vea encenderse las silabas debiles al instante.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "language",
+      "education",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Medication-Conflict Checker for Caregivers of Multiple Elders",
+    "name_es": "Verificador de interacciones para cuidadores de varios adultos mayores",
+    "long_description": "A caregiver photographs the pill bottles for each elder they help, and the tool builds a per-person schedule while flagging dangerous drug interactions across the whole list. It generates a large-print daily card that anyone can follow. The demo scans a messy pile of bottles and surfaces a hidden conflict the family missed.",
+    "long_description_es": "Un cuidador fotografia los frascos de pastillas de cada adulto mayor que atiende, y la herramienta arma un cronograma por persona mientras marca interacciones peligrosas en toda la lista. Genera una tarjeta diaria en letra grande que cualquiera puede seguir. La demo escanea una pila desordenada de frascos y revela un conflicto oculto que la familia no habia visto.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "elderly",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Lost-Pet and Person Flyer Maker that Geo-Targets a Neighborhood",
+    "name_es": "Creador de carteles de personas o mascotas perdidas con geolocalizacion barrial",
+    "long_description": "In a crisis or everyday emergency, someone fills a short form and the tool generates a clean printable flyer plus a shareable card that auto-targets the surrounding blocks. Sightings flow back onto a private map for the searcher. A focused build that turns a panicked moment into an organized, local search effort.",
+    "long_description_es": "En una crisis o emergencia cotidiana, alguien completa un formulario corto y la herramienta genera un cartel imprimible prolijo mas una tarjeta para compartir que apunta automaticamente a las cuadras cercanas. Los avistamientos vuelven a un mapa privado para quien busca. Una construccion enfocada que convierte un momento de panico en una busqueda local organizada.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "disaster-response",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Sliding-Scale Calculator that Sets Fair Clinic Fees by Income",
+    "name_es": "Calculadora de escala movil para tarifas justas de clinica segun ingresos",
+    "long_description": "A community clinic enters its cost floor and a patient answers a few private questions about household income and size, and the tool returns a fair sliding-scale fee plus which subsidies might cover the rest. It keeps the math transparent so patients trust the number. A tight build that removes guesswork from charitable pricing.",
+    "long_description_es": "Una clinica comunitaria ingresa su costo minimo y un paciente responde unas pocas preguntas privadas sobre ingresos y tamano del hogar, y la herramienta devuelve una tarifa justa de escala movil mas que subsidios podrian cubrir el resto. Mantiene las cuentas transparentes para que el paciente confie en el numero. Una construccion ajustada que quita la incertidumbre del precio solidario.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "finance-inclusion",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "Read-Aloud Reformatter that Tames Cluttered Pages for Dyslexia",
+    "name_es": "Reformateador de lectura que ordena paginas recargadas para dislexia",
+    "long_description": "Paste a URL or article and the tool strips clutter, reflows text into a dyslexia-friendly font and spacing, and reads it aloud while highlighting each word in sync. Readers tune line length and color overlays to what suits them. A sharp single-screen build that makes dense web text approachable for struggling readers.",
+    "long_description_es": "Pega una URL o articulo y la herramienta elimina el desorden, reacomoda el texto en una fuente y espaciado amigables para la dislexia, y lo lee en voz alta resaltando cada palabra en sincronia. El lector ajusta el largo de linea y los filtros de color a su gusto. Una construccion de una pantalla que hace accesible el texto web denso para lectores con dificultades.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "education"
+    ]
+  },
+  {
+    "name": "Damage-Photo Sorter that Triages Crowd Reports After a Storm",
+    "name_es": "Clasificador de fotos de danos que prioriza reportes tras una tormenta",
+    "long_description": "Residents upload photos of storm damage and the tool tags severity, pins each to a map, and clusters the hardest-hit blocks so crews go where need is greatest first. Duplicate reports of the same site get merged automatically. The demo feeds a batch of mixed photos and watches a priority map self-assemble.",
+    "long_description_es": "Los vecinos suben fotos de los danos de una tormenta y la herramienta etiqueta la gravedad, las ubica en un mapa y agrupa las cuadras mas afectadas para que las cuadrillas vayan primero donde mas se necesita. Los reportes duplicados del mismo lugar se fusionan automaticamente. La demo carga un lote de fotos mezcladas y ve armarse solo un mapa de prioridades.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "disaster-response",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Translation Relay that Links a Patient to a Volunteer Interpreter",
+    "name_es": "Relevo de traduccion que conecta a un paciente con un interprete voluntario",
+    "long_description": "When a patient and clinician do not share a language, the tool instantly pages an available volunteer interpreter for that exact language pair and bridges them by voice in seconds. It falls back to machine translation while a human connects. A demoable build that turns a frantic search for an interpreter into one tap.",
+    "long_description_es": "Cuando un paciente y un medico no comparten idioma, la herramienta convoca al instante a un interprete voluntario disponible para ese par exacto de lenguas y los une por voz en segundos. Recurre a la traduccion automatica mientras se conecta una persona. Una construccion demostrable que convierte la busqueda desesperada de un interprete en un solo toque.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "language",
+      "accessibility",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "Tutor-Match Scheduler that Pairs Volunteers to Students by Gap",
+    "name_es": "Agenda de tutorias que empareja voluntarios con estudiantes por brecha",
+    "long_description": "Students list the topics they are stuck on and volunteers list what they can teach plus their free hours, and the tool proposes weekly pairings that maximize coverage of the worst gaps. It auto-fills calendar invites and tracks attendance. A solid build that turns scattered goodwill into a reliable tutoring schedule.",
+    "long_description_es": "Los estudiantes listan los temas en los que estan trabados y los voluntarios listan que pueden ensenar y sus horas libres, y la herramienta propone emparejamientos semanales que maximizan la cobertura de las peores brechas. Completa invitaciones de calendario y registra la asistencia. Una construccion solida que convierte la buena voluntad dispersa en un cronograma de tutorias confiable.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "education",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "Eviction-Notice Decoder that Maps Out a Tenant's Next Steps",
+    "name_es": "Decodificador de avisos de desalojo que traza los pasos del inquilino",
+    "long_description": "A tenant photographs an eviction or rent notice and the tool extracts the key dates, explains what each one means in plain language, and lays out a personalized timeline of deadlines and options. It surfaces local legal-aid contacts for each step. A focused build that turns a terrifying letter into a clear plan of action.",
+    "long_description_es": "Un inquilino fotografia un aviso de desalojo o de alquiler y la herramienta extrae las fechas clave, explica que significa cada una en lenguaje simple y traza una linea de tiempo personalizada de plazos y opciones. Muestra contactos locales de asistencia legal para cada paso. Una construccion enfocada que convierte una carta aterradora en un plan de accion claro.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "civic-tech",
+      "accessibility",
+      "language"
+    ]
+  },
+  {
+    "name": "Budget-Coaching Game that Teaches Saving on a Tight Income",
+    "name_es": "Juego de coaching de presupuesto que ensena a ahorrar con ingresos ajustados",
+    "long_description": "A short interactive game drops the player into realistic month scenarios on a low income, where every choice about rent, food, and surprise bills shows the ripple effect on savings. It coaches gentle strategies after each round. A demoable build that teaches budgeting through felt consequences instead of dry advice.",
+    "long_description_es": "Un juego interactivo corto pone al jugador en escenarios realistas de un mes con bajos ingresos, donde cada decision sobre alquiler, comida y gastos imprevistos muestra el efecto domino en los ahorros. Aconseja estrategias suaves despues de cada ronda. Una construccion demostrable que ensena a presupuestar mediante consecuencias sentidas en lugar de consejos aridos.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "beginner",
+    "tags": [
+      "finance-inclusion",
+      "education"
+    ]
+  },
+  {
+    "name": "Public-Comment Summarizer that Clusters Thousands of Citizen Notes",
+    "name_es": "Resumidor de comentarios publicos que agrupa miles de notas ciudadanas",
+    "long_description": "Drop in a pile of public comments on a proposed rule and the tool clusters them into the main themes, counts how many people share each concern, and pulls a representative quote per cluster. Officials see the public's real priorities without reading every note. The demo ingests a comment dump and renders an instant theme map.",
+    "long_description_es": "Carga una pila de comentarios publicos sobre una norma propuesta y la herramienta los agrupa en los temas principales, cuenta cuanta gente comparte cada preocupacion y extrae una cita representativa por grupo. Los funcionarios ven las prioridades reales del publico sin leer cada nota. La demo ingiere un volcado de comentarios y muestra al instante un mapa de temas.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "civic-tech",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "Sign-Language Story Player that Animates Books for Deaf Kids",
+    "name_es": "Reproductor de cuentos en lengua de senas que anima libros para ninos sordos",
+    "long_description": "A parent picks a children's book and the tool plays it as an animated avatar signing each page in sync with highlighted text, so a deaf child can follow the story in their first language. Pacing slows on request for early readers. A meaty build that brings bedtime stories to kids print alone leaves behind.",
+    "long_description_es": "Un padre elige un libro infantil y la herramienta lo reproduce con un avatar animado que senala cada pagina en sincronia con el texto resaltado, para que un nino sordo siga la historia en su primera lengua. El ritmo se ralentiza a pedido para lectores iniciales. Una construccion sustancial que acerca los cuentos para dormir a los ninos que el texto solo deja atras.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "accessibility",
+      "education",
+      "language"
+    ]
+  },
+  {
+    "name": "Heat-Risk Caller that Checks On Isolated Elders During a Wave",
+    "name_es": "Llamador de riesgo por calor que controla a adultos mayores aislados en una ola",
+    "long_description": "When a heat wave hits, the tool auto-calls enrolled isolated elders with a simple wellness check, escalates to family or a volunteer if someone does not answer, and logs who still needs help. Operators see a live board of who is safe and who is unreachable. A build that turns a deadly heat event into an organized care sweep.",
+    "long_description_es": "Cuando llega una ola de calor, la herramienta llama automaticamente a adultos mayores aislados inscritos con un chequeo simple de bienestar, escala a la familia o a un voluntario si alguien no responde, y registra quien aun necesita ayuda. Los operadores ven un tablero en vivo de quien esta a salvo y quien es inubicable. Una construccion que convierte un evento mortal de calor en un barrido de cuidado organizado.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "elderly",
+      "disaster-response"
+    ]
+  },
+  {
+    "name": "Skill-Swap Board that Trades Help Without Any Money Changing Hands",
+    "name_es": "Tablero de intercambio de habilidades sin que circule dinero",
+    "long_description": "Neighbors post a skill they can give and one they need, and the tool finds time-banking chains so a haircut pays for a tutoring hour that pays for a repair. Everyone earns and spends time credits instead of cash. A solid build that lets a community without spare money still trade real value.",
+    "long_description_es": "Los vecinos publican una habilidad que pueden dar y otra que necesitan, y la herramienta encuentra cadenas de banco de tiempo para que un corte de pelo pague una hora de tutoria que paga una reparacion. Todos ganan y gastan creditos de tiempo en lugar de efectivo. Una construccion solida que permite a una comunidad sin dinero extra intercambiar valor real.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "finance-inclusion",
+      "nonprofit",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Allergen and Ingredient Reader that Speaks Labels for Low Literacy",
+    "name_es": "Lector de ingredientes que dice las etiquetas para baja alfabetizacion",
+    "long_description": "A shopper points a phone at any packaged-food label and the tool reads it aloud in their language, calling out the allergens they flagged and rating how processed the item is. It works on tiny print that low-vision and low-literacy shoppers struggle with. A sharp build that makes the grocery aisle safe to navigate by voice.",
+    "long_description_es": "Un comprador apunta el telefono a la etiqueta de cualquier alimento envasado y la herramienta la lee en voz alta en su idioma, avisando de los alergenos que marco y calificando cuan procesado es el producto. Funciona sobre la letra diminuta que cuesta a personas con baja vision y baja alfabetizacion. Una construccion ajustada que vuelve seguro recorrer el supermercado por voz.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "language"
+    ]
+  },
+  {
+    "name": "Open-Records Request Builder that Drafts the Right FOIA Letter",
+    "name_es": "Generador de pedidos de acceso que redacta la carta de informacion publica correcta",
+    "long_description": "A resident describes the records they want and the tool drafts a properly worded public-records request aimed at the correct agency, with the legal citations and fee-waiver language that get results. It tracks deadlines and nudges follow-ups. A focused build that puts a journalist-grade transparency tool in anyone's hands.",
+    "long_description_es": "Un vecino describe los registros que quiere y la herramienta redacta un pedido de informacion publica bien formulado dirigido a la agencia correcta, con las citas legales y el lenguaje de exencion de tarifas que dan resultado. Lleva el control de los plazos y recuerda los seguimientos. Una construccion enfocada que pone una herramienta de transparencia de nivel periodistico en manos de cualquiera.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "civic-tech",
+      "language"
+    ]
+  },
+  {
+    "name": "Quiet-Hours Map that Shows Sensory-Friendly Times at Public Places",
+    "name_es": "Mapa de horarios tranquilos en lugares publicos sensorialmente amigables",
+    "long_description": "Families of autistic or sensory-sensitive members search a map for shops, clinics, and museums by how loud and bright they are at each hour, crowdsourced from quick visitor ratings. It flags official sensory-friendly hours too. A build that lets people plan outings around the calm windows instead of dreading the chaos.",
+    "long_description_es": "Las familias de personas autistas o sensorialmente sensibles buscan en un mapa comercios, clinicas y museos segun cuan ruidosos y luminosos son a cada hora, con datos aportados por calificaciones rapidas de visitantes. Tambien marca los horarios oficiales sensorialmente amigables. Una construccion que permite planear salidas en las ventanas de calma en lugar de temer al caos.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Refugee Credential Mapper that Matches Foreign Degrees to Local Jobs",
+    "name_es": "Mapeador de credenciales que vincula titulos extranjeros con empleos locales",
+    "long_description": "A newcomer enters their foreign degree, license, and work history, and the tool maps it to the closest locally recognized equivalents plus the exact steps to validate each one. It surfaces jobs they can already do while credentials process. A meaty build that keeps skilled refugees from being stuck below their training.",
+    "long_description_es": "Un recien llegado ingresa su titulo extranjero, matricula e historial laboral, y la herramienta lo vincula con los equivalentes reconocidos localmente mas cercanos y los pasos exactos para validar cada uno. Muestra empleos que ya puede ejercer mientras se procesan las credenciales. Una construccion sustancial que evita que refugiados calificados queden atrapados por debajo de su formacion.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "finance-inclusion",
+      "language",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "Shelter-Capacity Beacon that Broadcasts Open Beds to Outreach Teams",
+    "name_es": "Baliza de capacidad de refugios que difunde camas libres a equipos de calle",
+    "long_description": "Shelters update open beds with one tap and street-outreach workers see a live map of where someone can sleep tonight, filtered by needs like family, pets, or accessibility. A bed is held the moment a worker claims it. A demoable build that ends the cold-night phone-tag of finding a free bed.",
+    "long_description_es": "Los refugios actualizan las camas libres con un toque y los trabajadores de calle ven un mapa en vivo de donde alguien puede dormir esta noche, filtrado por necesidades como familia, mascotas o accesibilidad. Una cama queda reservada en el momento en que un trabajador la toma. Una construccion demostrable que termina con las llamadas interminables para encontrar una cama libre en una noche fria.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "nonprofit",
+      "disaster-response",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Math-Anxiety Tutor that Slows Down and Praises Each Small Win",
+    "name_es": "Tutor de ansiedad matematica que va despacio y celebra cada pequeno logro",
+    "long_description": "A learner who freezes at math works one tiny step at a time, with the tutor detecting frustration from pace and errors, then easing difficulty and naming each small win to rebuild confidence. It never moves on until a step feels solid. A build aimed at the emotional barrier, not just the content.",
+    "long_description_es": "Un estudiante que se bloquea con la matematica trabaja un pequeno paso por vez, mientras el tutor detecta la frustracion por el ritmo y los errores, baja la dificultad y nombra cada pequeno logro para reconstruir la confianza. Nunca avanza hasta que un paso se siente firme. Una construccion dirigida a la barrera emocional, no solo al contenido.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "education",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Disaster-Day Phrasebook that Pre-Loads Survival Lines Offline",
+    "name_es": "Frasario de desastres que precarga frases de supervivencia sin conexion",
+    "long_description": "Before connectivity drops, the tool pre-downloads a two-way phrasebook of survival sentences between local and responder languages, with audio so anyone can play the right line to be understood. It covers injuries, water, and shelter needs. A sharp build that keeps language from being a wall when networks and time are gone.",
+    "long_description_es": "Antes de que se caiga la conectividad, la herramienta predescarga un frasario bidireccional de frases de supervivencia entre el idioma local y el de los rescatistas, con audio para que cualquiera reproduzca la frase correcta y se haga entender. Cubre lesiones, agua y necesidades de refugio. Una construccion ajustada que evita que el idioma sea un muro cuando ya no hay redes ni tiempo.",
+    "topic": "social-impact",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "disaster-response",
+      "language",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Participatory-Budget Simulator that Lets Residents Spend the City Pot",
+    "name_es": "Simulador de presupuesto participativo para que los vecinos repartan el fondo",
+    "long_description": "Residents drag a fixed city budget across competing projects and instantly see trade-offs, like funding a park means cutting bus frequency. Aggregated choices show officials what the community actually prioritizes. The demo hands a judge a slider board and watches the collective spending plan take shape in real time.",
+    "long_description_es": "Los vecinos reparten un presupuesto municipal fijo entre proyectos en competencia y ven al instante las disyuntivas, como que financiar un parque implica recortar la frecuencia del colectivo. Las elecciones agregadas muestran a los funcionarios que prioriza realmente la comunidad. La demo entrega a un juez un tablero de controles y ve formarse en vivo el plan de gasto colectivo.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "civic-tech",
+      "education"
+    ]
+  },
+  {
+    "name": "Caption Quality Grader that Catches Broken Auto-Captions in Class",
+    "name_es": "Calificador de subtitulos que detecta subtitulos automaticos rotos en clase",
+    "long_description": "A deaf or hard-of-hearing student runs a recorded lecture through the tool, which scores the auto-captions for accuracy, flags the garbled segments, and lets a volunteer fix only those lines. It builds a corrected transcript fast. A build that closes the gap between cheap auto-captions and ones a student can actually learn from.",
+    "long_description_es": "Un estudiante sordo o con dificultades auditivas pasa una clase grabada por la herramienta, que califica la precision de los subtitulos automaticos, marca los segmentos confusos y permite a un voluntario corregir solo esas lineas. Arma una transcripcion corregida rapido. Una construccion que cierra la brecha entre los subtitulos automaticos baratos y unos de los que un estudiante realmente pueda aprender.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "education"
+    ]
+  },
+  {
+    "name": "Bus-Stop Voice Guide that Announces Arrivals for Blind Riders",
+    "name_es": "Guia de voz en paradas que anuncia llegadas para pasajeros ciegos",
+    "long_description": "A blind rider at a stop holds up their phone and the tool tells them which routes serve this stop, how many minutes until each, and which door to board, all by voice from open transit feeds. It vibrates a pattern as the bus nears. A focused build that makes catching the right bus possible without sight.",
+    "long_description_es": "Un pasajero ciego en una parada levanta su telefono y la herramienta le dice por voz que rutas pasan por esa parada, cuantos minutos faltan para cada una y por que puerta subir, todo a partir de feeds abiertos de transporte. Vibra con un patron cuando el colectivo se acerca. Una construccion enfocada que hace posible tomar el colectivo correcto sin vision.",
+    "topic": "social-impact",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "civic-tech"
+    ]
+  },
+  {
+    "name": "Donation-in-Kind Router that Sends Each Item Where It Is Needed",
+    "name_es": "Enrutador de donaciones en especie que envia cada objeto donde se necesita",
+    "long_description": "Donors photograph items they want to give and the tool matches each one to the nearest charity that currently needs exactly that, preventing useless piles of unwanted goods. It schedules pickup or drop-off and tracks what was actually used. A solid build that fixes the chronic mismatch between in-kind donations and real need.",
+    "long_description_es": "Los donantes fotografian los objetos que quieren entregar y la herramienta empareja cada uno con la organizacion mas cercana que ahora mismo necesita exactamente eso, evitando pilas inutiles de cosas no deseadas. Programa el retiro o la entrega y registra que se uso realmente. Una construccion solida que corrige el desajuste cronico entre las donaciones en especie y la necesidad real.",
+    "topic": "social-impact",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "nonprofit",
+      "disaster-response"
+    ]
+  },
+  {
+    "name": "Citywide Accessibility Audit Platform Built in a Weekend",
+    "name_es": "Plataforma de auditoria de accesibilidad de toda la ciudad armada en un fin de semana",
+    "long_description": "Volunteers walk routes logging barriers like broken ramps, blocked sidewalks, and missing tactile paving, and the platform fuses their reports into a citywide accessibility score with a heatmap and a prioritized fix list for officials. It assigns walking routes to avoid overlap. A fuller two-day build spanning data capture, scoring, and a public dashboard.",
+    "long_description_es": "Los voluntarios recorren rutas registrando barreras como rampas rotas, veredas bloqueadas y falta de pavimento tactil, y la plataforma fusiona sus reportes en un puntaje de accesibilidad de toda la ciudad con un mapa de calor y una lista priorizada de arreglos para los funcionarios. Asigna rutas para evitar superposiciones. Una construccion mas completa de dos dias que abarca captura de datos, puntaje y un panel publico.",
+    "topic": "social-impact",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "accessibility",
+      "civic-tech",
+      "nonprofit"
+    ]
+  },
+  {
+    "name": "End-to-End Disaster Coordination Hub for a Whole Community",
+    "name_es": "Centro integral de coordinacion de desastres para toda una comunidad",
+    "long_description": "A full weekend build that ties together resident SOS reports, volunteer dispatch, resource inventory, and a public status map into one disaster hub that keeps working as connectivity flickers. Coordinators assign tasks, track who is helping where, and broadcast verified updates. The depth and many moving parts justify a 48-hour-plus effort.",
+    "long_description_es": "Una construccion de fin de semana completo que une los reportes de SOS de vecinos, el despacho de voluntarios, el inventario de recursos y un mapa publico de estado en un solo centro de desastres que sigue funcionando mientras la conectividad falla. Los coordinadores asignan tareas, controlan quien ayuda donde y difunden actualizaciones verificadas. La profundidad y las muchas partes moviles justifican un esfuerzo de mas de 48 horas.",
+    "topic": "social-impact",
+    "time_bucket": "48h+",
+    "min_hours": 48,
+    "max_hours": 72,
+    "difficulty": "advanced",
+    "tags": [
+      "disaster-response",
+      "civic-tech",
+      "nonprofit"
+    ]
+  }
+]

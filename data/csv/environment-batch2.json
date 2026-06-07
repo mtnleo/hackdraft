@@ -1,0 +1,520 @@
+[
+  {
+    "name": "Turbine Bird-Strike Forecaster from Migration and Wind Data",
+    "name_es": "Pronosticador de choques de aves en turbinas con datos de migración y viento",
+    "long_description": "Pull open migratory-bird tracks and a wind farm's hourly forecast, then predict the high-risk windows when flocks and gusts line up over the blades. The tool ranks each turbine by collision odds for the next 48 hours so operators can curtail only the dangerous ones. The demo drops a flock path over a map and watches the at-risk turbines flash.",
+    "long_description_es": "Toma rutas abiertas de aves migratorias y el pronóstico horario de un parque eólico, y predice las ventanas de alto riesgo cuando bandadas y ráfagas coinciden sobre las palas. La herramienta ordena cada turbina por probabilidad de choque para las próximas 48 horas, así los operadores frenan solo las peligrosas. La demo lanza una ruta de bandada sobre un mapa y ve parpadear las turbinas en riesgo.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "biodiversity",
+      "energy",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Watershed Flow Predictor that Forecasts a River's Next Week",
+    "name_es": "Predictor de caudal que pronostica la próxima semana de un río",
+    "long_description": "Feed a watershed's recent rainfall, snowpack and gauge readings and get a seven-day flow forecast for a chosen river point, flagging when it crosses drought or flood thresholds. The hook is splitting the watershed into upstream sub-basins so users see which tributary drives the change. The demo lets a judge pick a river and scrub a slider through the week ahead.",
+    "long_description_es": "Ingresa la lluvia reciente, el manto de nieve y las lecturas de aforo de una cuenca y obtén un pronóstico de caudal a siete días para un punto del río, marcando cuándo cruza umbrales de sequía o crecida. El gancho es dividir la cuenca en subcuencas aguas arriba para ver qué afluente impulsa el cambio. La demo deja al jurado elegir un río y deslizar por la semana siguiente.",
+    "topic": "environment",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "water",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Rock-Weathering Carbon Calculator for a Farm Field",
+    "name_es": "Calculadora de carbono por meteorización de roca para un campo agrícola",
+    "long_description": "Enhanced rock weathering spreads crushed basalt on fields to pull CO2 from the air. This tool takes a field's size, soil pH and rainfall and estimates how much basalt to apply and how much carbon it could capture over years, with the uncertainty range shown honestly. The demo draws a field on a map and outputs a tonnage and a cost-per-tonne badge.",
+    "long_description_es": "La meteorización mejorada de roca esparce basalto triturado en campos para capturar CO2 del aire. Esta herramienta toma el tamaño del campo, el pH del suelo y la lluvia, y estima cuánto basalto aplicar y cuánto carbono podría capturar en años, mostrando el rango de incertidumbre con honestidad. La demo dibuja un campo en un mapa y entrega un tonelaje y una insignia de costo por tonelada.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "agriculture",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Surplus-Harvest Marketplace that Rescues Bruised Local Produce",
+    "name_es": "Mercado de excedentes que rescata productos locales magullados",
+    "long_description": "A lightweight marketplace where small farmers list bruised or surplus produce by the box at a discount and nearby buyers claim it before it rots. The twist is a same-day expiry clock on each listing that drops the price as the deadline nears, turning waste into a flash sale. The demo posts a crate, watches the price slide, and confirms a pickup.",
+    "long_description_es": "Un mercado liviano donde pequeños agricultores publican productos magullados o excedentes por caja con descuento y compradores cercanos los reclaman antes de que se pudran. El giro es un reloj de vencimiento del mismo día en cada anuncio que baja el precio al acercarse la fecha, convirtiendo el desperdicio en oferta relámpago. La demo publica un cajón, ve caer el precio y confirma un retiro.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "waste",
+      "agriculture",
+      "transport"
+    ]
+  },
+  {
+    "name": "Camera-Trap Triage that Sorts Wildlife Photos from Empty Frames",
+    "name_es": "Triaje de cámaras trampa que separa fotos de fauna de cuadros vacíos",
+    "long_description": "Conservation camera traps spit out tens of thousands of photos, most of them empty triggers from wind. Drop a folder and the tool flags which frames actually contain an animal, groups them by likely species, and exports a tidy sightings sheet. The hook is killing the empty-frame slog that buries volunteers. The demo ingests a messy folder and surfaces only the real sightings.",
+    "long_description_es": "Las cámaras trampa de conservación escupen decenas de miles de fotos, casi todas disparos vacíos por el viento. Suelta una carpeta y la herramienta marca qué cuadros contienen un animal, los agrupa por especie probable y exporta una planilla ordenada de avistajes. El gancho es eliminar el tedio de los cuadros vacíos que sepulta a los voluntarios. La demo ingiere una carpeta caótica y muestra solo los avistajes reales.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "biodiversity"
+    ]
+  },
+  {
+    "name": "EV Charger Siting Map that Finds Gaps Along a Highway",
+    "name_es": "Mapa de ubicación de cargadores que halla huecos en una ruta",
+    "long_description": "Pick a highway corridor and the tool overlays existing charging stations against realistic EV range, then highlights the dead zones where a driver would run out before the next plug. It ranks candidate sites by how many stranded miles each new charger would fix. The demo traces a corridor and lights up the single best spot to add a station.",
+    "long_description_es": "Elige un corredor vial y la herramienta superpone las estaciones de carga existentes contra la autonomía real de un EV, y resalta las zonas muertas donde un conductor se quedaría sin batería antes del próximo enchufe. Ordena sitios candidatos según cuántos kilómetros varados arreglaría cada cargador nuevo. La demo traza un corredor e ilumina el mejor punto para sumar una estación.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "transport",
+      "energy",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Heat-Pump Switch Advisor that Compares Bills Before You Buy",
+    "name_es": "Asesor de cambio a bomba de calor que compara facturas antes de comprar",
+    "long_description": "Enter your home's heating fuel, climate zone and last winter's bills, and the tool models what a heat pump would cost to run instead, month by month, including the cold snaps where it struggles. It returns a payback timeline and the carbon saved. The demo flips a slider for local electricity prices and watches the break-even year move.",
+    "long_description_es": "Ingresa el combustible de calefacción de tu casa, la zona climática y las facturas del último invierno, y la herramienta modela cuánto costaría operar una bomba de calor, mes a mes, incluso en las olas de frío donde le cuesta. Devuelve un plazo de recuperación y el carbono ahorrado. La demo mueve un control para los precios locales de electricidad y ve cambiar el año de equilibrio.",
+    "topic": "environment",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "energy",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Coral Bleaching Watcher that Alerts on Marine Heat Spikes",
+    "name_es": "Vigía de blanqueo de coral que alerta ante picos de calor marino",
+    "long_description": "Track a reef of your choice using open sea-surface temperature feeds and raise an alert when accumulated heat crosses the bleaching threshold that kills coral. The hook is the degree-heating-week meter that fills like a thermometer as danger builds, days before damage is visible. The demo picks a reef and replays a past marine heatwave to show the gauge redline.",
+    "long_description_es": "Sigue un arrecife elegido usando feeds abiertos de temperatura superficial del mar y emite una alerta cuando el calor acumulado cruza el umbral de blanqueo que mata al coral. El gancho es el medidor de semanas-grado de calor que se llena como un termómetro a medida que crece el peligro, días antes de ver el daño. La demo elige un arrecife y reproduce una ola de calor marina pasada para mostrar la aguja en rojo.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "biodiversity",
+      "water",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Pollen Forecast Map that Warns Allergy Sufferers by Block",
+    "name_es": "Mapa de pronóstico de polen que avisa a alérgicos por cuadra",
+    "long_description": "Combine local tree-species data, bloom timing and weather to forecast neighborhood pollen levels for the next few days, broken down by the plants that trigger most people. Users set their personal triggers and get a simple green-yellow-red day rating. The demo lets a judge enter a city and a sensitivity and see tomorrow's risk light up the map.",
+    "long_description_es": "Combina datos de especies de árboles locales, tiempos de floración y clima para pronosticar niveles de polen del barrio para los próximos días, desglosados por las plantas que más afectan. Los usuarios fijan sus desencadenantes y reciben una calificación diaria verde-amarillo-rojo. La demo deja al jurado ingresar una ciudad y una sensibilidad y ver el riesgo de mañana iluminar el mapa.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "air-quality",
+      "biodiversity",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Wildfire Smoke Window Coach that Times When to Open Up",
+    "name_es": "Coach de ventanas ante humo de incendios que indica cuándo airear",
+    "long_description": "During wildfire season, this tool watches outdoor air quality near you and tells you the exact hours it's safe to open windows and air out the house versus seal up. The hook is a 24-hour timeline that shades the clean and dirty hours so you plan ventilation around the smoke. The demo replays a smoky day and shows the one good window to open.",
+    "long_description_es": "En temporada de incendios, esta herramienta vigila la calidad del aire exterior cerca tuyo y te dice las horas exactas en que conviene abrir ventanas y ventilar la casa frente a cuándo sellarla. El gancho es una línea de tiempo de 24 horas que sombrea las horas limpias y sucias para planear la ventilación según el humo. La demo reproduce un día con humo y muestra la única buena ventana para abrir.",
+    "topic": "environment",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "air-quality",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Greywater Reuse Sizer for a Single Household's Garden",
+    "name_es": "Dimensionador de reúso de aguas grises para el jardín de un hogar",
+    "long_description": "Tell the tool how many people live in your home and what you grow, and it estimates how much shower and laundry greywater you could safely divert to the garden each week, and which plants tolerate it. It returns a simple plumbing layout sketch and the freshwater saved. The demo sets a household size and watches the litres-saved counter climb.",
+    "long_description_es": "Indica cuántas personas viven en tu casa y qué cultivas, y la herramienta estima cuánta agua gris de ducha y lavarropas podrías derivar al jardín de forma segura cada semana, y qué plantas la toleran. Devuelve un croquis simple de plomería y el agua dulce ahorrada. La demo fija el tamaño del hogar y ve subir el contador de litros ahorrados.",
+    "topic": "environment",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "water",
+      "agriculture"
+    ]
+  },
+  {
+    "name": "Cold-Chain Spoilage Predictor that Flags At-Risk Food Shipments",
+    "name_es": "Predictor de deterioro en cadena de frío que marca envíos en riesgo",
+    "long_description": "Upload a refrigerated shipment's temperature log and route, and the tool estimates remaining shelf life at each stop, flagging the legs where a warm spike already burned through days of freshness. The hook is turning a noisy sensor trace into a clear 'eat-by' shift so dispatchers reroute the riskiest pallets first. The demo loads a log and ranks pallets by spoilage risk.",
+    "long_description_es": "Sube el registro de temperatura y la ruta de un envío refrigerado, y la herramienta estima la vida útil restante en cada parada, marcando los tramos donde un pico de calor ya consumió días de frescura. El gancho es convertir una traza ruidosa de sensores en un claro corrimiento de 'consumir antes de' para que los despachadores reencaminen primero los pallets más riesgosos. La demo carga un registro y ordena pallets por riesgo de deterioro.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "waste",
+      "transport",
+      "agriculture"
+    ]
+  },
+  {
+    "name": "Light-Pollution Star Map that Scores Your Sky for Stargazing",
+    "name_es": "Mapa de contaminación lumínica que puntúa tu cielo para observar estrellas",
+    "long_description": "Enter a location and the tool grades the night sky from open light-pollution data, then names the nearest darker spot within a chosen drive time where the Milky Way becomes visible. The hook pairs a Bortle-style sky score with a concrete 'drive 40 minutes here' suggestion. The demo drops a pin in a city and reveals the closest truly dark patch.",
+    "long_description_es": "Ingresa una ubicación y la herramienta califica el cielo nocturno con datos abiertos de contaminación lumínica, y luego nombra el punto más oscuro cercano dentro de un tiempo de viaje elegido donde la Vía Láctea se vuelve visible. El gancho combina un puntaje de cielo estilo Bortle con una sugerencia concreta de 'maneja 40 minutos hasta aquí'. La demo pone un pin en una ciudad y revela el rincón realmente oscuro más cercano.",
+    "topic": "environment",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "climate-data",
+      "biodiversity"
+    ]
+  },
+  {
+    "name": "Microplastic Sampling Logger that Maps Citizen River Tests",
+    "name_es": "Registro de muestreo de microplásticos que mapea tests ciudadanos de ríos",
+    "long_description": "A field-friendly logger where volunteers photograph a filtered water sample, count visible fibers and pin the spot on a shared river map. The hook is a standard photo grid overlay that makes rough counts comparable across people, building a heat map of where plastic concentrates. The demo logs two samples and watches a polluted bend of the river darken.",
+    "long_description_es": "Un registro apto para campo donde voluntarios fotografían una muestra de agua filtrada, cuentan fibras visibles y fijan el punto en un mapa fluvial compartido. El gancho es una grilla estándar sobre la foto que hace comparables los conteos aproximados entre personas, armando un mapa de calor de dónde se concentra el plástico. La demo registra dos muestras y ve oscurecerse un recodo contaminado del río.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "water",
+      "waste",
+      "biodiversity"
+    ]
+  },
+  {
+    "name": "Grid Carbon Clock that Shows the Cleanest Hour to Run Anything",
+    "name_es": "Reloj de carbono de la red que muestra la hora más limpia para todo",
+    "long_description": "A single-screen widget that reads your region's live grid carbon intensity and shows, in plain terms, whether right now is a clean or dirty hour to run a dishwasher, charge a car or train a model. The hook is a 24-hour ring that marks the greenest upcoming window. A sharp one-feature build that's instantly demoable in a short sprint.",
+    "long_description_es": "Un widget de una sola pantalla que lee la intensidad de carbono en vivo de la red de tu región y muestra, en términos simples, si ahora es una hora limpia o sucia para usar el lavavajillas, cargar un auto o entrenar un modelo. El gancho es un anillo de 24 horas que marca la próxima ventana más verde. Una construcción nítida de una función, demostrable al instante en un sprint corto.",
+    "topic": "environment",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "energy",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Tide and Storm-Surge Dial for a Coastal Address",
+    "name_es": "Dial de marea y marejada para una dirección costera",
+    "long_description": "Type a coastal address and a single dial shows when the next high tide combines with forecast surge to threaten low spots, with a clear 'wet feet by 6pm' style warning. The hook is fusing routine tide tables with storm forecasts into one at-a-glance risk for the day. A tight single-screen tool that's perfect for a very short sprint.",
+    "long_description_es": "Escribe una dirección costera y un solo dial muestra cuándo la próxima pleamar se combina con la marejada pronosticada para amenazar zonas bajas, con un aviso claro estilo 'pies mojados a las 18 h'. El gancho es fusionar las tablas de marea de rutina con los pronósticos de tormenta en un único riesgo de un vistazo para el día. Una herramienta ajustada de una pantalla, ideal para un sprint muy corto.",
+    "topic": "environment",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "water",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Crop Disease Spotter that Reads a Leaf Photo in the Field",
+    "name_es": "Detector de enfermedades de cultivo que lee una foto de hoja en el campo",
+    "long_description": "A farmer snaps a struggling leaf and the tool names the likely disease or deficiency, explains the telltale pattern, and suggests a low-chemical first response sized to a smallholder plot. The hook is pairing the diagnosis with a 'watch these nearby plants next' early-spread alert. The demo photographs a blighted leaf and returns the call with confidence.",
+    "long_description_es": "Un agricultor fotografía una hoja enferma y la herramienta nombra la enfermedad o deficiencia probable, explica el patrón delator y sugiere una primera respuesta con poco químico dimensionada a una parcela pequeña. El gancho es unir el diagnóstico con una alerta de propagación temprana 'vigila estas plantas cercanas'. La demo fotografía una hoja con tizón y devuelve el veredicto con confianza.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "agriculture",
+      "biodiversity"
+    ]
+  },
+  {
+    "name": "Glacier Retreat Slider that Animates Ice Loss Year by Year",
+    "name_es": "Deslizador de retroceso glaciar que anima la pérdida de hielo año a año",
+    "long_description": "Pick a glacier and drag a slider to watch its outline shrink across decades of satellite imagery, with a counter showing area lost and water released. The hook is making an abstract trend visceral by morphing the ice edge under your finger. A focused data-viz build that fits a short sprint and lands hard in a demo when a judge scrubs their local glacier.",
+    "long_description_es": "Elige un glaciar y arrastra un deslizador para ver su contorno encogerse a lo largo de décadas de imágenes satelitales, con un contador que muestra el área perdida y el agua liberada. El gancho es volver visceral una tendencia abstracta al transformar el borde del hielo bajo tu dedo. Una construcción enfocada en visualización que cabe en un sprint corto y impacta cuando el jurado desliza su glaciar local.",
+    "topic": "environment",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "climate-data",
+      "water"
+    ]
+  },
+  {
+    "name": "Building Retrofit Ranker that Picks the Highest-Impact Upgrade",
+    "name_es": "Clasificador de reformas que elige la mejora de mayor impacto",
+    "long_description": "Enter an old building's size, age and energy bills and the tool ranks retrofits, from insulation to windows to a heat pump, by carbon saved per dollar, so owners do the smartest thing first instead of the loudest. The hook is the impact-per-cost leaderboard that reshuffles as you tweak budget. The demo loads a building and reveals its top three moves.",
+    "long_description_es": "Ingresa el tamaño, la antigüedad y las facturas de energía de un edificio viejo y la herramienta clasifica las reformas, de aislación a ventanas a bomba de calor, por carbono ahorrado por dólar, para que los dueños hagan primero lo más inteligente y no lo más ruidoso. El gancho es la tabla de impacto por costo que se reordena al ajustar el presupuesto. La demo carga un edificio y revela sus tres mejores movidas.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "energy",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Roadkill Hotspot Mapper that Flags Where to Build Crossings",
+    "name_es": "Mapeador de puntos de atropello que indica dónde construir pasos de fauna",
+    "long_description": "Drivers and rangers log animal roadkill with a quick photo and pin, and the tool clusters the data to reveal the road segments where wildlife crossings would save the most animals. The hook is turning grim, scattered sightings into a ranked case for specific underpasses. The demo adds a few pins and watches a deadly stretch of road emerge as a hotspot.",
+    "long_description_es": "Conductores y guardaparques registran atropellos de animales con una foto rápida y un pin, y la herramienta agrupa los datos para revelar los tramos de ruta donde los pasos de fauna salvarían más animales. El gancho es transformar avistajes sombríos y dispersos en un caso ordenado para pasos específicos. La demo agrega unos pines y ve emerger un tramo mortal de ruta como punto crítico.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "biodiversity",
+      "transport"
+    ]
+  },
+  {
+    "name": "Community Fridge Network that Routes Surplus Meals Before Closing",
+    "name_es": "Red de heladeras comunitarias que enruta comidas excedentes antes de cerrar",
+    "long_description": "Cafes and shops post leftover meals at closing time, and the tool routes a volunteer to collect and drop them at the nearest community fridge before they spoil. The hook is a closing-time countdown that batches nearby donations into one efficient pickup loop. The demo posts three donations and draws the shortest rescue route on a map.",
+    "long_description_es": "Cafés y comercios publican comidas sobrantes a la hora de cierre, y la herramienta enruta a un voluntario para recogerlas y dejarlas en la heladera comunitaria más cercana antes de que se echen a perder. El gancho es una cuenta regresiva de cierre que agrupa donaciones cercanas en un solo recorrido eficiente de retiro. La demo publica tres donaciones y dibuja la ruta de rescate más corta en un mapa.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "waste",
+      "transport"
+    ]
+  },
+  {
+    "name": "Packaging Recyclability Grader from a Photo of the Label",
+    "name_es": "Calificador de reciclabilidad de envases desde una foto de la etiqueta",
+    "long_description": "Snap the back of a package and the tool reads the material codes and layers, then grades how recyclable it really is in the user's local system, calling out the sneaky mixed-material parts that quietly go to landfill. The hook is exposing the gap between the green logo and reality. The demo photographs a snack wrapper and returns a blunt recyclability grade.",
+    "long_description_es": "Fotografía el reverso de un envase y la herramienta lee los códigos de material y las capas, y luego califica cuán reciclable es realmente en el sistema local del usuario, señalando las partes engañosas de material mixto que en silencio van al relleno. El gancho es exponer la brecha entre el logo verde y la realidad. La demo fotografía la envoltura de un snack y devuelve una calificación de reciclabilidad sin rodeos.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "waste"
+    ]
+  },
+  {
+    "name": "Shade-Walk Router that Finds the Coolest Path on a Hot Day",
+    "name_es": "Enrutador de paseo a la sombra que halla el camino más fresco en un día caluroso",
+    "long_description": "On a scorching day, enter two points and the tool routes you along the shadiest streets using building heights and tree canopy instead of the shortest line, cutting heat exposure for kids and the elderly. The hook is a sun-versus-shade overlay that recolors the route by time of day. The demo picks an afternoon hour and draws the cool path across town.",
+    "long_description_es": "En un día abrasador, ingresa dos puntos y la herramienta te enruta por las calles más sombreadas usando alturas de edificios y copa de árboles en vez de la línea más corta, reduciendo la exposición al calor para niños y mayores. El gancho es una capa de sol versus sombra que recolorea la ruta según la hora del día. La demo elige una hora de la tarde y dibuja el camino fresco por la ciudad.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "transport",
+      "climate-data",
+      "biodiversity"
+    ]
+  },
+  {
+    "name": "Septic and Sanitation Health Tracker for Rural Wells",
+    "name_es": "Rastreador de salud de pozos sépticos y agua para pozos rurales",
+    "long_description": "Rural households log septic pump dates, well distance and recent rain, and the tool estimates the contamination risk to their drinking water, nudging when to test and when heavy rain raises the odds. The hook is connecting septic upkeep to well safety in plain terms families actually act on. The demo enters a homestead's layout and flips its risk to red after a storm.",
+    "long_description_es": "Hogares rurales registran fechas de vaciado séptico, distancia al pozo y lluvia reciente, y la herramienta estima el riesgo de contaminación del agua potable, avisando cuándo testear y cuándo la lluvia fuerte eleva las probabilidades. El gancho es conectar el mantenimiento séptico con la seguridad del pozo en términos que las familias realmente apliquen. La demo ingresa el trazado de una finca y pone su riesgo en rojo tras una tormenta.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "water",
+      "agriculture"
+    ]
+  },
+  {
+    "name": "Second-Life Battery Matcher that Pairs Old EV Packs to Homes",
+    "name_es": "Emparejador de baterías de segunda vida que une packs de EV viejos con hogares",
+    "long_description": "Retired EV batteries still hold useful capacity. Enter a pack's remaining health and a home's daily power pattern, and the tool sizes how much backup or solar storage it could provide and the years left before recycling. The hook is the reuse-before-recycle calculator that quantifies a pack's second act. The demo loads a tired pack and matches it to a household's needs.",
+    "long_description_es": "Las baterías de EV retiradas aún conservan capacidad útil. Ingresa la salud restante de un pack y el patrón diario de consumo de un hogar, y la herramienta dimensiona cuánto respaldo o almacenamiento solar podría dar y los años que quedan antes de reciclar. El gancho es la calculadora de reúso-antes-de-reciclar que cuantifica el segundo acto de un pack. La demo carga un pack gastado y lo empareja con las necesidades de un hogar.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "energy",
+      "waste"
+    ]
+  },
+  {
+    "name": "Wetland Restoration Planner that Maps Where to Rewet Land",
+    "name_es": "Planificador de restauración de humedales que mapea dónde rehumedecer la tierra",
+    "long_description": "Drained wetlands leak carbon and floods. Draw a degraded area and the tool uses elevation and water-flow data to show which parcels would naturally re-flood if a ditch were blocked, ranking them by carbon stored and flood buffering gained. The hook is finding the cheap, high-leverage plug points. The demo sketches a marsh and highlights the one ditch to dam first.",
+    "long_description_es": "Los humedales drenados liberan carbono y crecidas. Dibuja un área degradada y la herramienta usa datos de elevación y flujo de agua para mostrar qué parcelas se reinundarían naturalmente si se bloqueara una zanja, ordenándolas por carbono almacenado y amortiguación de crecidas ganada. El gancho es hallar los puntos de tapón baratos y de alto efecto. La demo bosqueja un pantano y resalta la primera zanja a represar.",
+    "topic": "environment",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "water",
+      "biodiversity",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Curbside Pickup Optimizer that Trims a Garbage Truck's Route",
+    "name_es": "Optimizador de recolección que recorta la ruta de un camión de basura",
+    "long_description": "Feed a neighborhood's bin locations and pickup days, and the tool plans a shorter collection route that cuts fuel and idling, and suggests which low-fill bins could shift to every-other-week. The hook is showing the diesel and CO2 saved by reordering stops, not buying anything new. The demo loads a route and animates the truck taking the leaner path.",
+    "long_description_es": "Ingresa las ubicaciones de contenedores de un barrio y sus días de retiro, y la herramienta planea una ruta de recolección más corta que reduce combustible y ralentí, y sugiere qué contenedores poco llenos podrían pasar a una semana de por medio. El gancho es mostrar el diésel y el CO2 ahorrados al reordenar paradas, sin comprar nada nuevo. La demo carga una ruta y anima al camión tomando el camino más eficiente.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "waste",
+      "transport",
+      "energy"
+    ]
+  },
+  {
+    "name": "Frog Chorus Counter that Gauges Wetland Health by Ear",
+    "name_es": "Contador de coro de ranas que mide la salud del humedal por el oído",
+    "long_description": "Record a few minutes of a pond at dusk and the tool separates the overlapping frog calls, names the species and estimates how many are calling, since amphibian chorus richness signals wetland health. The hook is turning a noisy night recording into a clear biodiversity score. The demo plays a marsh clip and breaks it into a labeled list of callers.",
+    "long_description_es": "Graba unos minutos de un estanque al atardecer y la herramienta separa los cantos de rana superpuestos, nombra las especies y estima cuántas cantan, ya que la riqueza del coro de anfibios indica la salud del humedal. El gancho es convertir una grabación nocturna ruidosa en un puntaje claro de biodiversidad. La demo reproduce un clip de pantano y lo descompone en una lista etiquetada de cantores.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "biodiversity",
+      "water"
+    ]
+  },
+  {
+    "name": "Solar Self-Consumption Tuner that Schedules Appliances to the Sun",
+    "name_es": "Afinador de autoconsumo solar que agenda electrodomésticos al sol",
+    "long_description": "For a home with rooftop solar, enter the panel size and daily routine, and the tool builds an appliance schedule that runs the dishwasher, dryer and car charging during peak production so less power is sold cheap and re-bought dear. The hook is the self-consumption gauge that climbs as you shuffle chores. The demo drags a wash cycle into midday and watches savings rise.",
+    "long_description_es": "Para un hogar con solar en el techo, ingresa el tamaño de paneles y la rutina diaria, y la herramienta arma un cronograma que corre el lavavajillas, el secarropas y la carga del auto durante la producción pico, para vender menos energía barata y recomprarla cara. El gancho es el medidor de autoconsumo que sube al reordenar tareas. La demo arrastra un lavado al mediodía y ve crecer el ahorro.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "energy",
+      "climate-data"
+    ]
+  },
+  {
+    "name": "Invasive Species Early-Warning Wall from Citizen Photos",
+    "name_es": "Muro de alerta temprana de especies invasoras con fotos ciudadanas",
+    "long_description": "People photograph an unfamiliar plant or bug and the tool checks it against a region's invasive watch list, raising a flag and a map pin the moment a new incursion appears outside its known range. The hook is catching invasions while they're still small and stoppable. The demo submits a photo of a known invader and lights up a fresh outbreak on the map.",
+    "long_description_es": "La gente fotografía una planta o insecto desconocido y la herramienta lo coteja con la lista de vigilancia de invasoras de una región, alzando una bandera y un pin en el mapa apenas aparece una nueva incursión fuera de su rango conocido. El gancho es atrapar invasiones mientras aún son pequeñas y frenables. La demo envía la foto de un invasor conocido e ilumina un brote nuevo en el mapa.",
+    "topic": "environment",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "biodiversity",
+      "agriculture"
+    ]
+  },
+  {
+    "name": "Methane Plume Reviewer that Triages Satellite Leak Alerts",
+    "name_es": "Revisor de plumas de metano que tría alertas satelitales de fugas",
+    "long_description": "Open methane satellites flag possible leaks daily, but most need a human gut-check. This tool lays each suspected plume over a map of pipelines and landfills, scores how likely it's a real source versus noise, and queues the strongest cases for follow-up. The hook is turning a firehose of alerts into a short, ranked worklist. The demo loads a day's plumes and surfaces the top suspect.",
+    "long_description_es": "Los satélites abiertos de metano marcan posibles fugas a diario, pero la mayoría necesita verificación humana. Esta herramienta superpone cada pluma sospechosa sobre un mapa de gasoductos y rellenos, puntúa cuán probable es que sea una fuente real frente a ruido, y encola los casos más fuertes para seguimiento. El gancho es transformar un torrente de alertas en una breve lista de trabajo ordenada. La demo carga las plumas de un día y muestra al principal sospechoso.",
+    "topic": "environment",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "air-quality",
+      "climate-data",
+      "energy"
+    ]
+  },
+  {
+    "name": "Reusable Container Deposit Tracker for a Campus Cafe Loop",
+    "name_es": "Rastreador de depósito de envases reutilizables para un circuito de café de campus",
+    "long_description": "A QR-based loop where a campus cafe lends reusable cups and bowls, tracks who has what, and nudges returns before a deposit is forfeited, replacing single-use packaging. The hook is the live return-rate dashboard that proves the loop actually closes instead of leaking containers. The demo borrows a cup, scans it back, and ticks the waste-avoided counter up.",
+    "long_description_es": "Un circuito basado en QR donde un café de campus presta vasos y bowls reutilizables, registra quién tiene qué, y recuerda devolverlos antes de perder el depósito, reemplazando el empaque de un solo uso. El gancho es el panel en vivo de tasa de devolución que prueba que el circuito de verdad se cierra en vez de perder envases. La demo presta un vaso, lo escanea de vuelta y sube el contador de residuos evitados.",
+    "topic": "environment",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "beginner",
+    "tags": [
+      "waste"
+    ]
+  },
+  {
+    "name": "Climate Adaptation Game where a Town Survives Rising Seas",
+    "name_es": "Juego de adaptación climática donde un pueblo sobrevive a la suba del mar",
+    "long_description": "A turn-based strategy game where you govern a coastal town over decades, spending a limited budget on seawalls, marsh buffers and managed retreat as storms intensify. The hook is that every defense has a tradeoff, so players feel the brutal math of adaptation instead of reading about it. The demo plays two rounds and shows a flood the player's choices either held back or didn't.",
+    "long_description_es": "Un juego de estrategia por turnos donde gobiernas un pueblo costero durante décadas, gastando un presupuesto limitado en murallas, humedales amortiguadores y retirada gestionada mientras las tormentas se intensifican. El gancho es que cada defensa tiene un costo, así los jugadores sienten la matemática brutal de la adaptación en vez de leerla. La demo juega dos rondas y muestra una crecida que las decisiones del jugador contuvieron o no.",
+    "topic": "environment",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "intermediate",
+    "tags": [
+      "climate-data",
+      "water"
+    ]
+  },
+  {
+    "name": "Rooftop Garden Load Checker for Safe Urban Growing",
+    "name_es": "Verificador de carga de techo verde para cultivo urbano seguro",
+    "long_description": "Before turning a flat roof into a garden, enter the building type, roof area and planned beds, and the tool estimates the added weight when soil is fully soaked and flags whether it likely stays within safe load limits. The hook is catching the soggy-soil worst case that naive planners miss. The demo lays out beds on a roof and turns the load gauge amber as you add planters.",
+    "long_description_es": "Antes de convertir un techo plano en jardín, ingresa el tipo de edificio, el área del techo y los canteros planeados, y la herramienta estima el peso agregado con el suelo totalmente empapado y marca si probablemente se mantiene dentro de límites seguros. El gancho es atrapar el peor caso de suelo mojado que los planificadores ingenuos pasan por alto. La demo distribuye canteros en un techo y pone el medidor de carga en ámbar al sumar maceteros.",
+    "topic": "environment",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "agriculture",
+      "biodiversity"
+    ]
+  }
+]

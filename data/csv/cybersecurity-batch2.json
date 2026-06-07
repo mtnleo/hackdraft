@@ -1,0 +1,498 @@
+[
+  {
+    "name": "Prompt Injection Range that Scores Your LLM Guardrails",
+    "name_es": "Campo de Pruebas de Inyección de Prompts que Puntúa tus Defensas de LLM",
+    "long_description": "A test harness that throws a curated battery of prompt-injection and jailbreak payloads at any chatbot endpoint, then reports which ones leaked the system prompt, exfiltrated data, or broke role. Each attack shows the exact input and the model's response side by side, with a pass/fail grid. The demo points it at a live bot and watches the leak counter climb.",
+    "long_description_es": "Un banco de pruebas que lanza una batería curada de cargas de inyección de prompts y jailbreaks contra cualquier endpoint de chatbot, y luego informa cuáles filtraron el system prompt, exfiltraron datos o rompieron el rol. Cada ataque muestra la entrada exacta y la respuesta del modelo lado a lado, con una grilla de aprobado/fallado. La demo lo apunta a un bot en vivo y observa subir el contador de fugas.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "ctf"
+    ]
+  },
+  {
+    "name": "Cookie Jar Auditor that Flags Trackers Riding Your Session",
+    "name_es": "Auditor de Cookies que Detecta Rastreadores Montados en tu Sesión",
+    "long_description": "A tool that loads any page, captures every cookie and local-storage entry it sets, and classifies each as essential, analytics, or third-party tracker by matching domains against known lists. It shows which cookies persist after you say no to a consent banner. A tight, visual single-screen build that turns invisible tracking into an obvious list.",
+    "long_description_es": "Una herramienta que carga cualquier página, captura cada cookie y entrada de local storage que define, y clasifica cada una como esencial, analítica o rastreador de terceros comparando dominios con listas conocidas. Muestra qué cookies persisten después de que rechazás un banner de consentimiento. Una construcción visual de una sola pantalla que convierte el rastreo invisible en una lista evidente.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "privacy",
+      "web-security"
+    ]
+  },
+  {
+    "name": "JWT Token Decoder that Catches Weak Signing Mistakes",
+    "name_es": "Decodificador de Tokens JWT que Detecta Errores de Firma Débiles",
+    "long_description": "Paste any JWT and the tool decodes header and claims, then runs a checklist for classic flaws: the alg:none trap, HS256 secrets brute-forceable from a wordlist, expired-but-accepted windows, and missing audience checks. Each finding links to how an attacker would abuse it. A sharp single-feature build perfect for a short sprint.",
+    "long_description_es": "Pegá cualquier JWT y la herramienta decodifica el header y los claims, luego corre una lista de control de fallas clásicas: la trampa alg:none, secretos HS256 vulnerables a fuerza bruta desde un diccionario, ventanas vencidas pero aceptadas, y verificaciones de audiencia faltantes. Cada hallazgo enlaza a cómo lo abusaría un atacante. Una construcción nítida de una sola función ideal para un sprint corto.",
+    "topic": "cybersecurity",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "intermediate",
+    "tags": [
+      "authentication",
+      "web-security"
+    ]
+  },
+  {
+    "name": "SQL Injection Playground with a Live Vulnerable Endpoint",
+    "name_es": "Laboratorio de Inyección SQL con un Endpoint Vulnerable en Vivo",
+    "long_description": "A safe, sandboxed login form deliberately wide open to SQL injection, paired with a guided panel that suggests payloads and shows the raw query the server builds as you type. Learners watch the WHERE clause mutate and the auth bypass succeed, then flip a switch to see a parameterized version block the same attack. Demoable and genuinely instructive.",
+    "long_description_es": "Un formulario de login en un entorno seguro y aislado, deliberadamente abierto a inyección SQL, junto a un panel guiado que sugiere cargas y muestra la consulta cruda que construye el servidor mientras escribís. Los estudiantes ven mutar la cláusula WHERE y triunfar el bypass de autenticación, y luego activan un interruptor para ver cómo una versión parametrizada bloquea el mismo ataque. Demostrable y genuinamente instructivo.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "ctf"
+    ]
+  },
+  {
+    "name": "Memory Dump Explorer that Pulls Secrets from a Crash File",
+    "name_es": "Explorador de Volcados de Memoria que Extrae Secretos de un Crash",
+    "long_description": "Drop in a process memory dump and the tool carves out plaintext passwords, API keys, and session tokens left in RAM, mapping each hit back to the region it came from. A timeline shows what was recoverable at the moment of capture. A focused forensics build that makes the danger of secrets living in memory tangible in a demo.",
+    "long_description_es": "Soltá un volcado de memoria de un proceso y la herramienta extrae contraseñas en texto plano, claves de API y tokens de sesión que quedaron en la RAM, mapeando cada coincidencia a la región de donde provino. Una línea de tiempo muestra qué era recuperable en el momento de la captura. Una construcción forense enfocada que vuelve tangible en una demo el peligro de los secretos viviendo en memoria.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "forensics",
+      "malware-analysis"
+    ]
+  },
+  {
+    "name": "Attack Surface Mapper from a Single Company Domain",
+    "name_es": "Mapeador de Superficie de Ataque desde un Único Dominio Corporativo",
+    "long_description": "Type one domain and the tool enumerates subdomains, open ports, exposed admin panels, and forgotten dev servers, then draws them as an interactive graph ranked by risk. It flags the staging box still running last year's software. A satisfying recon build where a judge enters their own domain and watches the map sprawl outward in real time.",
+    "long_description_es": "Escribí un dominio y la herramienta enumera subdominios, puertos abiertos, paneles de administración expuestos y servidores de desarrollo olvidados, y luego los dibuja como un grafo interactivo ordenado por riesgo. Marca el servidor de staging que sigue corriendo el software del año pasado. Una construcción de reconocimiento satisfactoria donde un juez ingresa su propio dominio y ve el mapa expandirse en tiempo real.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "network",
+      "web-security"
+    ]
+  },
+  {
+    "name": "Password Spray Simulator that Shows Why Lockouts Fail",
+    "name_es": "Simulador de Password Spraying que Muestra por qué Fallan los Bloqueos",
+    "long_description": "Against a mock auth service, this tool demonstrates password spraying: one common password tried slowly across many accounts to dodge per-account lockout. A dashboard tracks attempts, lockout thresholds, and which accounts fell, then lets you toggle defenses like rate limits and impossible-travel checks to see them work. Sharp, demoable, and eye-opening for a half-day build.",
+    "long_description_es": "Contra un servicio de autenticación simulado, esta herramienta demuestra el password spraying: una contraseña común probada lentamente en muchas cuentas para esquivar el bloqueo por cuenta. Un tablero rastrea intentos, umbrales de bloqueo y qué cuentas cayeron, y luego te permite activar defensas como límites de tasa y detección de viajes imposibles para verlas funcionar. Nítida, demostrable y reveladora para una construcción de medio día.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "authentication",
+      "network"
+    ]
+  },
+  {
+    "name": "OAuth Flow Visualizer that Animates Every Redirect",
+    "name_es": "Visualizador de Flujos OAuth que Anima Cada Redirección",
+    "long_description": "Point it at any Login-with-Google or GitHub flow and the tool intercepts and animates each step: the authorization request, the consent screen, the code exchange, and the token grant, highlighting where scopes and state parameters live. It flags a missing state check that opens a CSRF hole. A clear teaching build that makes an opaque protocol finally legible.",
+    "long_description_es": "Apuntalo a cualquier flujo de Iniciar sesión con Google o GitHub y la herramienta intercepta y anima cada paso: la solicitud de autorización, la pantalla de consentimiento, el intercambio del código y la concesión del token, resaltando dónde viven los scopes y el parámetro state. Marca una verificación de state faltante que abre un agujero CSRF. Una construcción didáctica clara que vuelve legible un protocolo opaco.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "authentication",
+      "web-security"
+    ]
+  },
+  {
+    "name": "Hash Cracking Visualizer that Races Wordlist vs Brute Force",
+    "name_es": "Visualizador de Cracking de Hashes que Compite Diccionario contra Fuerza Bruta",
+    "long_description": "Drop in a few sample hashes and watch two cracking strategies race side by side: a dictionary attack with mutation rules versus pure brute force, with live counters for guesses per second and time elapsed. It visually drives home why a salted, slow hash like bcrypt defeats both. A crisp single-screen build that makes password storage tradeoffs click.",
+    "long_description_es": "Soltá algunos hashes de ejemplo y mirá competir dos estrategias de cracking lado a lado: un ataque de diccionario con reglas de mutación contra fuerza bruta pura, con contadores en vivo de intentos por segundo y tiempo transcurrido. Demuestra visualmente por qué un hash lento y con sal como bcrypt vence a ambos. Una construcción nítida de una sola pantalla que aclara los compromisos del almacenamiento de contraseñas.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "cryptography",
+      "authentication"
+    ]
+  },
+  {
+    "name": "CTF Challenge Builder that Auto-Generates Flag Variants",
+    "name_es": "Constructor de Retos CTF que Genera Variantes de Flags Automáticamente",
+    "long_description": "An authoring tool for CTF organizers: describe a challenge once and it spins up per-team instances with unique flags so nobody can share answers, plus auto-graded submission and a live scoreboard. Each instance gets its own seeded secret. A genuinely useful build for anyone running an event, with a demo that registers two teams and shows them distinct flags.",
+    "long_description_es": "Una herramienta de autoría para organizadores de CTF: describí un reto una vez y genera instancias por equipo con flags únicas para que nadie pueda compartir respuestas, además de envío autocorregido y un marcador en vivo. Cada instancia recibe su propio secreto sembrado. Una construcción genuinamente útil para quien organiza un evento, con una demo que registra dos equipos y les muestra flags distintas.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "ctf",
+      "web-security"
+    ]
+  },
+  {
+    "name": "Subdomain Takeover Hunter that Spots Dangling DNS",
+    "name_es": "Cazador de Tomas de Subdominios que Detecta DNS Colgante",
+    "long_description": "Feed it a domain and the tool finds subdomains whose DNS still points to a deprovisioned cloud service an attacker could re-register and hijack. Each dangling record shows the orphaned target and the takeover fingerprint that confirms it. A focused recon build with a demo that flags a real CNAME pointing at an unclaimed bucket.",
+    "long_description_es": "Dale un dominio y la herramienta encuentra subdominios cuyo DNS todavía apunta a un servicio en la nube dado de baja que un atacante podría volver a registrar y secuestrar. Cada registro colgante muestra el destino huérfano y la huella de toma que lo confirma. Una construcción de reconocimiento enfocada con una demo que marca un CNAME real apuntando a un bucket sin reclamar.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "network",
+      "web-security"
+    ]
+  },
+  {
+    "name": "Diceware Passphrase Generator with Live Entropy Math",
+    "name_es": "Generador de Frases de Contraseña Diceware con Cálculo de Entropía en Vivo",
+    "long_description": "Roll virtual dice to build a memorable passphrase from a wordlist, with the tool showing live entropy in bits and an estimated time to crack as each word lands. A side panel explains why six random words beat a tortured Pa$$w0rd. A tiny, satisfying single-feature build that fits comfortably in a one-to-three-hour sprint.",
+    "long_description_es": "Tirá dados virtuales para armar una frase de contraseña memorable desde un diccionario, con la herramienta mostrando la entropía en bits en vivo y un tiempo estimado de crackeo mientras cae cada palabra. Un panel lateral explica por qué seis palabras al azar superan a un torturado Pa$$w0rd. Una construcción pequeña y satisfactoria de una sola función que entra cómoda en un sprint de una a tres horas.",
+    "topic": "cybersecurity",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "cryptography",
+      "authentication"
+    ]
+  },
+  {
+    "name": "DNS over HTTPS Sniff Test that Proves Your Lookups Leak",
+    "name_es": "Prueba de DNS sobre HTTPS que Demuestra que tus Consultas se Filtran",
+    "long_description": "A diagnostic that fires DNS queries both the old plaintext way and over encrypted DoH, then shows what a network eavesdropper would see in each case side by side. It reveals the exact domains your unencrypted lookups expose. A sharp single-screen build that makes an abstract privacy win concrete in a short sprint.",
+    "long_description_es": "Un diagnóstico que dispara consultas DNS tanto a la vieja usanza en texto plano como cifradas por DoH, y luego muestra lado a lado qué vería un espía de red en cada caso. Revela los dominios exactos que exponen tus consultas sin cifrar. Una construcción nítida de una sola pantalla que vuelve concreta una victoria abstracta de privacidad en un sprint corto.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "network",
+      "privacy"
+    ]
+  },
+  {
+    "name": "Malicious Macro Inspector for Office Documents",
+    "name_es": "Inspector de Macros Maliciosas para Documentos de Office",
+    "long_description": "Upload a Word or Excel file and the tool extracts and deobfuscates its embedded macros, surfacing the suspicious bits: auto-run triggers, shell calls, and base64-encoded payloads that fetch a second stage. Findings are annotated in plain language. A grounded malware-analysis build with a demo that turns a scary attachment into a readable verdict.",
+    "long_description_es": "Subí un archivo de Word o Excel y la herramienta extrae y desofusca sus macros incrustadas, exponiendo las partes sospechosas: disparadores de autoejecución, llamadas al shell y cargas en base64 que descargan una segunda etapa. Los hallazgos se anotan en lenguaje claro. Una construcción de análisis de malware con fundamento, con una demo que convierte un adjunto aterrador en un veredicto legible.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "malware-analysis",
+      "forensics"
+    ]
+  },
+  {
+    "name": "Clickjacking Demonstrator that Overlays Any Live Site",
+    "name_es": "Demostrador de Clickjacking que Superpone Cualquier Sitio en Vivo",
+    "long_description": "A teaching tool that frames a target site under an invisible decoy layer and shows how a user clicking a fake button actually triggers a real action underneath. It then checks the site's X-Frame-Options and CSP headers to explain why the attack works or is blocked. A vivid, demoable build that makes an underrated web flaw obvious in minutes.",
+    "long_description_es": "Una herramienta didáctica que enmarca un sitio objetivo bajo una capa señuelo invisible y muestra cómo un usuario que hace clic en un botón falso en realidad dispara una acción real por debajo. Luego revisa los encabezados X-Frame-Options y CSP del sitio para explicar por qué el ataque funciona o queda bloqueado. Una construcción vívida y demostrable que vuelve obvia en minutos una falla web subestimada.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "privacy"
+    ]
+  },
+  {
+    "name": "Firmware Unpacker that Maps a Router Image's Innards",
+    "name_es": "Desempaquetador de Firmware que Mapea las Entrañas de un Router",
+    "long_description": "Drop in a router or IoT firmware blob and the tool carves out the filesystem, locates hardcoded credentials and private keys, and lists outdated binaries with known CVEs. A tree view lets you browse the extracted contents. A solid reverse-engineering build with a demo that finds an admin password baked into a real consumer image.",
+    "long_description_es": "Soltá un blob de firmware de router o IoT y la herramienta extrae el sistema de archivos, localiza credenciales y claves privadas embebidas, y lista binarios desactualizados con CVE conocidos. Una vista de árbol te permite navegar el contenido extraído. Una construcción sólida de ingeniería inversa con una demo que encuentra una contraseña de administrador horneada en una imagen real de consumo.",
+    "topic": "cybersecurity",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "malware-analysis",
+      "forensics",
+      "network"
+    ]
+  },
+  {
+    "name": "Consent Banner Dark Pattern Grader for Any Website",
+    "name_es": "Calificador de Patrones Oscuros en Banners de Consentimiento",
+    "long_description": "Load any site's cookie consent banner and the tool grades its dark patterns: a giant Accept button versus a buried Reject, pre-ticked boxes, and reject flows that take five extra clicks. It returns a fairness score and screenshots the offending UI. A quick, opinionated build that turns a familiar annoyance into measurable evidence.",
+    "long_description_es": "Cargá el banner de consentimiento de cookies de cualquier sitio y la herramienta califica sus patrones oscuros: un botón gigante de Aceptar frente a un Rechazar escondido, casillas premarcadas, y flujos de rechazo que requieren cinco clics extra. Devuelve un puntaje de equidad y captura la interfaz infractora. Una construcción rápida y con opinión que convierte una molestia familiar en evidencia medible.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "privacy",
+      "web-security"
+    ]
+  },
+  {
+    "name": "ARP Spoofing Lab that Shows a Man-in-the-Middle Live",
+    "name_es": "Laboratorio de ARP Spoofing que Muestra un Hombre en el Medio en Vivo",
+    "long_description": "On an isolated test network, this tool demonstrates an ARP spoofing attack: it poisons the cache so traffic between two machines routes through the attacker, then displays the intercepted requests in real time. A toggle enables static ARP entries to show the defense. A hands-on network build that makes a classic LAN attack tangible for judges.",
+    "long_description_es": "En una red de pruebas aislada, esta herramienta demuestra un ataque de ARP spoofing: envenena la caché para que el tráfico entre dos máquinas pase por el atacante, y luego muestra las solicitudes interceptadas en tiempo real. Un interruptor habilita entradas ARP estáticas para mostrar la defensa. Una construcción de redes práctica que vuelve tangible para los jueces un ataque clásico de LAN.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "network",
+      "forensics"
+    ]
+  },
+  {
+    "name": "Signed URL Tamper Tester for Cloud Storage Links",
+    "name_es": "Probador de Manipulación de URLs Firmadas para Enlaces de Almacenamiento",
+    "long_description": "Paste a pre-signed download link from a cloud bucket and the tool dissects its signature, expiry, and permissions, then tries small tampering tricks to see if the server actually enforces them. It flags links that grant more access than intended or never expire. A sharp single-feature build that audits a deceptively risky pattern in minutes.",
+    "long_description_es": "Pegá un enlace de descarga prefirmado de un bucket en la nube y la herramienta analiza su firma, vencimiento y permisos, y luego prueba pequeños trucos de manipulación para ver si el servidor realmente los hace cumplir. Marca los enlaces que otorgan más acceso del previsto o que nunca vencen. Una construcción nítida de una sola función que audita en minutos un patrón engañosamente riesgoso.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "cryptography"
+    ]
+  },
+  {
+    "name": "Browser Fingerprint Revealer that Shows How Trackable You Are",
+    "name_es": "Revelador de Huella del Navegador que Muestra qué tan Rastreable Sos",
+    "long_description": "Open the page and it silently collects the signals advertisers use to fingerprint you, canvas rendering, fonts, screen size, audio stack, then computes how unique your browser is among millions. It shows which signals leak the most and how to blunt them. A compelling privacy build with an instant aha moment for any visitor in the demo.",
+    "long_description_es": "Abrí la página y recolecta en silencio las señales que usan los anunciantes para identificarte, renderizado de canvas, fuentes, tamaño de pantalla, pila de audio, y luego calcula qué tan único es tu navegador entre millones. Muestra qué señales filtran más y cómo atenuarlas. Una construcción de privacidad convincente con un momento de revelación instantáneo para cualquier visitante en la demo.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "privacy",
+      "web-security"
+    ]
+  },
+  {
+    "name": "IDOR Hunter that Walks Object IDs to Find Leaks",
+    "name_es": "Cazador de IDOR que Recorre IDs de Objetos para Hallar Fugas",
+    "long_description": "Authenticated as a normal user, the tool methodically increments and swaps object identifiers across an app's endpoints to surface records you should not be able to read. Each hit shows the request, the leaked data, and the missing authorization check. A focused web-security build whose demo quietly pulls another user's invoice from a test app.",
+    "long_description_es": "Autenticada como un usuario común, la herramienta incrementa e intercambia metódicamente identificadores de objetos en los endpoints de una app para exponer registros que no deberías poder leer. Cada acierto muestra la solicitud, los datos filtrados y la verificación de autorización faltante. Una construcción de seguridad web enfocada cuya demo extrae sigilosamente la factura de otro usuario de una app de prueba.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "authentication"
+    ]
+  },
+  {
+    "name": "Visual Encryption Padlock that Shows AES Mode Pitfalls",
+    "name_es": "Candado de Cifrado Visual que Muestra los Riesgos de los Modos AES",
+    "long_description": "Encrypt an image with AES in different modes and watch the result render: ECB leaves the ghostly outline of the original visible, while CBC and GCM turn it to noise. Side panels explain why mode choice matters and where an IV must be unique. A tight, visual single-feature build that makes a subtle crypto mistake unforgettable.",
+    "long_description_es": "Cifrá una imagen con AES en distintos modos y mirá cómo se renderiza el resultado: ECB deja visible el contorno fantasmal del original, mientras que CBC y GCM lo convierten en ruido. Paneles laterales explican por qué importa la elección del modo y dónde un IV debe ser único. Una construcción visual nítida de una sola función que vuelve inolvidable un error sutil de criptografía.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "cryptography",
+      "ctf"
+    ]
+  },
+  {
+    "name": "Phishing Domain Lookalike Detector with Homograph Alerts",
+    "name_es": "Detector de Dominios Falsos de Phishing con Alertas de Homógrafos",
+    "long_description": "Enter a brand and the tool generates the lookalike domains attackers register, swapped letters, extra hyphens, and Unicode homographs that render identically, then checks which are already live and serving content. Each result shows the trick used and a screenshot. A practical build with a demo that surfaces real squatted domains around a familiar brand.",
+    "long_description_es": "Ingresá una marca y la herramienta genera los dominios parecidos que registran los atacantes, letras cambiadas, guiones extra y homógrafos Unicode que se ven idénticos, y luego revisa cuáles ya están activos sirviendo contenido. Cada resultado muestra el truco usado y una captura. Una construcción práctica con una demo que expone dominios ocupados reales en torno a una marca conocida.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "network"
+    ]
+  },
+  {
+    "name": "Side-Channel Timing Lab that Leaks a Secret Comparison",
+    "name_es": "Laboratorio de Canal Lateral que Filtra una Comparación Secreta",
+    "long_description": "A guided lab that demonstrates a timing side channel: a naive string compare that returns early on the first wrong character, letting an attacker recover a secret token byte by byte from response times. A live chart shows the timing peaks giving it away, then a constant-time fix flattens them. An eye-opening crypto build that reveals an invisible leak.",
+    "long_description_es": "Un laboratorio guiado que demuestra un canal lateral de tiempo: una comparación de cadenas ingenua que retorna temprano en el primer carácter incorrecto, permitiendo a un atacante recuperar un token secreto byte por byte a partir de los tiempos de respuesta. Un gráfico en vivo muestra los picos de tiempo que lo delatan, y luego un arreglo de tiempo constante los aplana. Una construcción de criptografía reveladora que expone una fuga invisible.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "cryptography",
+      "ctf"
+    ]
+  },
+  {
+    "name": "Container Image Scanner that Ranks Layers by Risk",
+    "name_es": "Escáner de Imágenes de Contenedor que Ordena Capas por Riesgo",
+    "long_description": "Point it at a Docker image and the tool inspects each layer for vulnerable packages, leaked secrets, and a root user that should be dropped, then ranks the layers by how much risk each one adds. A diff view shows which base image bloated the attack surface. A practical DevSecOps build with a demo that condemns a popular but bloated base image.",
+    "long_description_es": "Apuntalo a una imagen de Docker y la herramienta inspecciona cada capa en busca de paquetes vulnerables, secretos filtrados y un usuario root que debería descartarse, y luego ordena las capas según cuánto riesgo aporta cada una. Una vista de diferencias muestra qué imagen base infló la superficie de ataque. Una construcción práctica de DevSecOps con una demo que condena una imagen base popular pero inflada.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "malware-analysis",
+      "web-security"
+    ]
+  },
+  {
+    "name": "WebSocket Traffic Inspector that Replays a Live Channel",
+    "name_es": "Inspector de Tráfico WebSocket que Reproduce un Canal en Vivo",
+    "long_description": "A proxy that captures the WebSocket messages flowing between a web app and its server, decodes the frames, and lets you edit and replay them to probe for missing authorization on real-time actions. A timeline view groups messages by intent. A sharp build for testing the often-overlooked security of live channels, with an instantly demoable replay.",
+    "long_description_es": "Un proxy que captura los mensajes WebSocket que circulan entre una app web y su servidor, decodifica los frames y te permite editarlos y reproducirlos para sondear autorización faltante en acciones en tiempo real. Una vista de línea de tiempo agrupa los mensajes por intención. Una construcción nítida para probar la seguridad a menudo ignorada de los canales en vivo, con una reproducción demostrable al instante.",
+    "topic": "cybersecurity",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "web-security",
+      "network"
+    ]
+  },
+  {
+    "name": "Git History Secret Scanner that Catches Deleted Keys",
+    "name_es": "Escáner de Historial Git que Atrapa Claves Borradas",
+    "long_description": "Run it on any repo and the tool walks the full commit history, not just the current tree, to find API keys and passwords that were committed and later deleted but still live in the git log forever. Each hit shows the commit, the file, and the moment it was removed. A quick, high-value build with a demo that resurrects a secret from a tidy-looking repo.",
+    "long_description_es": "Ejecutala en cualquier repo y la herramienta recorre todo el historial de commits, no solo el árbol actual, para encontrar claves de API y contraseñas que se commitearon y luego se borraron pero siguen viviendo para siempre en el log de git. Cada acierto muestra el commit, el archivo y el momento en que se eliminó. Una construcción rápida y de alto valor con una demo que resucita un secreto de un repo de apariencia prolija.",
+    "topic": "cybersecurity",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "web-security",
+      "forensics"
+    ]
+  },
+  {
+    "name": "Rate Limit Stress Tester that Maps an API's Real Limits",
+    "name_es": "Probador de Límites de Tasa que Mapea los Topes Reales de una API",
+    "long_description": "Pointed at your own API, this tool ramps request volume across endpoints and headers to discover where rate limiting actually kicks in and where it is silently absent. A heatmap shows which routes an attacker could hammer for free. A focused build that turns a vague worry about abuse into a concrete map of weak spots in a short sprint.",
+    "long_description_es": "Apuntada a tu propia API, esta herramienta aumenta el volumen de solicitudes en endpoints y encabezados para descubrir dónde se activa realmente el límite de tasa y dónde está ausente en silencio. Un mapa de calor muestra qué rutas podría martillar gratis un atacante. Una construcción enfocada que convierte una preocupación vaga sobre el abuso en un mapa concreto de puntos débiles en un sprint corto.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "network",
+      "web-security"
+    ]
+  },
+  {
+    "name": "SBOM Diff Tracker that Alerts When a Dependency Turns Risky",
+    "name_es": "Rastreador de Diferencias de SBOM que Alerta cuando una Dependencia se Vuelve Riesgosa",
+    "long_description": "Generate a software bill of materials for a project, then re-run it later and the tool diffs the two: new packages, version bumps, and any component that just acquired a published vulnerability or changed maintainers suspiciously. A timeline shows how your supply-chain risk drifted. A practical build that makes dependency rot visible over time.",
+    "long_description_es": "Generá una lista de materiales de software para un proyecto, luego volvé a correrla más tarde y la herramienta compara las dos: paquetes nuevos, saltos de versión, y cualquier componente que acaba de adquirir una vulnerabilidad publicada o cambió de mantenedores de forma sospechosa. Una línea de tiempo muestra cómo se desvió tu riesgo de cadena de suministro. Una construcción práctica que vuelve visible la pudrición de dependencias con el tiempo.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "malware-analysis",
+      "web-security"
+    ]
+  },
+  {
+    "name": "Encrypted File Vault with a Convincing Decoy Mode",
+    "name_es": "Bóveda de Archivos Cifrada con un Modo Señuelo Convincente",
+    "long_description": "A vault that encrypts your files but offers two passwords: the real one opens your secrets, while a duress password unlocks a plausible decoy set, giving deniable encryption for high-risk users. The demo shows the same vault revealing two completely different worlds depending on the key. A meaningful crypto build that explores deniability as a feature.",
+    "long_description_es": "Una bóveda que cifra tus archivos pero ofrece dos contraseñas: la real abre tus secretos, mientras que una contraseña de coacción desbloquea un conjunto señuelo plausible, brindando cifrado negable para usuarios de alto riesgo. La demo muestra la misma bóveda revelando dos mundos completamente distintos según la clave. Una construcción de criptografía con sentido que explora la negabilidad como funcionalidad.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "cryptography",
+      "privacy"
+    ]
+  },
+  {
+    "name": "Phishing Simulation Kit that Trains a Team Safely",
+    "name_es": "Kit de Simulación de Phishing que Entrena a un Equipo de Forma Segura",
+    "long_description": "An internal training tool that sends consenting teammates realistic but harmless phishing emails, tracks who clicks, and instantly shows them the tells they missed instead of shaming them. A dashboard charts the team getting savvier over each campaign. A fuller build with real human-factor value and a demo that runs a campaign end to end.",
+    "long_description_es": "Una herramienta de capacitación interna que envía a compañeros que dieron su consentimiento correos de phishing realistas pero inofensivos, registra quién hace clic y al instante les muestra las señales que pasaron por alto en lugar de avergonzarlos. Un tablero grafica cómo el equipo se vuelve más astuto con cada campaña. Una construcción más completa con valor real de factor humano y una demo que corre una campaña de principio a fin.",
+    "topic": "cybersecurity",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "intermediate",
+    "tags": [
+      "web-security",
+      "privacy"
+    ]
+  },
+  {
+    "name": "Race Condition Exploiter that Doubles a Wallet Balance",
+    "name_es": "Explotador de Condiciones de Carrera que Duplica un Saldo de Billetera",
+    "long_description": "Against a mock wallet API, this tool fires many withdrawal requests in the same instant to exploit a race condition and spend the same balance twice. A live ledger shows the impossible negative balance appearing, then a fix using atomic locks blocks the replay. A vivid build that makes a notoriously slippery class of bug concrete for judges.",
+    "long_description_es": "Contra una API de billetera simulada, esta herramienta dispara muchas solicitudes de retiro en el mismo instante para explotar una condición de carrera y gastar el mismo saldo dos veces. Un libro mayor en vivo muestra aparecer el saldo negativo imposible, y luego un arreglo con bloqueos atómicos impide la repetición. Una construcción vívida que vuelve concreta para los jueces una clase de bug notoriamente escurridiza.",
+    "topic": "cybersecurity",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "web-security",
+      "ctf"
+    ]
+  },
+  {
+    "name": "Wordlist Forge that Builds Targeted Guesses from a Profile",
+    "name_es": "Forja de Diccionarios que Construye Conjeturas a Partir de un Perfil",
+    "long_description": "A red-team helper that takes public facts about a target, names, pets, birth years, employer, and forges a smart password wordlist by applying the mangling rules people actually use. A counter shows how few guesses it takes to cover common patterns. A sharp single-purpose build that drives home why personal info makes terrible passwords.",
+    "long_description_es": "Un asistente de red team que toma datos públicos de un objetivo, nombres, mascotas, años de nacimiento, empleador, y forja un diccionario de contraseñas inteligente aplicando las reglas de modificación que la gente realmente usa. Un contador muestra qué pocas conjeturas hacen falta para cubrir los patrones comunes. Una construcción nítida de un solo propósito que deja claro por qué la información personal hace contraseñas pésimas.",
+    "topic": "cybersecurity",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "authentication",
+      "ctf"
+    ]
+  }
+]

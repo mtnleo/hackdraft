@@ -1,0 +1,544 @@
+[
+  {
+    "name": "Camera That Signs Each Photo for On-Chain Authenticity",
+    "name_es": "Cámara que firma cada foto para autenticidad on-chain",
+    "long_description": "A capture app that cryptographically signs a photo the instant it is taken, embedding device key, time and GPS, then anchors the hash on-chain so anyone can later prove the image is original and unedited. Useful against deepfakes for journalists and insurers. The demo snaps a picture and shows a verifier rejecting a tampered copy while accepting the signed one.",
+    "long_description_es": "Una app de captura que firma criptográficamente una foto en el instante en que se toma, incrustando clave del dispositivo, hora y GPS, y ancla el hash on-chain para que cualquiera pueda probar luego que la imagen es original y no editada. Útil contra deepfakes para periodistas y aseguradoras. La demo toma una foto y muestra a un verificador rechazando una copia alterada mientras acepta la firmada.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "identity",
+      "on-chain-data",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Pay-Per-Call API Gate Where AI Agents Settle in Stablecoins",
+    "name_es": "Puerta de API por llamada donde los agentes IA pagan en stablecoins",
+    "long_description": "A reverse proxy that answers any unpaid API request with a machine-readable price, lets an AI agent pay a few cents in stablecoins, then forwards the call. No accounts, no API keys, just per-request settlement so agents can buy data autonomously. The demo runs a script that hits a paid endpoint, watches it get a 402, pays, and receives the response on retry.",
+    "long_description_es": "Un proxy inverso que responde cualquier petición de API impaga con un precio legible por máquina, deja que un agente IA pague unos centavos en stablecoins y luego reenvía la llamada. Sin cuentas ni claves de API, solo liquidación por petición para que los agentes compren datos de forma autónoma. La demo corre un script que golpea un endpoint pago, recibe un 402, paga y obtiene la respuesta al reintentar.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "payments",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Session-Key Pass That Lends an App Limited Wallet Power",
+    "name_es": "Pase de clave de sesión que presta poder limitado de la wallet a una app",
+    "long_description": "A wallet add-on that issues a scoped session key so a game or app can sign transactions for you within strict limits — only these contracts, this spend cap, this expiry — without ever touching your main key. Revoke it in one tap. The demo grants a key, lets the app fire several gasless moves, then shows the key auto-expiring and refusing the next action.",
+    "long_description_es": "Un complemento de wallet que emite una clave de sesión acotada para que un juego o app firme transacciones por vos dentro de límites estrictos —solo estos contratos, este tope de gasto, este vencimiento— sin tocar nunca tu clave principal. Revocala con un toque. La demo otorga una clave, deja que la app dispare varias jugadas sin gas y luego muestra la clave expirando sola y rechazando la siguiente acción.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "wallets",
+      "smart-contracts",
+      "identity"
+    ]
+  },
+  {
+    "name": "Private Credit Score You Prove With Zero-Knowledge Proofs",
+    "name_es": "Puntaje de crédito privado que probás con pruebas de conocimiento cero",
+    "long_description": "A tool that reads your on-chain history — repayments, liquidations, account age — computes a credit band, and lets you prove you are above a threshold without revealing the underlying wallet or numbers. A lender checks the proof, not your finances. The demo generates a proof for one wallet and a verifier confirms it clears the bar while learning nothing else.",
+    "long_description_es": "Una herramienta que lee tu historial on-chain —repagos, liquidaciones, antigüedad de cuenta—, calcula una banda crediticia y te permite probar que superás un umbral sin revelar la wallet subyacente ni los números. Un prestamista verifica la prueba, no tus finanzas. La demo genera una prueba para una wallet y un verificador confirma que supera el límite sin enterarse de nada más.",
+    "topic": "crypto-web3",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "defi",
+      "identity",
+      "on-chain-data"
+    ]
+  },
+  {
+    "name": "Delay-Insurance Pool That Pays Out on Slow Transactions",
+    "name_es": "Pool de seguro de demora que paga ante transacciones lentas",
+    "long_description": "A micro-insurance contract where you pay a tiny premium when sending a transaction; if it does not confirm within the promised window, the pool automatically refunds you a payout. It turns gas uncertainty into a hedge for time-sensitive swaps. The demo buys a policy, simulates a congested block, and shows the claim settling on its own once the deadline passes.",
+    "long_description_es": "Un contrato de microseguro donde pagás una prima mínima al enviar una transacción; si no se confirma dentro de la ventana prometida, el pool te reembolsa automáticamente un pago. Convierte la incertidumbre del gas en una cobertura para swaps sensibles al tiempo. La demo compra una póliza, simula un bloque congestionado y muestra el reclamo liquidándose solo una vez vencido el plazo.",
+    "topic": "crypto-web3",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "defi",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Merit-Weighted Governance NFT That Blunts Whale Capture",
+    "name_es": "NFT de gobernanza ponderado por mérito que frena la captura de ballenas",
+    "long_description": "A DAO voting layer where weight comes from a non-transferable badge earned through contributions and tenure, not raw token balance, so a rich newcomer cannot buy a decision overnight. Weights decay if you go inactive. The demo runs a proposal twice — once token-weighted, once merit-weighted — and shows how the outcome flips away from a single whale.",
+    "long_description_es": "Una capa de votación de DAO donde el peso surge de una insignia intransferible ganada por contribuciones y antigüedad, no por el balance bruto de tokens, así un recién llegado adinerado no compra una decisión de un día para otro. Los pesos decaen si te volvés inactivo. La demo corre una propuesta dos veces —una ponderada por tokens, otra por mérito— y muestra cómo el resultado se aleja de una sola ballena.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "dao",
+      "nfts",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "One-Screen Token Allowance Heatmap for a Single Wallet",
+    "name_es": "Mapa de calor de permisos de token en una pantalla para una wallet",
+    "long_description": "Paste a wallet address and instantly see every active token approval as a heatmap, sized by how much value each spender could drain right now, hottest at the top. It is read-only and works in seconds, perfect for a quick risk gut-check before signing more. The demo loads a busy wallet and surfaces the two scariest unlimited approvals at a glance.",
+    "long_description_es": "Pegá una dirección de wallet y mirá al instante cada permiso de token activo como un mapa de calor, dimensionado por cuánto valor podría drenar cada gastador ahora mismo, los más calientes arriba. Es de solo lectura y funciona en segundos, ideal para una revisión rápida de riesgo antes de firmar más. La demo carga una wallet activa y revela de un vistazo los dos permisos ilimitados más alarmantes.",
+    "topic": "crypto-web3",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "wallets",
+      "on-chain-data"
+    ]
+  },
+  {
+    "name": "Stablecoin Payroll That Streams Salary by the Second",
+    "name_es": "Nómina en stablecoins que transmite el salario por segundo",
+    "long_description": "An employer dashboard that funds a contract once and streams each worker's salary continuously, so anyone can withdraw whatever has accrued at any moment instead of waiting for payday. Pausing or topping up is one click. The demo starts a stream for three contributors and shows their claimable balances ticking up live, with one withdrawing mid-month.",
+    "long_description_es": "Un panel para empleadores que financia un contrato una vez y transmite el salario de cada trabajador de forma continua, así cualquiera puede retirar lo acumulado en cualquier momento en lugar de esperar el día de pago. Pausar o recargar es un clic. La demo inicia un stream para tres colaboradores y muestra sus saldos reclamables subiendo en vivo, con uno retirando a mitad de mes.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "payments",
+      "smart-contracts",
+      "defi"
+    ]
+  },
+  {
+    "name": "On-Chain Subscription That Auto-Cancels If You Stop Using It",
+    "name_es": "Suscripción on-chain que se autocancela si dejás de usarla",
+    "long_description": "A recurring-payment primitive where the merchant can only pull the next period's fee if your usage oracle shows activity, so a forgotten subscription stops charging instead of bleeding you. You set the rules; the contract enforces them. The demo runs two billing cycles, then simulates inactivity and shows the third charge getting blocked automatically.",
+    "long_description_es": "Una primitiva de pago recurrente donde el comercio solo puede cobrar la cuota del próximo período si tu oráculo de uso muestra actividad, así una suscripción olvidada deja de cobrarte en lugar de desangrarte. Vos ponés las reglas; el contrato las hace cumplir. La demo corre dos ciclos de cobro, luego simula inactividad y muestra el tercer cobro bloqueándose automáticamente.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "payments",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "MEV-Aware Swap Router That Shows the Sandwich You Dodged",
+    "name_es": "Router de swap consciente de MEV que muestra el sándwich que evitaste",
+    "long_description": "A swap front-end that routes your trade through a private path and then visualizes the sandwich attack it would have suffered on the public mempool, with the dollar amount you saved. It makes invisible MEV losses tangible. The demo runs the same swap publicly and privately side by side and highlights the price you kept by going dark.",
+    "long_description_es": "Un front-end de swap que enruta tu operación por una vía privada y luego visualiza el ataque sándwich que habrías sufrido en el mempool público, con el monto en dólares que ahorraste. Hace tangibles las pérdidas invisibles por MEV. La demo corre el mismo swap pública y privadamente en paralelo y resalta el precio que conservaste al ir a oscuras.",
+    "topic": "crypto-web3",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "defi",
+      "on-chain-data"
+    ]
+  },
+  {
+    "name": "Dynamic NFT Ticket That Locks After the Event Scans It",
+    "name_es": "Entrada NFT dinámica que se bloquea tras escanearla en el evento",
+    "long_description": "An event ticket NFT that is freely transferable until check-in, when a door scan flips it to a permanent, non-resellable proof of attendance with the seat and date baked in. It kills resale fraud at the door while leaving a collectible memento. The demo mints a ticket, transfers it once, scans it in, and shows resale attempts then bouncing.",
+    "long_description_es": "Una entrada NFT libremente transferible hasta el check-in, cuando un escaneo en la puerta la convierte en una prueba de asistencia permanente e irrevendible con asiento y fecha grabados. Mata el fraude de reventa en la puerta y deja un recuerdo coleccionable. La demo acuña una entrada, la transfiere una vez, la escanea en el ingreso y muestra que luego los intentos de reventa rebotan.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "nfts",
+      "smart-contracts",
+      "identity"
+    ]
+  },
+  {
+    "name": "Proof-of-Reserves Widget Anyone Can Embed on a Site",
+    "name_es": "Widget de prueba de reservas que cualquiera puede incrustar en un sitio",
+    "long_description": "A drop-in badge that reads an exchange or treasury's on-chain wallets and a liabilities attestation, then renders a live solvency ratio visitors can click to audit the underlying addresses. It turns trust-me into verify-yourself. The demo embeds the widget on a sample page and shows the ratio updating when a watched wallet's balance changes.",
+    "long_description_es": "Una insignia lista para incrustar que lee las wallets on-chain de un exchange o tesorería y una atestación de pasivos, y luego renderiza un ratio de solvencia en vivo que los visitantes pueden clicar para auditar las direcciones subyacentes. Convierte el confía en mí en verificalo vos. La demo incrusta el widget en una página de ejemplo y muestra el ratio actualizándose cuando cambia el balance de una wallet observada.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "on-chain-data",
+      "defi"
+    ]
+  },
+  {
+    "name": "Gasless Onboarding Link That Funds a New User's First Move",
+    "name_es": "Enlace de onboarding sin gas que financia el primer movimiento del usuario",
+    "long_description": "A shareable claim link that spins up a smart account for a brand-new user and sponsors their first few transactions via a paymaster, so they can mint or vote before ever buying gas. The sender sets a budget and expiry. The demo opens the link as a fresh user, completes an action with zero balance, and shows the sponsor's budget ticking down.",
+    "long_description_es": "Un enlace reclamable que crea una cuenta inteligente para un usuario nuevo y patrocina sus primeras transacciones vía un paymaster, así puede acuñar o votar antes de comprar gas. El emisor fija un presupuesto y un vencimiento. La demo abre el enlace como usuario nuevo, completa una acción con saldo cero y muestra el presupuesto del patrocinador bajando.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "wallets",
+      "payments",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Token Vesting Cliff Visualizer That Flags Upcoming Unlocks",
+    "name_es": "Visualizador de vesting que avisa los desbloqueos próximos",
+    "long_description": "Paste a vesting contract address and get a clean timeline of every cliff and linear unlock, with a countdown to the next big tranche hitting the market and how much supply it adds. Traders use it to anticipate sell pressure. The demo loads a real-style schedule and highlights the next unlock that dwarfs daily volume in red.",
+    "long_description_es": "Pegá la dirección de un contrato de vesting y obtené una línea de tiempo limpia de cada cliff y desbloqueo lineal, con una cuenta regresiva al próximo tramo grande llegando al mercado y cuánta oferta agrega. Los traders lo usan para anticipar presión vendedora. La demo carga un cronograma realista y resalta en rojo el próximo desbloqueo que eclipsa el volumen diario.",
+    "topic": "crypto-web3",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "on-chain-data",
+      "defi"
+    ]
+  },
+  {
+    "name": "Onchain Loyalty Stamp Card That Unlocks a Reward at Ten",
+    "name_es": "Tarjeta de sellos de fidelidad onchain que premia a los diez",
+    "long_description": "A merchant tool where each purchase mints a stamp to the customer's wallet, and the tenth stamp auto-redeems a coupon NFT — no app, no plastic card, fully portable across the merchant's locations. The demo rings up purchases for a wallet, watches stamps accumulate, and triggers the reward automatically when the card fills.",
+    "long_description_es": "Una herramienta para comercios donde cada compra acuña un sello en la wallet del cliente, y el décimo sello canjea automáticamente un cupón NFT —sin app, sin tarjeta de plástico, totalmente portable entre las sucursales del comercio. La demo registra compras para una wallet, mira los sellos acumularse y dispara la recompensa automáticamente cuando la tarjeta se llena.",
+    "topic": "crypto-web3",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "nfts",
+      "payments"
+    ]
+  },
+  {
+    "name": "Bridge Risk Scanner That Rates a Cross-Chain Route Before You Send",
+    "name_es": "Escáner de riesgo de puentes que califica una ruta cross-chain antes de enviar",
+    "long_description": "Pick a source and destination chain and the tool scores every available bridge route by recent exploit history, liquidity depth, time-to-finality and fees, then recommends the safest path for your amount. The demo compares three routes for a sample transfer and explains in plain language why the cheapest one is also the riskiest.",
+    "long_description_es": "Elegí una cadena de origen y destino y la herramienta puntúa cada ruta de puente disponible por historial reciente de exploits, profundidad de liquidez, tiempo a finalidad y comisiones, y luego recomienda el camino más seguro para tu monto. La demo compara tres rutas para una transferencia de ejemplo y explica en lenguaje claro por qué la más barata es también la más riesgosa.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "defi",
+      "on-chain-data"
+    ]
+  },
+  {
+    "name": "DAO Treasury Diversifier That Rebalances Toward Stablecoins",
+    "name_es": "Diversificador de tesorería de DAO que rebalancea hacia stablecoins",
+    "long_description": "A governance-approved contract that automatically trims a DAO's native-token concentration into stablecoins when it exceeds a set ratio, giving the treasury a runway that survives a token crash. Members vote the policy, the contract executes it. The demo simulates a price drop and shows the rebalance firing only once the threshold is breached.",
+    "long_description_es": "Un contrato aprobado por gobernanza que recorta automáticamente la concentración del token nativo de una DAO hacia stablecoins cuando supera un ratio fijado, dándole a la tesorería una pista que sobrevive a una caída del token. Los miembros votan la política, el contrato la ejecuta. La demo simula una baja de precio y muestra el rebalanceo disparándose solo cuando se supera el umbral.",
+    "topic": "crypto-web3",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "dao",
+      "defi",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Proof-of-Humanity Captcha Gated by a One-Person Attestation",
+    "name_es": "Captcha de prueba de humanidad regido por una atestación de una persona",
+    "long_description": "A drop-in widget that lets a site require a privacy-preserving humanity proof instead of a captcha, so each real person passes once and bots cannot farm thousands of accounts. No personal data leaves the user. The demo gates a signup form and shows a second attempt from the same human being recognized and refused a duplicate.",
+    "long_description_es": "Un widget listo para incrustar que permite a un sitio exigir una prueba de humanidad que preserva la privacidad en lugar de un captcha, así cada persona real pasa una vez y los bots no pueden cultivar miles de cuentas. Ningún dato personal sale del usuario. La demo protege un formulario de registro y muestra que un segundo intento del mismo humano es reconocido y se le niega un duplicado.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "identity",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Royalty Splitter That Pays Collaborators on Every NFT Resale",
+    "name_es": "Repartidor de regalías que paga a colaboradores en cada reventa de NFT",
+    "long_description": "A mint wrapper that hard-codes a revenue split across many collaborators, so each primary sale and every downstream royalty auto-distributes to artists, writers and funders by their agreed shares with no manual accounting. The demo mints a piece with four contributors, simulates two resales, and shows each wallet's cut landing instantly.",
+    "long_description_es": "Un envoltorio de minteo que codifica un reparto de ingresos entre varios colaboradores, así cada venta primaria y cada regalía posterior se distribuye automáticamente a artistas, escritores y financiadores según sus partes acordadas sin contabilidad manual. La demo acuña una obra con cuatro colaboradores, simula dos reventas y muestra la parte de cada wallet llegando al instante.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "nfts",
+      "payments",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Smart Contract Diff Viewer That Explains a Risky Upgrade",
+    "name_es": "Visor de diferencias de contrato que explica una actualización riesgosa",
+    "long_description": "Paste two contract addresses or versions and see a function-level diff that flags newly added admin powers, removed checks or changed ownership in plain language, so a community can judge a proxy upgrade before it lands. The demo compares a benign upgrade with a sneaky one and surfaces the hidden mint-to-owner function in red.",
+    "long_description_es": "Pegá dos direcciones o versiones de contrato y mirá una diferencia a nivel de función que marca en lenguaje claro nuevos poderes de administrador, chequeos eliminados o cambios de propiedad, para que una comunidad juzgue una actualización de proxy antes de que ocurra. La demo compara una actualización benigna con una tramposa y resalta en rojo la función oculta de acuñar al dueño.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "smart-contracts",
+      "on-chain-data"
+    ]
+  },
+  {
+    "name": "Tip Button That Splits Among Everyone Who Touched the Repo",
+    "name_es": "Botón de propina que reparte entre todos los que tocaron el repo",
+    "long_description": "A donate button for an open-source project that, on each tip, splits the funds across recent contributors weighted by their merged commits, paying maintainers and drive-by fixers alike automatically. The demo connects a sample repo, sends one tip, and shows it fanning out to five wallets in proportion to their contributions.",
+    "long_description_es": "Un botón de donar para un proyecto de código abierto que, en cada propina, reparte los fondos entre los colaboradores recientes ponderados por sus commits fusionados, pagando a mantenedores y arregladores casuales por igual y de forma automática. La demo conecta un repo de ejemplo, envía una propina y la muestra repartiéndose a cinco wallets en proporción a sus aportes.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "payments",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Wallet Health Report Card With a Single Safety Grade",
+    "name_es": "Boletín de salud de wallet con una sola nota de seguridad",
+    "long_description": "Enter an address and get a one-page report card grading the wallet's safety — risky approvals, exposure to flagged contracts, dust-attack tokens, no recovery set — distilled into an A-to-F grade with the top three fixes. The demo grades a messy wallet a D and lists the exact actions that would bump it to a B.",
+    "long_description_es": "Ingresá una dirección y obtené un boletín de una página que califica la seguridad de la wallet —permisos riesgosos, exposición a contratos marcados, tokens de ataque por polvo, sin recuperación configurada— destilado en una nota de la A a la F con los tres arreglos principales. La demo califica una wallet desordenada con una D y lista las acciones exactas que la subirían a una B.",
+    "topic": "crypto-web3",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "wallets",
+      "on-chain-data",
+      "identity"
+    ]
+  },
+  {
+    "name": "Milestone Escrow for Grants That Releases on Verified Output",
+    "name_es": "Fideicomiso por hitos para subsidios que libera ante resultado verificado",
+    "long_description": "A grant contract that locks funds and releases each tranche only when a milestone is attested — a merged PR, a deployed address, a signed reviewer approval — so funders pay for delivered work, not promises. The demo sets up a three-milestone grant, attests the first two, and shows the final payout staying locked until its proof arrives.",
+    "long_description_es": "Un contrato de subsidio que bloquea fondos y libera cada tramo solo cuando un hito es atestado —un PR fusionado, una dirección desplegada, una aprobación firmada de revisor— para que los financiadores paguen por trabajo entregado, no por promesas. La demo arma un subsidio de tres hitos, atesta los dos primeros y muestra el pago final quedando bloqueado hasta que llega su prueba.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "dao",
+      "payments",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Liquidation Watchtower That Pings You Before You Get Wiped",
+    "name_es": "Atalaya de liquidación que te avisa antes de que te liquiden",
+    "long_description": "Connect a lending position read-only and the tool watches your health factor against live prices, sending an alert the moment a drop would put you within range of liquidation, with the exact top-up that restores safety. The demo loads a borrowed position, simulates a price slide, and fires the warning while there is still time to act.",
+    "long_description_es": "Conectá una posición de préstamo en solo lectura y la herramienta vigila tu factor de salud contra precios en vivo, enviando una alerta en el momento en que una caída te pondría en rango de liquidación, con la recarga exacta que restaura la seguridad. La demo carga una posición prestada, simula un deslizamiento de precio y dispara el aviso cuando todavía hay tiempo de actuar.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "defi",
+      "on-chain-data",
+      "wallets"
+    ]
+  },
+  {
+    "name": "ENS Profile Card That Renders a Wallet's Public Reputation",
+    "name_es": "Tarjeta de perfil ENS que renderiza la reputación pública de una wallet",
+    "long_description": "Type any name or address and get a shareable profile card pulling its ENS name, avatar, POAPs, notable holdings and on-chain age into one clean view — a Web3 business card you can drop in a bio. The demo resolves a name and renders a card that updates the moment the wallet collects a new badge.",
+    "long_description_es": "Escribí cualquier nombre o dirección y obtené una tarjeta de perfil compartible que reúne su nombre ENS, avatar, POAPs, tenencias destacadas y antigüedad on-chain en una vista limpia —una tarjeta de presentación Web3 para poner en una bio. La demo resuelve un nombre y renderiza una tarjeta que se actualiza en cuanto la wallet recibe una nueva insignia.",
+    "topic": "crypto-web3",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "identity",
+      "on-chain-data"
+    ]
+  },
+  {
+    "name": "Refundable Crowdfund That Returns Funds If the Goal Misses",
+    "name_es": "Crowdfunding reembolsable que devuelve fondos si no se llega a la meta",
+    "long_description": "An all-or-nothing crowdfunding contract where pledges sit locked until a deadline: hit the goal and the creator can withdraw, miss it and every backer reclaims their full pledge with one click. No trust in the organizer required. The demo runs a campaign that falls short and shows backers pulling exact refunds automatically.",
+    "long_description_es": "Un contrato de crowdfunding de todo o nada donde las promesas quedan bloqueadas hasta una fecha límite: si se alcanza la meta el creador puede retirar, si no, cada aportante reclama su promesa completa con un clic. No hace falta confiar en el organizador. La demo corre una campaña que no llega y muestra a los aportantes retirando reembolsos exactos automáticamente.",
+    "topic": "crypto-web3",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "payments",
+      "smart-contracts",
+      "dao"
+    ]
+  },
+  {
+    "name": "Onchain Time Capsule NFT That Unlocks Its Media on a Date",
+    "name_es": "NFT cápsula del tiempo que desbloquea su contenido en una fecha",
+    "long_description": "Mint a sealed NFT whose image and message stay encrypted until a chosen future date, when the contract releases the key and the artwork reveals itself to whoever holds it. Perfect for graduations, anniversaries or a project's launch. The demo mints a capsule with a near deadline and shows the hidden media decrypting the instant the block time passes.",
+    "long_description_es": "Acuñá un NFT sellado cuya imagen y mensaje permanecen cifrados hasta una fecha futura elegida, cuando el contrato libera la clave y la obra se revela a quien lo posea. Ideal para graduaciones, aniversarios o el lanzamiento de un proyecto. La demo acuña una cápsula con un plazo cercano y muestra el contenido oculto descifrándose en el instante en que pasa el tiempo del bloque.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "nfts",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Spending Limit Smart Account That Throttles Daily Outflows",
+    "name_es": "Cuenta inteligente con límite que regula las salidas diarias",
+    "long_description": "A smart wallet that enforces a self-set daily and per-transaction spend cap, so even a leaked key cannot drain you in one shot — anything above the limit needs a timelock or a second device to confirm. The demo tries a large transfer that gets throttled, then approves it from a backup device after the cooldown.",
+    "long_description_es": "Una wallet inteligente que impone un tope de gasto diario y por transacción que vos mismo fijás, así ni una clave filtrada puede vaciarte de un golpe —cualquier cosa por encima del límite necesita un timelock o un segundo dispositivo para confirmar. La demo intenta una transferencia grande que es regulada, y luego la aprueba desde un dispositivo de respaldo tras el enfriamiento.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "advanced",
+    "tags": [
+      "wallets",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Real-World Asset Receipt That Ties an NFT to a Serial Number",
+    "name_es": "Recibo de activo real que ata un NFT a un número de serie",
+    "long_description": "A tool for sellers of physical goods to mint a transferable ownership receipt NFT bound to an item's serial or QR tag, so resale, warranty and provenance follow the object across owners. The demo registers a watch, transfers its receipt to a buyer, and shows a scan of the tag resolving to the current rightful owner.",
+    "long_description_es": "Una herramienta para vendedores de bienes físicos para acuñar un recibo de propiedad NFT transferible atado al número de serie o etiqueta QR de un artículo, así reventa, garantía y procedencia siguen al objeto entre dueños. La demo registra un reloj, transfiere su recibo a un comprador y muestra que escanear la etiqueta resuelve al dueño legítimo actual.",
+    "topic": "crypto-web3",
+    "time_bucket": "12-24h",
+    "min_hours": 12,
+    "max_hours": 24,
+    "difficulty": "intermediate",
+    "tags": [
+      "nfts",
+      "identity",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Conviction Voting Board Where Support Grows the Longer You Back It",
+    "name_es": "Tablero de voto por convicción donde el apoyo crece cuanto más lo sostenés",
+    "long_description": "A DAO funding board using conviction voting: backers stake on proposals and their voting power on each grows the longer they hold it there, so steady community will beats a last-minute whale rush. The demo stakes on two proposals, fast-forwards time, and shows the patiently-backed one crossing the funding threshold first.",
+    "long_description_es": "Un tablero de financiamiento de DAO con voto por convicción: los partidarios apuestan en propuestas y su poder de voto en cada una crece cuanto más lo mantienen ahí, así la voluntad sostenida de la comunidad le gana a una embestida de ballena de último minuto. La demo apuesta en dos propuestas, adelanta el tiempo y muestra a la apoyada con paciencia cruzando primero el umbral de financiamiento.",
+    "topic": "crypto-web3",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "dao",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Gas Estimator That Quotes a Transaction in Your Local Currency",
+    "name_es": "Estimador de gas que cotiza una transacción en tu moneda local",
+    "long_description": "Paste a pending transaction or pick a common action and instantly see its gas cost converted to your local fiat currency, with a green-yellow-red verdict on whether now is a cheap moment to send. A tiny, friendly tool that demystifies fees for newcomers. The demo quotes a swap in pesos and updates the verdict as the base fee moves.",
+    "long_description_es": "Pegá una transacción pendiente o elegí una acción común y mirá al instante su costo de gas convertido a tu moneda local, con un veredicto verde-amarillo-rojo sobre si ahora es un momento barato para enviar. Una herramienta pequeña y amigable que desmitifica las comisiones para los nuevos. La demo cotiza un swap en pesos y actualiza el veredicto a medida que se mueve la tarifa base.",
+    "topic": "crypto-web3",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "wallets",
+      "on-chain-data",
+      "payments"
+    ]
+  },
+  {
+    "name": "Multisig Proposal Explainer That Decodes a Pending Safe Tx",
+    "name_es": "Explicador de propuestas multisig que decodifica una tx Safe pendiente",
+    "long_description": "Drop in a pending multisig transaction and the tool decodes the raw calldata into a plain-English summary — who gets paid, which contract is called, what permission changes — so co-signers know exactly what they are approving. The demo loads a queued transaction and reveals that a benign-looking call actually swaps the signer set.",
+    "long_description_es": "Cargá una transacción multisig pendiente y la herramienta decodifica el calldata crudo en un resumen en lenguaje claro —quién cobra, qué contrato se llama, qué permisos cambian— para que los cofirmantes sepan exactamente qué están aprobando. La demo carga una transacción en cola y revela que una llamada de apariencia inocente en realidad cambia el conjunto de firmantes.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "wallets",
+      "dao",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Airdrop Eligibility Checker That Proves You Qualify Privately",
+    "name_es": "Verificador de airdrop que prueba que calificás sin exponerte",
+    "long_description": "A claim portal where a user proves they meet airdrop criteria — held a token by a snapshot, used a protocol N times — with a zero-knowledge proof, so they claim without doxxing their full wallet history to the project. The demo runs a wallet through the checker and issues a private proof that the contract accepts for the claim.",
+    "long_description_es": "Un portal de reclamo donde un usuario prueba que cumple los criterios de airdrop —tener un token en un snapshot, usar un protocolo N veces— con una prueba de conocimiento cero, así reclama sin exponer todo su historial de wallet al proyecto. La demo pasa una wallet por el verificador y emite una prueba privada que el contrato acepta para el reclamo.",
+    "topic": "crypto-web3",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "identity",
+      "defi",
+      "smart-contracts"
+    ]
+  },
+  {
+    "name": "Onchain Habit Stake That Pays You Back for Showing Up",
+    "name_es": "Apuesta de hábito onchain que te devuelve por aparecer",
+    "long_description": "Stake a deposit toward a daily goal; check in on-chain each day and you reclaim your stake at the end, miss days and the forfeited share is split among the people who stuck with it. A self-enforcing commitment device with skin in the game. The demo runs a short challenge, simulates a missed day, and redistributes the forfeit to the finishers.",
+    "long_description_es": "Apostá un depósito hacia una meta diaria; registrate on-chain cada día y recuperás tu apuesta al final, perdé días y la parte perdida se reparte entre quienes cumplieron. Un dispositivo de compromiso autoejecutable con la piel en juego. La demo corre un desafío corto, simula un día perdido y redistribuye lo perdido a quienes terminaron.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "smart-contracts",
+      "payments"
+    ]
+  },
+  {
+    "name": "Stablecoin Yield Comparison That Shows the Real APY After Risk",
+    "name_es": "Comparador de rendimiento en stablecoins que muestra la TAE real tras el riesgo",
+    "long_description": "A board that lists where to park stablecoins across protocols, but discounts each headline APY by audit history, TVL stability and depeg exposure to show a risk-adjusted yield, not a vanity number. The demo ranks five venues and explains why a flashy 20% drops below a boring 6% once risk is priced in.",
+    "long_description_es": "Un tablero que lista dónde estacionar stablecoins entre protocolos, pero descuenta cada TAE de portada por historial de auditorías, estabilidad de TVL y exposición a depeg para mostrar un rendimiento ajustado por riesgo, no un número de vanidad. La demo ordena cinco lugares y explica por qué un llamativo 20% cae por debajo de un aburrido 6% una vez valorado el riesgo.",
+    "topic": "crypto-web3",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "defi",
+      "on-chain-data"
+    ]
+  }
+]

@@ -1,0 +1,556 @@
+[
+  {
+    "name": "Prompt Linter Extension that Rates Your AI Prompts Live",
+    "name_es": "Extensión que califica tus prompts de IA en vivo",
+    "long_description": "A browser extension that sits beside any chat box and scores your prompt as you type, flagging vague verbs, missing context, and conflicting instructions, then suggests one concrete rewrite. The whole charm is the live meter that nudges you before you hit send. A focused single-panel build for a short sprint.",
+    "long_description_es": "Una extensión de navegador que se ubica junto a cualquier cuadro de chat y puntúa tu prompt mientras escribís, marcando verbos vagos, contexto faltante e instrucciones contradictorias, y sugiere una reescritura concreta. Su gracia es el medidor en vivo que te avisa antes de enviar. Un proyecto enfocado de un solo panel para un sprint corto.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "browser-extension",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Focus Mode Overlay that Greys Out Everything But One Block",
+    "name_es": "Modo enfoque que atenúa todo menos un bloque",
+    "long_description": "A browser extension that lets you click any paragraph, form, or card on a page and dims the rest of the screen around it, following your reading down the page like a spotlight. It kills visual noise on cluttered sites without breaking the layout. A tight, demoable single-feature build for a half-day.",
+    "long_description_es": "Una extensión que te deja hacer clic en cualquier párrafo, formulario o tarjeta de una página y atenúa el resto de la pantalla a su alrededor, siguiendo tu lectura como un foco de luz. Elimina el ruido visual en sitios recargados sin romper el diseño. Un proyecto compacto y demostrable de una sola función para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "browser-extension",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Sankey Builder that Traces Money Flow from a Pasted Ledger",
+    "name_es": "Generador Sankey que traza el flujo de dinero de un libro",
+    "long_description": "Paste rows of from-to-amount transactions and the tool renders an animated Sankey diagram of where the money moves, with hovers that isolate any single path and totals that update as you filter. The demo turns a boring spreadsheet into a story of flows in seconds. A sharp dataviz build for an evening.",
+    "long_description_es": "Pegá filas de transacciones de origen-destino-monto y la herramienta genera un diagrama Sankey animado de hacia dónde se mueve el dinero, con resaltados que aíslan cualquier ruta y totales que se actualizan al filtrar. La demo convierte una planilla aburrida en una historia de flujos en segundos. Un proyecto de visualización filoso para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "dataviz",
+      "animation"
+    ]
+  },
+  {
+    "name": "Tab Group Auto-Sorter that Clusters Open Tabs by Topic",
+    "name_es": "Organizador de pestañas que las agrupa por tema",
+    "long_description": "A browser extension that reads the titles of your open tabs and silently clusters them into labelled groups by topic, so a chaotic window of forty tabs becomes a tidy set of stacks you can collapse. The hook is one keystroke that tidies the mess instantly. A satisfying, demoable build for a short sprint.",
+    "long_description_es": "Una extensión que lee los títulos de tus pestañas abiertas y las agrupa silenciosamente por tema en grupos etiquetados, de modo que una ventana caótica de cuarenta pestañas se vuelve un conjunto ordenado y plegable. El gancho es una tecla que ordena el desastre al instante. Un proyecto satisfactorio y demostrable para un sprint corto.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "browser-extension",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Live Form Validation Playground with Shareable Rule Sets",
+    "name_es": "Laboratorio de validación de formularios con reglas compartibles",
+    "long_description": "A sandbox where you sketch a form, attach validation rules from a visual list, and watch every field react in real time as you type test values, with the failing path highlighted. Export the rules as a snippet or a shareable link. A clean UI-tooling build that makes invisible logic visible for a half-day sprint.",
+    "long_description_es": "Un laboratorio donde dibujás un formulario, le agregás reglas de validación desde una lista visual y ves cada campo reaccionar en tiempo real mientras escribís valores de prueba, con la ruta que falla resaltada. Exportá las reglas como fragmento o enlace compartible. Un proyecto de herramientas de UI que hace visible la lógica invisible para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "ui-tooling",
+      "real-time"
+    ]
+  },
+  {
+    "name": "Spectator Esports HUD that Renders a Match Replay Log",
+    "name_es": "HUD de espectador que renderiza el log de una partida",
+    "long_description": "Drop in a JSON event log from a game match and the tool plays it back as a living HUD: a timeline scrubber, kill feed, and a heat trail of player positions on the map that you can rewind and pause. The demo lets a judge scrub to any moment and watch the action redraw. A juicy game-UI build for a day.",
+    "long_description_es": "Cargá un log de eventos JSON de una partida y la herramienta lo reproduce como un HUD vivo: una línea de tiempo navegable, un feed de bajas y un rastro de calor de las posiciones de los jugadores que podés rebobinar y pausar. La demo deja a un juez saltar a cualquier momento y ver la acción redibujarse. Un atractivo proyecto de UI de juegos para un día.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "game-ui",
+      "dataviz",
+      "animation"
+    ]
+  },
+  {
+    "name": "Screen Reader Preview Pane that Speaks Your Page as Built",
+    "name_es": "Panel que lee tu página como un lector de pantalla",
+    "long_description": "A dev tool that renders a live preview of how a screen reader would announce your page, listing the heading tree, landmarks, and the exact spoken order, with a play button that reads it aloud. It surfaces skipped headings and unlabelled buttons inline. A genuinely useful accessibility build for an evening sprint.",
+    "long_description_es": "Una herramienta para desarrolladores que muestra una vista previa en vivo de cómo un lector de pantalla anunciaría tu página, listando el árbol de encabezados, las regiones y el orden hablado exacto, con un botón que lo lee en voz alta. Detecta encabezados salteados y botones sin etiqueta en línea. Un proyecto de accesibilidad genuinamente útil para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Shared Cursor Pictionary that Two Browsers Play Side by Side",
+    "name_es": "Pictionary de cursores que dos navegadores juegan juntos",
+    "long_description": "A real-time party game where one player draws with their cursor on a shared canvas while the other guesses the word in a live chat, with a round timer and a reveal animation. Join by sharing a link, no install. The hook is the instant two-tab demo that feels alive. A fun real-time build for an evening.",
+    "long_description_es": "Un juego de fiesta en tiempo real donde un jugador dibuja con su cursor en un lienzo compartido mientras el otro adivina la palabra en un chat en vivo, con temporizador de ronda y una animación de revelación. Se une compartiendo un enlace, sin instalar. El gancho es la demo instantánea de dos pestañas que se siente viva. Un proyecto divertido en tiempo real para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "real-time",
+      "game-ui"
+    ]
+  },
+  {
+    "name": "Animated Tournament Bracket that Fills In as Scores Arrive",
+    "name_es": "Llave de torneo animada que se llena con los resultados",
+    "long_description": "A live bracket view where typing a match result animates the winner sliding up to the next round, with confetti on the final and a replay button that walks the whole tournament forward. Built for screens at a game night or a real event. A snappy game-UI build with a satisfying demo for a half-day.",
+    "long_description_es": "Una vista de llave en vivo donde escribir un resultado anima al ganador deslizándose a la siguiente ronda, con confeti en la final y un botón de repetición que recorre todo el torneo hacia adelante. Pensado para pantallas en una noche de juegos o un evento real. Un ágil proyecto de UI de juegos con una demo satisfactoria para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "beginner",
+    "tags": [
+      "game-ui",
+      "animation",
+      "real-time"
+    ]
+  },
+  {
+    "name": "Reaction-Time Trainer that Charts Your Reflexes Over Days",
+    "name_es": "Entrenador de reflejos que grafica tu reacción por días",
+    "long_description": "A PWA mini-game that drills your reaction time with quick visual prompts, then stores every run offline and charts how your reflexes trend across days and times of day. The hook is the personal curve that proves you are faster after coffee. A clean offline build that works on a flaky connection for an evening.",
+    "long_description_es": "Un mini-juego PWA que entrena tu tiempo de reacción con estímulos visuales rápidos, guarda cada intento sin conexión y grafica cómo evolucionan tus reflejos según el día y la hora. El gancho es la curva personal que demuestra que sos más rápido después del café. Un proyecto offline limpio que funciona con conexión inestable para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "pwa",
+      "dataviz",
+      "game-ui"
+    ]
+  },
+  {
+    "name": "Focus Trap Visualizer that Maps Tab Order as a Flow Arrow",
+    "name_es": "Visualizador de orden de tabulación como flecha de flujo",
+    "long_description": "A dev overlay that draws a numbered arrow path through every focusable element on a page in tab order, so you can see at a glance where keyboard focus jumps, loops, or escapes a modal. Click any node to jump there. A precise accessibility tool whose demo instantly reveals a broken modal in a half-day.",
+    "long_description_es": "Una capa para desarrolladores que dibuja una flecha numerada a través de cada elemento enfocable de una página en orden de tabulación, para ver de un vistazo dónde salta, gira o escapa el foco de un modal. Hacé clic en cualquier nodo para ir ahí. Una herramienta de accesibilidad precisa cuya demo revela un modal roto al instante en medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "accessibility",
+      "dataviz",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Pixel-Art Editor in the Browser that Exports Sprite Sheets",
+    "name_es": "Editor de pixel art en el navegador que exporta sprites",
+    "long_description": "A grid-based pixel editor with frames, an onion-skin preview, and a play button that animates your sprite, then exports a packed sprite sheet plus the CSS to run it. The hook is watching your character walk the moment you draw the second frame. A delightful game-UI build for an evening sprint.",
+    "long_description_es": "Un editor de píxeles basado en grilla con fotogramas, vista de papel cebolla y un botón de reproducción que anima tu sprite, y luego exporta una hoja de sprites compacta junto con el CSS para usarla. El gancho es ver a tu personaje caminar en cuanto dibujás el segundo fotograma. Un encantador proyecto de UI de juegos para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "game-ui",
+      "animation",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Live Captions Overlay that Subtitles Any Browser Tab Audio",
+    "name_es": "Capa de subtítulos en vivo para el audio de cualquier pestaña",
+    "long_description": "A browser extension that captures the audio of the current tab and renders live captions in a movable, resizable bar over the page, so a video without subtitles becomes readable. Captions stay legible with adjustable size and contrast. A high-impact accessibility build that demos instantly on any clip in a day.",
+    "long_description_es": "Una extensión que captura el audio de la pestaña actual y muestra subtítulos en vivo en una barra móvil y redimensionable sobre la página, de modo que un video sin subtítulos se vuelve legible. Los subtítulos se mantienen claros con tamaño y contraste ajustables. Un proyecto de accesibilidad de alto impacto que se demuestra al instante en cualquier clip en un día.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "browser-extension",
+      "accessibility",
+      "real-time"
+    ]
+  },
+  {
+    "name": "Calendar Heatmap Generator from a Pasted Date Column",
+    "name_es": "Generador de mapa de calor de calendario desde fechas",
+    "long_description": "Paste a column of dates and counts and the tool renders a GitHub-style year heatmap you can recolor, tooltip, and export as an image or embed snippet. Hover any cell to see the day's total and streaks light up. A tight, genuinely reusable dataviz build that fits a short evening sprint.",
+    "long_description_es": "Pegá una columna de fechas y conteos y la herramienta genera un mapa de calor anual estilo GitHub que podés recolorear, con tooltips, y exportar como imagen o fragmento para incrustar. Pasá el cursor por cualquier celda para ver el total del día y se iluminan las rachas. Un proyecto de visualización compacto y reutilizable que entra en una tarde corta.",
+    "topic": "web-frontend",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "dataviz",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Multiplayer Quiz Buzzer where Phones Race to Press First",
+    "name_es": "Pulsador de quiz donde los teléfonos compiten por presionar",
+    "long_description": "A real-time buzzer system for trivia nights: the host shows a question on the big screen and players race to tap their phone, with the first buzz locking the board and a sound cue. No app, just a shared link. The hook is the live race and the instant lockout. A lively real-time build for a half-day sprint.",
+    "long_description_es": "Un sistema de pulsadores en tiempo real para noches de trivia: el anfitrión muestra una pregunta en la pantalla grande y los jugadores compiten por tocar su teléfono, y el primer pulso bloquea el tablero con un aviso sonoro. Sin app, solo un enlace compartido. El gancho es la carrera en vivo y el bloqueo instantáneo. Un proyecto en tiempo real animado para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "real-time",
+      "game-ui"
+    ]
+  },
+  {
+    "name": "Motion Reducer that Tames Aggressive Animations on Any Site",
+    "name_es": "Reductor de movimiento que calma animaciones agresivas",
+    "long_description": "A browser extension that detects parallax, auto-playing carousels, and jittery scroll effects on a page and lets you slow or freeze them with one toggle, respecting reduced-motion needs. A before-and-after slider shows the calm version. A focused accessibility build with a vivid demo for an evening.",
+    "long_description_es": "Una extensión que detecta parallax, carruseles automáticos y efectos de scroll temblorosos en una página y te deja ralentizarlos o congelarlos con un interruptor, respetando las necesidades de movimiento reducido. Un control deslizante de antes y después muestra la versión calma. Un proyecto de accesibilidad enfocado con una demo vívida para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "browser-extension",
+      "accessibility",
+      "animation"
+    ]
+  },
+  {
+    "name": "Network Graph Explorer from a Pasted List of Connections",
+    "name_es": "Explorador de grafo de red desde una lista de conexiones",
+    "long_description": "Paste pairs of connected names and the tool lays them out as a force-directed graph you can drag, search, and prune, with node size scaling by connection count and a focus mode that fades everything but one neighborhood. The demo turns a flat list into an explorable map. A rich dataviz build for a day.",
+    "long_description_es": "Pegá pares de nombres conectados y la herramienta los dispone como un grafo dirigido por fuerzas que podés arrastrar, buscar y podar, con nodos cuyo tamaño escala según las conexiones y un modo de foco que atenúa todo menos un vecindario. La demo convierte una lista plana en un mapa explorable. Un proyecto de visualización rico para un día.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "dataviz",
+      "animation"
+    ]
+  },
+  {
+    "name": "Offline Field Survey PWA that Syncs When Signal Returns",
+    "name_es": "PWA de encuestas de campo que sincroniza al volver la señal",
+    "long_description": "A PWA for collecting survey responses in the field with no connection, queuing entries with photos and GPS locally, then syncing and showing a clear status when the signal returns. The hook is a reliable offline form that never loses a record. A practical 24-48h build with a real sync flow to demo.",
+    "long_description_es": "Una PWA para recolectar respuestas de encuestas en el campo sin conexión, encolando entradas con fotos y GPS localmente, y luego sincronizando con un estado claro al volver la señal. El gancho es un formulario offline confiable que nunca pierde un registro. Un proyecto práctico de 24-48h con un flujo de sincronización real para demostrar.",
+    "topic": "web-frontend",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "pwa",
+      "real-time",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Collaborative Mood Board that Reacts to Everyone in Real Time",
+    "name_es": "Tablero de inspiración colaborativo en tiempo real",
+    "long_description": "A shared canvas where a team drops images, swatches, and notes that snap into a clean grid, with live cursors, reactions, and a vote dot anyone can place. The hook is watching the board fill and reshuffle as the group works together. A polished real-time build with a strong group demo for a day.",
+    "long_description_es": "Un lienzo compartido donde un equipo arroja imágenes, muestras de color y notas que se acomodan en una grilla limpia, con cursores en vivo, reacciones y un punto de voto que cualquiera puede colocar. El gancho es ver el tablero llenarse y reordenarse mientras el grupo trabaja junto. Un proyecto en tiempo real pulido con una buena demo grupal para un día.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "real-time",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Idle Tycoon Game that Runs Entirely Offline as a PWA",
+    "name_es": "Juego idle de tycoon que corre offline como PWA",
+    "long_description": "An incremental clicker game packaged as an installable PWA that keeps simulating your factory while the tab is closed, then shows an animated catch-up reel of what you earned offline on return. The hook is the offline progress that makes the game feel alive. A juicy game-UI build for a full day.",
+    "long_description_es": "Un juego clicker incremental empaquetado como PWA instalable que sigue simulando tu fábrica con la pestaña cerrada y, al volver, muestra una secuencia animada de lo que ganaste sin conexión. El gancho es el progreso offline que hace que el juego se sienta vivo. Un atractivo proyecto de UI de juegos para un día completo.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "pwa",
+      "game-ui",
+      "animation"
+    ]
+  },
+  {
+    "name": "Contrast Fixer Extension that Auto-Repairs Unreadable Text",
+    "name_es": "Extensión que repara automáticamente texto ilegible",
+    "long_description": "A browser extension that scans a page for low-contrast text and one-by-one nudges colors to a readable ratio without breaking the design, showing each fix with a before-and-after swatch and the new score. The hook is making a washed-out site instantly legible. A high-value accessibility build for a half-day.",
+    "long_description_es": "Una extensión que escanea una página en busca de texto de bajo contraste y ajusta los colores uno por uno a una proporción legible sin romper el diseño, mostrando cada arreglo con una muestra de antes y después y el nuevo puntaje. El gancho es volver legible al instante un sitio descolorido. Un proyecto de accesibilidad de alto valor para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "browser-extension",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "Race-Replay Visualizer that Animates Lap Times into a Chase",
+    "name_es": "Visualizador que anima tiempos de vuelta como una carrera",
+    "long_description": "Paste lap-time data for several racers and the tool animates them as dots chasing along a track, with a live leaderboard that reorders on every lap and a slider to scrub the race. The hook is feeling the overtakes happen instead of reading a table. A vivid animation build for an evening sprint.",
+    "long_description_es": "Pegá datos de tiempos de vuelta de varios corredores y la herramienta los anima como puntos persiguiéndose en una pista, con una tabla de posiciones que se reordena en cada vuelta y un deslizador para navegar la carrera. El gancho es sentir los adelantamientos en vez de leer una tabla. Un proyecto de animación vívido para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "dataviz",
+      "animation",
+      "game-ui"
+    ]
+  },
+  {
+    "name": "Design Token Inspector that Reads Live Styles Off Any Page",
+    "name_es": "Inspector de tokens que lee estilos de cualquier página",
+    "long_description": "A browser extension that scans a live page and extracts its de-facto design tokens, the colors, spacing steps, font sizes, and radii actually in use, then shows them as a tidy palette you can copy as CSS variables. The hook is reverse-engineering a site's system in one click. A handy dev build for a half-day.",
+    "long_description_es": "Una extensión que escanea una página en vivo y extrae sus tokens de diseño de facto, los colores, pasos de espaciado, tamaños de fuente y radios realmente en uso, y los muestra como una paleta ordenada que podés copiar como variables CSS. El gancho es hacer ingeniería inversa del sistema de un sitio en un clic. Una práctica herramienta para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "browser-extension",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Storyboard Animator that Tweens Between Hand-Drawn Frames",
+    "name_es": "Animador de storyboard que interpola entre fotogramas",
+    "long_description": "An in-browser tool where you sketch a few key frames on a canvas and it tweens smooth motion between them with adjustable easing, then plays the loop and exports a GIF or video. The hook is turning three rough drawings into a fluid animation in minutes. A creative animation build for an evening sprint.",
+    "long_description_es": "Una herramienta en el navegador donde dibujás unos fotogramas clave en un lienzo y ella interpola un movimiento suave entre ellos con easing ajustable, luego reproduce el bucle y exporta un GIF o video. El gancho es convertir tres dibujos toscos en una animación fluida en minutos. Un proyecto de animación creativo para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "animation",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Touch Target Auditor that Highlights Tap Zones Too Small",
+    "name_es": "Auditor de zonas táctiles que marca botones muy pequeños",
+    "long_description": "A dev overlay that measures every button and link on a page against minimum touch-target sizes and paints the too-small ones red with their exact pixel size, plus an overlap warning where tap zones collide. The hook is seeing thumb-unfriendly UI light up at a glance. A precise accessibility build for a short sprint.",
+    "long_description_es": "Una capa para desarrolladores que mide cada botón y enlace de una página contra los tamaños mínimos de zona táctil y pinta de rojo los demasiado chicos con su tamaño exacto en píxeles, más un aviso de solapamiento donde las zonas chocan. El gancho es ver de un vistazo la UI poco amigable para el dedo. Un proyecto de accesibilidad preciso para un sprint corto.",
+    "topic": "web-frontend",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "accessibility",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Watch-Party Sync Room that Keeps Everyone on the Same Frame",
+    "name_es": "Sala de watch-party que mantiene a todos en el mismo cuadro",
+    "long_description": "A real-time room where friends paste a video link and play, pause, and seek in lockstep, with a side chat, synced reactions that float over the player, and a host control to round everyone back up. The hook is a buffer-proof shared timeline. A solid real-time build for a full day with a great group demo.",
+    "long_description_es": "Una sala en tiempo real donde amigos pegan un enlace de video y reproducen, pausan y saltan al unísono, con un chat lateral, reacciones sincronizadas que flotan sobre el reproductor y un control del anfitrión para reagrupar a todos. El gancho es una línea de tiempo compartida a prueba de buffering. Un sólido proyecto en tiempo real para un día con gran demo grupal.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "real-time",
+      "animation"
+    ]
+  },
+  {
+    "name": "Full Game Jam Entry: A Co-op Browser Roguelite over a Link",
+    "name_es": "Entrada de game jam: roguelite cooperativo por un enlace",
+    "long_description": "A weekend-scale build of a small co-op roguelite that runs in the browser and is joined by a shared link: two players explore procedurally generated rooms, share loot, and revive each other, with a polished HUD, sound, and a run-summary screen. The hook is a complete, replayable loop you can show end to end.",
+    "long_description_es": "Un proyecto de fin de semana de un pequeño roguelite cooperativo que corre en el navegador y se une por un enlace compartido: dos jugadores exploran salas generadas proceduralmente, comparten botín y se reviven, con un HUD pulido, sonido y una pantalla de resumen de partida. El gancho es un bucle completo y rejugable que podés mostrar de principio a fin.",
+    "topic": "web-frontend",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "game-ui",
+      "real-time",
+      "animation"
+    ]
+  },
+  {
+    "name": "Polished Dashboard Kit: Real-Time Ops Wall for a Live Event",
+    "name_es": "Kit de panel: muro de operaciones en vivo para un evento",
+    "long_description": "A 48-hour build of a big-screen operations wall for a live event: real-time ticket flow, a venue heatmap, an alert ribbon, and animated counters, all fed by a mock live stream and arranged on a configurable grid the organizer can rearrange on the fly. The hook is a TV-ready command center you can demo running live.",
+    "long_description_es": "Un proyecto de 48 horas de un muro de operaciones para pantalla grande en un evento en vivo: flujo de tickets en tiempo real, un mapa de calor del recinto, una cinta de alertas y contadores animados, alimentados por un stream simulado y dispuestos en una grilla configurable que el organizador reordena al vuelo. El gancho es un centro de comando listo para TV que podés demostrar en vivo.",
+    "topic": "web-frontend",
+    "time_bucket": "24-48h",
+    "min_hours": 24,
+    "max_hours": 48,
+    "difficulty": "advanced",
+    "tags": [
+      "dataviz",
+      "real-time",
+      "animation",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Link Preview Card Generator that Mirrors Social Unfurls",
+    "name_es": "Generador de tarjetas de previsualización de enlaces",
+    "long_description": "Paste a URL and the tool fetches its metadata and renders pixel-accurate preview cards as they would appear on major social platforms, side by side, flagging missing images or truncated titles. The hook is seeing exactly how your link will unfurl everywhere before you post. A tidy UI-tooling build for a short sprint.",
+    "long_description_es": "Pegá una URL y la herramienta obtiene sus metadatos y renderiza tarjetas de previsualización con precisión de píxel tal como aparecerían en las principales plataformas sociales, lado a lado, marcando imágenes faltantes o títulos cortados. El gancho es ver exactamente cómo se desplegará tu enlace antes de publicar. Un prolijo proyecto de herramientas de UI para un sprint corto.",
+    "topic": "web-frontend",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Crowd Reaction Wall that Pulses with Live Audience Emojis",
+    "name_es": "Muro de reacciones que late con emojis del público en vivo",
+    "long_description": "A big-screen wall where an audience taps emojis on their phones and the reactions float up, cluster, and pulse in real time, with a running sentiment bar and bursts when a reaction spikes. Built for talks and streams. The hook is a room's energy made visible instantly. A lively real-time build for a half-day.",
+    "long_description_es": "Un muro para pantalla grande donde el público toca emojis en sus teléfonos y las reacciones flotan, se agrupan y laten en tiempo real, con una barra de sentimiento y estallidos cuando una reacción se dispara. Pensado para charlas y streams. El gancho es la energía de una sala hecha visible al instante. Un proyecto en tiempo real animado para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "real-time",
+      "animation",
+      "dataviz"
+    ]
+  },
+  {
+    "name": "Alt-Text Coach that Drafts and Grades Image Descriptions",
+    "name_es": "Asistente de texto alternativo que redacta y califica",
+    "long_description": "A browser extension that finds images missing alt text on a page, drafts a concrete description for each, and grades existing alt text against good-practice rules, decorative versus meaningful, length, redundancy. The hook is fixing a page's image accessibility in one guided pass. A focused build for an evening sprint.",
+    "long_description_es": "Una extensión que encuentra imágenes sin texto alternativo en una página, redacta una descripción concreta para cada una y califica el texto existente contra reglas de buenas prácticas, decorativo versus significativo, longitud, redundancia. El gancho es arreglar la accesibilidad de imágenes de una página en un recorrido guiado. Un proyecto enfocado para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "browser-extension",
+      "accessibility",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Bezier Easing Lab that Compares Curves on Racing Squares",
+    "name_es": "Laboratorio de curvas easing que compara con cuadrados",
+    "long_description": "An interactive easing editor where you drag bezier handles and instantly race several squares across the screen to feel each curve side by side, with named presets and a copy-out snippet. The hook is choosing motion by watching it, not guessing numbers. A tight, playful animation-tooling build for a short sprint.",
+    "long_description_es": "Un editor interactivo de easing donde arrastrás los manejadores bezier y al instante hacés correr varios cuadrados por la pantalla para sentir cada curva en paralelo, con presets nombrados y un fragmento para copiar. El gancho es elegir el movimiento mirándolo, no adivinando números. Un proyecto de herramientas de animación compacto y divertido para un sprint corto.",
+    "topic": "web-frontend",
+    "time_bucket": "1-3h",
+    "min_hours": 1,
+    "max_hours": 3,
+    "difficulty": "beginner",
+    "tags": [
+      "animation",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Form Abandonment Replay that Shows Where Users Give Up",
+    "name_es": "Repetición de abandono que muestra dónde se rinden",
+    "long_description": "A dev tool that records anonymized interaction events on a form and replays an aggregated heatmap of where users hesitate, backtrack, or quit, field by field, with a drop-off funnel beside it. The hook is watching exactly which field kills your conversions. A useful dataviz build for a full day.",
+    "long_description_es": "Una herramienta para desarrolladores que registra eventos de interacción anonimizados en un formulario y reproduce un mapa de calor agregado de dónde los usuarios dudan, retroceden o abandonan, campo por campo, con un embudo de caída al lado. El gancho es ver exactamente qué campo mata tus conversiones. Un proyecto de visualización útil para un día completo.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "dataviz",
+      "ui-tooling"
+    ]
+  },
+  {
+    "name": "Typing Race Arena where Players Sprint Through Live Text",
+    "name_es": "Arena de tipeo donde los jugadores corren por un texto",
+    "long_description": "A real-time multiplayer typing race where players join a link and sprint through the same passage, each shown as a car advancing with their words-per-minute, mistakes shaking the car, and a live podium. The hook is the head-to-head race that turns typing into a spectator sport. A fun real-time build for a half-day.",
+    "long_description_es": "Una carrera de tipeo multijugador en tiempo real donde los jugadores entran por un enlace y corren por el mismo texto, cada uno mostrado como un auto que avanza con sus palabras por minuto, los errores sacuden el auto y hay un podio en vivo. El gancho es la carrera mano a mano que convierte el tipeo en deporte. Un proyecto en tiempo real divertido para medio día.",
+    "topic": "web-frontend",
+    "time_bucket": "3-6h",
+    "min_hours": 3,
+    "max_hours": 6,
+    "difficulty": "intermediate",
+    "tags": [
+      "real-time",
+      "game-ui"
+    ]
+  },
+  {
+    "name": "Globe Visualizer that Arcs Connections Between Pasted Cities",
+    "name_es": "Visualizador de globo que arquea conexiones entre ciudades",
+    "long_description": "Paste pairs of city names and the tool plots them on a rotating 3D globe with glowing arcs animating between each pair, sized by a weight column, and a click to spin to any city. The hook is turning a flat connection list into a striking, presentation-ready globe. A polished dataviz build for an evening sprint.",
+    "long_description_es": "Pegá pares de nombres de ciudades y la herramienta las ubica en un globo 3D rotatorio con arcos brillantes animándose entre cada par, dimensionados por una columna de peso, y un clic para girar hacia cualquier ciudad. El gancho es convertir una lista de conexiones plana en un globo llamativo y listo para presentar. Un pulido proyecto de visualización para una tarde.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "intermediate",
+    "tags": [
+      "dataviz",
+      "animation"
+    ]
+  },
+  {
+    "name": "Live Code Battle Arena where Spectators Vote on Solutions",
+    "name_es": "Arena de batalla de código con votación del público",
+    "long_description": "A real-time arena where two coders solve the same prompt in split editors while spectators watch both screens, see a live test pass-count race, and vote for the cleaner solution at the end. The hook is competitive coding turned into a watchable show. A meaty real-time build for a full day with a strong demo.",
+    "long_description_es": "Una arena en tiempo real donde dos programadores resuelven el mismo desafío en editores divididos mientras los espectadores ven ambas pantallas, una carrera en vivo de tests aprobados y votan por la solución más limpia al final. El gancho es la programación competitiva vuelta espectáculo. Un sustancioso proyecto en tiempo real para un día con una buena demo.",
+    "topic": "web-frontend",
+    "time_bucket": "6-12h",
+    "min_hours": 6,
+    "max_hours": 12,
+    "difficulty": "advanced",
+    "tags": [
+      "real-time",
+      "game-ui"
+    ]
+  }
+]
